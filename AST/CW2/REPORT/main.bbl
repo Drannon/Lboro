@@ -21,20 +21,21 @@
   \datalist[entry]{none/global//global/global/global}
     \entry{EACatchmentExplorerA}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=7066c38d2c331683be5ae721c223ed08}{%
-           family={Agnecy},
+        {{hash=05d761b24a154ee604c6e0591fcc86b3}{%
+           family={Agency},
            familyi={A\bibinitperiod},
            given={Environment},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{fullhash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{fullhashraw}{7066c38d2c331683be5ae721c223ed08}
-      \strng{bibnamehash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{authorbibnamehash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{authornamehash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{authorfullhash}{7066c38d2c331683be5ae721c223ed08}
-      \strng{authorfullhashraw}{7066c38d2c331683be5ae721c223ed08}
+      \strng{namehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{bibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorbibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -92,7 +93,7 @@
       \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
       \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
       \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -124,7 +125,7 @@
       \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
       \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
       \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -231,6 +232,87 @@
       \endverb
       \verb{url}
       \verb https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK0012599&SiteName=River%20Itchen&countyCode=&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+    \endentry
+    \entry{ArcGIS:TIMCA}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=fe7b6de33dc9c1b8a06bc78be8dc8726}{%
+           family={Trust},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima Rivers},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7e9cea4fb21abc9cd4eeee5116f7e101}{%
+           family={OpenStreetMap},
+           familyi={O\bibinitperiod}}}%
+        {{hash=4fa67795a7b92d20b013c7e7b1130d85}{%
+           family={UK},
+           familyi={U\bibinitperiod},
+           given={Esri},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8add9118b25dd00c94110502f7daa894}
+      \strng{fullhash}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \strng{fullhashraw}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \strng{bibnamehash}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \strng{authorbibnamehash}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \strng{authornamehash}{8add9118b25dd00c94110502f7daa894}
+      \strng{authorfullhash}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \strng{authorfullhashraw}{36fe64b3e2430d1dabb1bb8b0172d5cd}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Made with Esri ArcGIS Map Viewer, layers: CaBA Catchment Partnerships, OS Open Rivers]}
+      \field{title}{arcgis.com}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.arcgis.com/apps/mapviewer/index.html?layers=19e680430d7f4e679002eecef04c31a8
+      \endverb
+      \verb{url}
+      \verb https://www.arcgis.com/apps/mapviewer/index.html?layers=19e680430d7f4e679002eecef04c31a8
+      \endverb
+    \endentry
+    \entry{ArcGIS:TIWaterCo}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=fe7b6de33dc9c1b8a06bc78be8dc8726}{%
+           family={Trust},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima Rivers},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7e9cea4fb21abc9cd4eeee5116f7e101}{%
+           family={OpenStreetMap},
+           familyi={O\bibinitperiod}}}%
+        {{hash=4fa67795a7b92d20b013c7e7b1130d85}{%
+           family={UK},
+           familyi={U\bibinitperiod},
+           given={Esri},
+           giveni={E\bibinitperiod}}}%
+        {{hash=eae835e83c0494a376229f254f7d3392}{%
+           family={Stream},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8add9118b25dd00c94110502f7daa894}
+      \strng{fullhash}{1dda38a04c63e685f22af3656cbbee00}
+      \strng{fullhashraw}{1dda38a04c63e685f22af3656cbbee00}
+      \strng{bibnamehash}{1dda38a04c63e685f22af3656cbbee00}
+      \strng{authorbibnamehash}{1dda38a04c63e685f22af3656cbbee00}
+      \strng{authornamehash}{8add9118b25dd00c94110502f7daa894}
+      \strng{authorfullhash}{1dda38a04c63e685f22af3656cbbee00}
+      \strng{authorfullhashraw}{1dda38a04c63e685f22af3656cbbee00}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Made with Esri ArcGIS Map Viewer, layers: Water Company Boundaries (data provided by Stream) CaBA Catchment Partnerships, OS Open Rivers]}
+      \field{title}{arcgis.com}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.arcgis.com/apps/mapviewer/index.html?layers=19e680430d7f4e679002eecef04c31a8
+      \endverb
+      \verb{url}
+      \verb https://www.arcgis.com/apps/mapviewer/index.html?layers=19e680430d7f4e679002eecef04c31a8
       \endverb
     \endentry
   \enddatalist
