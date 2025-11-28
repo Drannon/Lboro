@@ -77,7 +77,7 @@
       \verb https://www.gov.uk/business/environmental-management-water-water-quality
       \endverb
     \endentry
-    \entry{EnvironmentAgency2019}{report}{}{}
+    \entry{EnvironmentAgency2019A}{report}{}{}
       \name{author}{1}{}{%
         {{hash=05d761b24a154ee604c6e0591fcc86b3}{%
            family={Agency},
@@ -313,6 +313,38 @@
       \endverb
       \verb{url}
       \verb https://www.arcgis.com/apps/mapviewer/index.html?layers=19e680430d7f4e679002eecef04c31a8
+      \endverb
+    \endentry
+    \entry{EnvironmentAgency2019B}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=05d761b24a154ee604c6e0591fcc86b3}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={Environment},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{bibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorbibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Water Resources LICENCE TO WATER}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.southernwater.co.uk/media/5o2p1vzz/114-appx-4-testwood-abstraction-licence-11-42-1816-546.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.southernwater.co.uk/media/5o2p1vzz/114-appx-4-testwood-abstraction-licence-11-42-1816-546.pdf
       \endverb
     \endentry
   \enddatalist

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+biber main && pdflatex ./main.tex && pdflatex ./main.tex
+
