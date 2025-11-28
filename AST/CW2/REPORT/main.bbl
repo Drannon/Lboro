@@ -1,0 +1,239 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{EACatchmentExplorerA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7066c38d2c331683be5ae721c223ed08}{%
+           family={Agnecy},
+           familyi={A\bibinitperiod},
+           given={Environment},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{fullhash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{fullhashraw}{7066c38d2c331683be5ae721c223ed08}
+      \strng{bibnamehash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{authorbibnamehash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{authornamehash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{authorfullhash}{7066c38d2c331683be5ae721c223ed08}
+      \strng{authorfullhashraw}{7066c38d2c331683be5ae721c223ed08}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://environment.data.gov.uk/catchment-planning/}}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{England | Catchment Data Explorer}
+      \field{year}{2025}
+    \endentry
+    \entry{DEFRA2013}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=8a486c4ecab37395a68fd00803c0b9f3}{%
+           family={DEFRA},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Department for Food \& Rural Affairs}%
+      }
+      \strng{namehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{fullhashraw}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{bibnamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorbibnamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authornamehash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorfullhash}{8a486c4ecab37395a68fd00803c0b9f3}
+      \strng{authorfullhashraw}{8a486c4ecab37395a68fd00803c0b9f3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Catchment Based Approach: Improving the quality of our water environment A policy framework to encourage the wider adoption of an integrated Catchment Based Approach to improving the quality of our water environment}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.gov.uk/business/environmental-management-water-water-quality
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/business/environmental-management-water-water-quality
+      \endverb
+    \endentry
+    \entry{EnvironmentAgency2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=05d761b24a154ee604c6e0591fcc86b3}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={Environment},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{bibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorbibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Test and Itchen Abstraction Licensing Strategy A strategy to manage water resources sustainably}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://www.gov.uk/government/publications
+      \endverb
+      \verb{url}
+      \verb http://www.gov.uk/government/publications
+      \endverb
+    \endentry
+    \entry{EACatchmentExplorerB}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=05d761b24a154ee604c6e0591fcc86b3}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={Environment},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{fullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{bibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorbibnamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authornamehash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhash}{05d761b24a154ee604c6e0591fcc86b3}
+      \strng{authorfullhashraw}{05d761b24a154ee604c6e0591fcc86b3}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{Test and Itchen Management Catchment | Catchment Data Explorer}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://environment.data.gov.uk/catchment-planning/ManagementCatchment/3097
+      \endverb
+      \verb{url}
+      \verb https://environment.data.gov.uk/catchment-planning/ManagementCatchment/3097
+      \endverb
+    \endentry
+    \entry{NEDesignatedSitesViewA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdba4ae038d8c4d28ffda40455b0a6cb}{%
+           family={England},
+           familyi={E\bibinitperiod},
+           given={Natural},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{bibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorbibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authornamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{SSI detail}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=S2000170&SiteName=&countyCode=19&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+      \verb{url}
+      \verb https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=S2000170&SiteName=&countyCode=19&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+    \endentry
+    \entry{NEDesignatedSitesViewB}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdba4ae038d8c4d28ffda40455b0a6cb}{%
+           family={England},
+           familyi={E\bibinitperiod},
+           given={Natural},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{bibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorbibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authornamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{SSI detail}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=S2000227&SiteName=River%20Itchen&countyCode=&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+      \verb{url}
+      \verb https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=S2000227&SiteName=River%20Itchen&countyCode=&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+    \endentry
+    \entry{NEDesignatedSitesViewC}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdba4ae038d8c4d28ffda40455b0a6cb}{%
+           family={England},
+           familyi={E\bibinitperiod},
+           given={Natural},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{fullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{bibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorbibnamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authornamehash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhash}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \strng{authorfullhashraw}{fdba4ae038d8c4d28ffda40455b0a6cb}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{Designated Sites View}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK0012599&SiteName=River%20Itchen&countyCode=&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+      \verb{url}
+      \verb https://designatedsites.naturalengland.org.uk/SiteGeneralDetail.aspx?SiteCode=UK0012599&SiteName=River%20Itchen&countyCode=&responsiblePerson=&SeaArea=&IFCAArea=
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -173,5 +173,3 @@ cost of compliance
     - Rich Picture
     - Systemigram
    
-
-
