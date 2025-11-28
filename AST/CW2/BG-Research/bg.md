@@ -1,4 +1,4 @@
-#Background information on water security in the Test and Itchen Management Catchment Area
+# Background information on water security in the Test and Itchen Management Catchment Area
 
 [DEFRA](https://environment.data.gov.uk/catchment-planning)
 
@@ -147,5 +147,31 @@ monolithically.
 - Assume that the local authority and regulators are respected, and that companies are not weighing risk of fines against
 cost of compliance
 - Further, assume that water companies are not lobbying to reduce fine amounts, but only to impact local policy.
+
+---
+
+## Tue 25 Nov 2025 - Reworked Questions
+
+1. What key stakeholders are in the Test and Itchen Management Catchment, and what are their worldviews? This will inform any recommendations by ensuring we consider all parties who may have an effect.
+    - PIG MODEL
+    - CATWOE
+2. What subsystems are present in the system, and what influence do they have on each other? Understanding the driving factors for positive and negative behaviour and their sensitivity to intervention would allow for maximum positive change with as little effort and negative consequence as possible
+    - Systemigram
+    - CLD
+    - System Dynamics
+    - HTA
+    - Context Diagram
+3. How effective will current initiatives to improve water security be, and what can be learnt from them?
+    - CLD
+    - Systemigram
+    - System Dynamics
+4. What would the knock-on effects of an intervention be? Different types of intervention on different parts of the system could cause wildly differeing effects, or none at all.
+    - RMF
+    - Accimap
+    - System Dynamics to support
+5. What are the current greenhouse gas emittors in the system, and are there any opportunities for carbon offsetting in the recommendations?
+    - Rich Picture
+    - Systemigram
+   
 
 
