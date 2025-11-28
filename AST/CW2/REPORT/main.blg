@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[44] biber:342> INFO - === Fri Nov 28, 2025, 18:50:35
-[53] Biber.pm:421> INFO - Reading 'main.bcf'
-[94] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
-[103] Biber.pm:4487> INFO - Processing section 0
-[108] Biber.pm:4678> INFO - Looking for bibtex file './UTIL/astcw1.bib' for section 0
-[109] bibtex.pm:1713> INFO - LaTeX decoding ...
-[113] bibtex.pm:1519> INFO - Found BibTeX data source './UTIL/astcw1.bib'
-[160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[160] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[160] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[165] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[167] bbl.pm:779> INFO - Output to main.bbl
+[43] biber:342> INFO - === Fri Nov 28, 2025, 22:58:35
+[51] Biber.pm:421> INFO - Reading 'main.bcf'
+[90] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
+[99] Biber.pm:4487> INFO - Processing section 0
+[104] Biber.pm:4678> INFO - Looking for bibtex file './UTIL/astcw1.bib' for section 0
+[105] bibtex.pm:1713> INFO - LaTeX decoding ...
+[109] bibtex.pm:1519> INFO - Found BibTeX data source './UTIL/astcw1.bib'
+[156] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[156] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[157] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[157] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[162] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[164] bbl.pm:779> INFO - Output to main.bbl
