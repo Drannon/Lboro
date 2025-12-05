@@ -347,6 +347,159 @@
       \verb https://www.southernwater.co.uk/media/5o2p1vzz/114-appx-4-testwood-abstraction-licence-11-42-1816-546.pdf
       \endverb
     \endentry
+    \entry{GovernmentOfficeforScience2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ed857aa1345e318db8add3a57fb1c3e}{%
+           family={Science},
+           familyi={S\bibinitperiod},
+           given={Government\bibnamedelima Office},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={for},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{fullhash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{fullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{bibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorbibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authornamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorfullhash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorfullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Systems thinking: An Introductory Toolkit for Civil Servants}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
+      \endverb
+    \endentry
+    \entry{NavyCommandFOISection2021}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=87b1c61f93cf2438cbdc34f8a8360e69}{%
+           family={Section},
+           familyi={S\bibinitperiod},
+           given={Navy\bibnamedelimb Command\bibnamedelima FOI},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{fullhash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{fullhashraw}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{bibnamehash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{authorbibnamehash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{authornamehash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{authorfullhash}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \strng{authorfullhashraw}{87b1c61f93cf2438cbdc34f8a8360e69}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Release of Information}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.whatdotheyknow.com/request/ships_home_ports
+      \endverb
+      \verb{url}
+      \verb https://www.whatdotheyknow.com/request/ships_home_ports
+      \endverb
+    \endentry
+    \entry{BritishArmy2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8592bd4a69e0a92771c029c78ad3ec98}{%
+           family={Army},
+           familyi={A\bibinitperiod},
+           given={British},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{fullhash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{fullhashraw}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{bibnamehash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{authorbibnamehash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{authornamehash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{authorfullhash}{8592bd4a69e0a92771c029c78ad3ec98}
+      \strng{authorfullhashraw}{8592bd4a69e0a92771c029c78ad3ec98}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/11/28]}
+      \field{title}{17 Port and Maritime Regiment RLC | The British Army}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.army.mod.uk/learn-and-explore/about-the-army/corps-regiments-and-units/royal-logistic-corps/regular-units/17-port-and-maritime-regiment-rlc/
+      \endverb
+      \verb{url}
+      \verb https://www.army.mod.uk/learn-and-explore/about-the-army/corps-regiments-and-units/royal-logistic-corps/regular-units/17-port-and-maritime-regiment-rlc/
+      \endverb
+    \endentry
+    \entry{VisitWinchester2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f129eb336f08d0ac2d926dadda8c17c}{%
+           family={Council},
+           familyi={C\bibinitperiod},
+           given={Winchester\bibnamedelima City},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{fullhash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{fullhashraw}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{bibnamehash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{authorbibnamehash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{authornamehash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{authorfullhash}{9f129eb336f08d0ac2d926dadda8c17c}
+      \strng{authorfullhashraw}{9f129eb336f08d0ac2d926dadda8c17c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/11/19]}
+      \field{title}{Visit Winchester | The Itchen Navigation Heritage Trail}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.visitwinchester.co.uk/business-directory/the-itchen-navigation-heritage-trail
+      \endverb
+      \verb{url}
+      \verb https://www.visitwinchester.co.uk/business-directory/the-itchen-navigation-heritage-trail
+      \endverb
+    \endentry
+    \entry{MarchwoodPower2011}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=03132fea03e8a2f7e9d7da991d54ad87}{%
+           family={Limited},
+           familyi={L\bibinitperiod},
+           given={Marchwood\bibnamedelima Power},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{fullhash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{fullhashraw}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{bibnamehash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{authorbibnamehash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{authornamehash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{authorfullhash}{03132fea03e8a2f7e9d7da991d54ad87}
+      \strng{authorfullhashraw}{03132fea03e8a2f7e9d7da991d54ad87}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; Accessed 2025/12/05]}
+      \field{title}{FAQs}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://www.marchwoodpower.com/faqs/
+      \endverb
+      \verb{url}
+      \verb https://www.marchwoodpower.com/faqs/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

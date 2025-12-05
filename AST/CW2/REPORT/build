@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-biber main && pdflatex --shell-escape ./main.tex && pdflatex --shell-esacpe ./main.tex
+biber main && biber main && pdflatex --shell-escape ./main.tex
 

@@ -1,9 +1,117 @@
 {UTF-8}
-Abstraction Limits  = A FUNCTION OF( Water Available for Abstraction)
+Abstraction Limits  = A FUNCTION OF( EA Involvement,Pressure to abstract more water,Water Levels in River\
+		)
 	~	
 	~		|
 
-Abstraction Rates  = A FUNCTION OF( Abstraction Limits,Water Company Demand)
+Abstraction Rates  = A FUNCTION OF( Abstraction Limits,"GAP - Water Demanded vs Available"\
+		,Leaks,Water Storage Suitability)
+	~	
+	~		|
+
+Leaks  = A FUNCTION OF( New Infrastructure,Repair of Old Infrastructure)
+	~	
+	~		|
+
+Appetite for New Infrastructure  = A FUNCTION OF( Company Debt,Repair of Old Infrastructure\
+		)
+	~	
+	~		|
+
+Climate Change  = A FUNCTION OF( Emissions)
+	~	
+	~		|
+
+Company Debt  = A FUNCTION OF( Fines,Operating Costs)
+	~	
+	~		|
+
+Conservation Pressure  = A FUNCTION OF( )
+	~	
+	~		|
+
+Customer Demand  = A FUNCTION OF( Agricultural Activity,Dry Summers,Energy Demand,Fees\
+		,Population Growth,Wasted Water)
+	~	
+	~		|
+
+Dividends  = A FUNCTION OF( Company Debt)
+	~	
+	~		|
+
+Dry Summers  = A FUNCTION OF( Climate Change)
+	~	
+	~		|
+
+EA Involvement  = A FUNCTION OF( Conservation Pressure,Sediment in water)
+	~	
+	~		|
+
+Emissions  = A FUNCTION OF( Agricultural Activity,Energy Demand) ~~|
+Emissions=
+	~	
+	~		|
+
+New Infrastructure  = A FUNCTION OF( Appetite for New Infrastructure,Leaks)
+	~	
+	~		|
+
+Fees  = A FUNCTION OF( Abstraction Rates,Company Debt,Operating Costs,Dividends)
+	~	
+	~		|
+
+Fines  = A FUNCTION OF( Leaks,"Regulator (OFWAT) Involvment")
+	~	
+	~		|
+
+"GAP - Water Demanded vs Available"  = A FUNCTION OF( Customer Demand,Water Levels in River\
+		)
+	~	
+	~		|
+
+Heavy Rainfall Events  = A FUNCTION OF( Climate Change)
+	~	
+	~		|
+
+"Regulator (OFWAT) Involvment"  = A FUNCTION OF( Fees,Legislative Change)
+	~	
+	~		|
+
+Legislative Change  = A FUNCTION OF( Public Perception of Water Companies)
+	~	
+	~		|
+
+Sediment in water  = A FUNCTION OF( Water Levels in River)
+	~	
+	~		|
+
+Public Perception of Water Companies  = A FUNCTION OF( Fees,"GAP - Water Demanded vs Available"\
+		)
+	~	
+	~		|
+
+Water Levels in River  = A FUNCTION OF( Abstraction Rates,Dry Summers,Heavy Rainfall Events\
+		) ~~|
+Water Levels in River=
+	~	
+	~		|
+
+Pressure to abstract more water  = A FUNCTION OF( "GAP - Water Demanded vs Available"\
+		)
+	~	
+	~		|
+
+Water Storage Suitability  = A FUNCTION OF( Heavy Rainfall Events,Leaks,New Infrastructure\
+		) ~~|
+Water Storage Suitability=
+	~	
+	~		|
+
+Winter Temperature  = A FUNCTION OF( Climate Change)
+	~	
+	~		|
+
+Repair of Old Infrastructure  = A FUNCTION OF( Leaks)
 	~	
 	~		|
 
@@ -11,59 +119,7 @@ Agricultural Activity  = A FUNCTION OF( Population Growth)
 	~	
 	~		|
 
-Appetite for New Infrastructure  = A FUNCTION OF( Company Debt)
-	~	
-	~		|
-
-Climate Change  = A FUNCTION OF( Emissions,Population Growth)
-	~	
-	~		|
-
-Company Debt  = A FUNCTION OF( Fines,Operating Costs,Shareholder Demand)
-	~	
-	~		|
-
-Customer Demand  = A FUNCTION OF( Agricultural Activity,Energy Demand,Fees,Population Growth\
-		,Summer Temperature,Wasted Water)
-	~	
-	~		|
-
-Emissions  = A FUNCTION OF( Agricultural Activity,Energy Demand)
-	~	
-	~		|
-
 Energy Demand  = A FUNCTION OF( Population Growth,Winter Temperature)
-	~	
-	~		|
-
-Fees  = A FUNCTION OF( Abstraction Rates,Company Debt,Appetite for New Infrastructure\
-		,Operating Costs,Shareholder Demand)
-	~	
-	~		|
-
-Fines  = A FUNCTION OF( "Regulator (OFWAT) Involvment")
-	~	
-	~		|
-
-"GAP - Water Demanded vs Available"  = A FUNCTION OF( Water Available for Abstraction\
-		,Water Company Demand)
-	~	
-	~		|
-
-Leaking Domestic Fixtures  = A FUNCTION OF( Fees)
-	~	
-	~		|
-
-Leaks  = A FUNCTION OF( Old Infrastructure in Service,Leaking Domestic Fixtures)
-	~	
-	~		|
-
-New Infrastructure  = A FUNCTION OF( Appetite for New Infrastructure)
-	~	
-	~		|
-
-Old Infrastructure in Service  = A FUNCTION OF( Appetite for New Infrastructure,New Infrastructure\
-		)
 	~	
 	~		|
 
@@ -75,41 +131,7 @@ Population Growth  = A FUNCTION OF( )
 	~	
 	~		|
 
-Public Perception of Water Companies  = A FUNCTION OF( Fees,"GAP - Water Demanded vs Available"\
-		)
-	~	
-	~		|
-
-"Regulator (OFWAT) Involvment"  = A FUNCTION OF( Fees,Public Perception of Water Companies\
-		)
-	~	
-	~		|
-
-Shareholder Demand  = A FUNCTION OF( )
-	~	
-	~		|
-
-Summer Temperature  = A FUNCTION OF( Climate Change)
-	~	
-	~		|
-
 Wasted Water  = A FUNCTION OF( Population Growth)
-	~	
-	~		|
-
-Water Available for Abstraction  = A FUNCTION OF( Abstraction Rates)
-	~	
-	~		|
-
-Water Company Demand  = A FUNCTION OF( Customer Demand)
-	~	
-	~		|
-
-Water Storage  = A FUNCTION OF( Old Infrastructure in Service)
-	~	
-	~		|
-
-Winter Temperature  = A FUNCTION OF( Climate Change)
 	~	
 	~		|
 
@@ -130,7 +152,7 @@ INITIAL TIME  = 0
 	|
 
 SAVEPER  = 
-        TIME STEP 
+        TIME STEP
 	~	Month [0,?]
 	~	The frequency with which output is stored.
 	|
@@ -143,82 +165,101 @@ TIME STEP  = 1
 \\\---/// Sketch information - do not modify anything except names
 V300  Do not put anything below this section - it will be ignored
 *View 1
-$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,161,2
-10,1,Water Available for Abstraction,1163,84,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,2,Abstraction Rates,979,2,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,3,2,1,1,0,79,0,0,192,0,-1--1--1,,1|(1058,53)|
-10,4,Water Company Demand,1065,204,57,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,5,4,2,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
-10,6,Abstraction Limits,1404,-20,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,7,1,6,1,0,79,0,0,192,0,-1--1--1,,1|(1313,45)|
-1,8,6,2,1,0,79,0,0,192,0,-1--1--1,,1|(1200,-113)|
-10,9,Customer Demand,885,590,66,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,10,9,4,1,0,83,0,0,192,0,-1--1--1,,1|(848,379)|
-10,11,Wasted Water,1020,420,50,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,12,Summer Temperature,965,809,47,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,13,Winter Temperature,1353,582,47,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,14,Energy Demand,1220,555,55,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,15,11,9,1,0,83,0,0,192,0,-1--1--1,,1|(946,495)|
-1,16,12,9,1,0,83,0,0,192,0,-1--1--1,,1|(897,725)|
-1,17,13,14,1,0,83,0,0,192,0,-1--1--1,,1|(1296,605)|
-1,18,14,9,1,0,83,0,0,192,0,-1--1--1,,1|(1084,663)|
-10,19,Climate Change,1435,735,55,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,20,19,13,1,0,83,0,0,192,0,-1--1--1,,1|(1401,704)|
-1,21,19,12,1,0,83,0,0,192,0,-1--1--1,,1|(1265,808)|
-10,22,Population Growth,1284,369,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,23,22,11,1,0,83,0,0,192,0,-1--1--1,,1|(1158,367)|
-1,24,22,9,1,0,83,0,0,192,0,-1--1--1,,1|(977,356)|
-1,25,22,19,1,0,83,0,0,192,0,-1--1--1,,1|(1425,514)|
-1,26,22,14,1,0,83,0,0,192,0,-1--1--1,,1|(1337,454)|
-10,27,Fees,815,272,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,28,2,27,1,0,32,0,0,193,0,-1--1--1,,1|(913,148)|
-10,29,Operating Costs,404,210,57,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,30,29,27,1,0,83,0,0,192,0,-1--1--1,,1|(603,262)|
-1,31,27,9,1,0,79,0,0,192,0,-1--1--1,,1|(804,472)|
-10,32,Shareholder Demand,426,402,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,33,32,27,1,0,83,0,0,192,0,-1--1--1,,1|(560,369)|
-10,34,Company Debt,547,4,54,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,35,34,27,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
-1,36,32,34,1,0,83,0,0,192,0,-1--1--1,,1|(258,206)|
-1,37,29,34,1,0,83,0,1,192,0,0-0-255,|||0-0-0,1|(425,93)|
-10,38,Leaks,835,-191,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,39,Old Infrastructure in Service,688,-281,66,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,40,39,38,1,0,83,0,0,192,0,-1--1--1,,1|(797,-244)|
-10,41,Appetite for New Infrastructure,631,-156,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,42,34,41,0,0,79,0,0,192,0,-1--1--1,,1|(0,0)|
-1,43,41,27,1,0,83,0,0,192,0,-1--1--1,,1|(726,27)|
-10,44,Agricultural Activity,1041,551,63,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,45,22,44,1,0,83,0,0,192,0,-1--1--1,,1|(1174,425)|
-1,46,44,9,1,0,83,0,0,192,0,-1--1--1,,1|(950,555)|
-10,47,Leaking Domestic Fixtures,849,-68,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,48,27,47,1,0,83,0,0,193,0,-1--1--1,,1|(862,97)|
-1,49,47,38,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
-10,50,"Regulator (OFWAT) Involvment",539,510,65,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,51,27,50,1,0,0,0,0,192,0,-1--1--1,,1|(687,411)|
-10,52,Fines,164,226,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,53,50,52,1,0,0,0,0,192,0,-1--1--1,,1|(277,438)|
-1,54,52,34,1,0,0,0,0,192,0,-1--1--1,,1|(250,-67)|
-10,55,Water Storage,936,-310,51,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,56,39,55,1,0,0,0,0,192,0,-1--1--1,,1|(803,-335)|
-1,57,41,39,0,1,0,0,0,64,0,-1--1--1,,1|(0,0)|
-10,58,New Infrastructure,445,-248,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,59,41,58,1,0,83,0,0,193,0,-1--1--1,,1|(506,-165)|
-1,60,58,39,1,0,79,0,0,192,0,-1--1--1,,1|(514,-305)|
-10,61,Public Perception of Water Companies,713,827,68,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,62,27,61,1,0,0,0,0,192,0,-1--1--1,,1|(710,636)|
-10,63,"GAP - Water Demanded vs Available",1258,281,89,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,64,1,63,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
-1,65,4,63,1,0,0,0,0,192,0,-1--1--1,,1|(1134,255)|
-1,66,63,61,1,0,0,0,0,192,0,-1--1--1,,1|(1354,1063)|
-1,67,61,50,1,0,0,0,0,192,0,-1--1--1,,1|(576,698)|
-10,68,Emissions,1142,719,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,69,14,68,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
-1,70,44,68,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
-1,71,68,19,1,0,0,0,0,192,0,-1--1--1,,1|(1279,736)|
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,109,2
+10,1,Water Levels in River,1507,492,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,Abstraction Rates,1138,491,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,3,2,1,1,0,79,0,0,193,0,-1--1--1,,1|(1330,468)|
+10,4,Abstraction Limits,1607,354,62,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,5,1,4,0,0,79,0,0,192,0,-1--1--1,,1|(0,0)|
+1,6,4,2,1,0,79,0,0,192,0,-1--1--1,,1|(1353,389)|
+10,7,Customer Demand,1218,883,66,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,8,Wasted Water,1373,1154,50,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-0-0,0,0,0,0,0,0
+10,9,Winter Temperature,1761,1014,47,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+10,10,Energy Demand,1607,847,55,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,11,8,7,1,0,83,0,0,192,0,-1--1--1,,1|(1296,1058)|
+1,12,9,10,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
+10,13,Emissions,1680,1151,55,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+10,14,Population Growth,1414,997,64,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,15,14,8,1,0,83,0,0,192,0,-1--1--1,,1|(1373,1078)|
+1,16,14,7,1,0,83,0,0,192,0,-1--1--1,,1|(1334,932)|
+1,17,14,10,1,0,83,0,0,192,0,-1--1--1,,1|(1477,931)|
+10,18,Fees,931,759,46,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,19,2,18,1,0,83,0,0,192,0,-1--1--1,,1|(1081,647)|
+10,20,Operating Costs,581,663,57,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,21,20,18,1,0,83,0,0,192,0,-1--1--1,,1|(741,729)|
+1,22,18,7,0,0,79,0,0,192,0,-1--1--1,,1|(0,0)|
+10,23,Dividends,603,855,46,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,24,23,18,1,0,83,0,0,192,0,-1--1--1,,1|(716,828)|
+10,25,Company Debt,549,515,54,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,26,25,18,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
+1,27,20,25,1,0,83,0,1,192,0,0-0-255,|||0-0-0,1|(542,605)|
+10,28,Leaks,743,285,46,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-128-128,0,0,0,0,0,0
+10,29,Agricultural Activity,1515,1208,63,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+1,30,14,29,1,0,83,0,0,192,0,-1--1--1,,1|(1503,1094)|
+1,31,29,7,1,0,83,0,0,192,0,-1--1--1,,1|(1243,1175)|
+10,32,"Regulator (OFWAT) Involvment",843,558,65,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-0-0,0,0,0,0,0,0
+1,33,18,32,1,0,83,0,0,192,0,-1--1--1,,1|(869,655)|
+10,34,Fines,686,484,46,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,35,32,34,1,0,83,0,0,193,0,-1--1--1,,1|(755,564)|
+1,36,34,25,1,0,83,0,0,192,0,-1--1--1,,1|(605,478)|
+10,37,Water Storage Suitability,1234,256,51,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-128-128,0,0,0,0,0,0
+10,38,New Infrastructure,762,112,62,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-128-128,0,0,0,0,0,0
+10,39,Public Perception of Water Companies,999,540,68,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,40,18,39,1,0,79,0,0,192,0,-1--1--1,,1|(937,646)|
+10,41,"GAP - Water Demanded vs Available",1262,611,89,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,42,1,41,1,0,83,0,0,192,0,-1--1--1,,1|(1384,598)|
+1,43,10,13,1,0,83,0,0,192,0,-1--1--1,,1|(1626,1002)|
+1,44,29,13,1,0,83,0,0,192,0,-1--1--1,,1|(1604,1216)|
+10,45,Climate Change,1841,1139,55,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+1,46,13,45,1,0,83,0,0,193,0,-1--1--1,,1|(1774,1211)|
+1,47,45,9,0,0,83,0,0,193,0,-1--1--1,,1|(0,0)|
+1,48,10,7,1,0,83,0,0,192,0,-1--1--1,,1|(1478,831)|
+1,49,7,41,1,0,83,0,0,192,0,-1--1--1,,1|(1215,737)|
+10,50,Dry Summers,1777,745,60,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+10,51,Heavy Rainfall Events,1938,797,49,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+1,52,45,50,1,0,83,0,0,193,0,-1--1--1,,1|(1842,962)|
+1,53,50,1,1,0,79,0,0,192,0,-1--1--1,,1|(1586,638)|
+1,54,45,51,1,0,83,0,0,193,0,-1--1--1,,1|(1933,995)|
+1,55,51,1,0,0,83,0,0,192,0,-1--1--1,,1|(0,0)|
+1,56,51,37,1,0,79,0,0,192,0,-1--1--1,,1|(1940,362)|
+10,57,Sediment in water,1791,427,63,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+1,58,1,57,1,0,79,0,0,192,0,-1--1--1,,1|(1718,479)|
+10,59,EA Involvement,1829,299,55,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-0-0,0,0,0,0,0,0
+1,60,57,59,1,0,83,0,0,192,0,-1--1--1,,1|(1825,381)|
+1,61,59,4,1,0,83,0,0,193,0,-1--1--1,,1|(1694,341)|
+1,62,37,2,1,0,83,0,0,192,0,-1--1--1,,1|(1195,370)|
+1,63,50,7,1,0,0,0,0,192,0,-1--1--1,,1|(1505,730)|
+10,64,Conservation Pressure,1479,217,48,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-150-75,0,0,0,0,0,0
+1,65,64,59,1,0,83,0,0,192,0,-1--1--1,,1|(1673,201)|
+1,66,41,2,1,0,83,0,0,192,0,-1--1--1,,1|(1195,572)|
+1,67,41,39,1,0,79,0,0,192,0,-1--1--1,,1|(1154,635)|
+10,68,Legislative Change,902,420,64,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||255-128-0,0,0,0,0,0,0
+1,69,39,68,1,0,83,0,0,193,0,-1--1--1,,1|(1003,472)|
+1,70,68,32,1,0,83,0,0,193,0,-1--1--1,,1|(851,488)|
+10,71,Repair of Old Infrastructure,629,377,47,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-128-128,0,0,0,0,0,0
+1,72,28,71,1,0,83,0,0,192,0,-1--1--1,,1|(643,298)|
+1,73,28,38,1,0,83,0,0,193,0,-1--1--1,,1|(721,205)|
+10,74,Appetite for New Infrastructure,508,248,58,26,8,3,0,2,-1,1,0,0,0-0-0,0-0-0,|||0-128-128,0,0,0,0,0,0
+1,75,71,74,0,0,79,0,0,192,0,-1--1--1,,1|(0,0)|
+1,76,74,38,1,0,83,0,0,193,0,-1--1--1,,1|(579,122)|
+1,77,71,28,1,0,79,0,0,192,0,-1--1--1,,1|(686,407)|
+1,78,38,28,1,0,79,0,0,192,0,-1--1--1,,1|(792,202)|
+1,79,28,2,1,0,83,0,0,192,0,-1--1--1,,1|(992,307)|
+1,80,28,37,1,0,79,0,0,192,0,-1--1--1,,1|(970,227)|
+1,81,38,37,1,0,83,0,0,192,0,-1--1--1,,1|(1045,113)|
+1,82,25,74,1,0,79,0,0,192,0,-1--1--1,,1|(496,378)|
+1,83,28,34,1,0,83,0,0,192,0,-1--1--1,,1|(817,353)|
+1,84,25,23,1,0,79,0,0,192,0,-1--1--1,,1|(417,689)|
+12,85,0,417,689,80,40,8,7,0,2,-1,0,0,0,0-0-0,0-0-0,|||64-128-128,0,0,8388608,84,0,0
+In some cases, Shareholder Demands DRIVE debt
+10,86,Pressure to abstract more water,1302,342,68,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,87,41,86,1,0,83,0,0,192,0,-1--1--1,,1|(1267,484)|
+1,88,86,4,1,0,79,0,0,192,0,-1--1--1,,1|(1491,300)|
+12,89,0,761,196,80,40,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 ///---\\\
 :L<%^E!@
-5:Climate Change
-19:161,0
+5:Population Growth
+19:109,0
 24:0
 25:0
 26:0
