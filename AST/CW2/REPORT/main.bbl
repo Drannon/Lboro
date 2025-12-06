@@ -500,6 +500,133 @@
       \verb https://www.marchwoodpower.com/faqs/
       \endverb
     \endentry
+    \entry{LampaçaVieiraRadoman2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c7e0a041338ff38c79b965a57d374c11}{%
+           family={Radoman},
+           familyi={R\bibinitperiod},
+           given={Raquel\bibnamedelimb Lampaça\bibnamedelima Vieira},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{fullhash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{fullhashraw}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{bibnamehash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{authorbibnamehash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{authornamehash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{authorfullhash}{c7e0a041338ff38c79b965a57d374c11}
+      \strng{authorfullhashraw}{c7e0a041338ff38c79b965a57d374c11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Enabling the Open Architecture approach in military systems: a systems thinking analysis}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.26174/thesis.lboro.29922026.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://repository.lboro.ac.uk/articles/thesis/Enabling_the_Open_Architecture_approach_in_military_systems_a_systems_thinking_analysis/29922026
+      \endverb
+      \verb{url}
+      \verb https://repository.lboro.ac.uk/articles/thesis/Enabling_the_Open_Architecture_approach_in_military_systems_a_systems_thinking_analysis/29922026
+      \endverb
+    \endentry
+    \entry{Sauser2019}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=37e4e0826fef9e71d304ada058eccee8}{%
+           family={Sauser},
+           familyi={S\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{fullhash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{fullhashraw}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{bibnamehash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{authorbibnamehash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{authornamehash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{authorfullhash}{37e4e0826fef9e71d304ada058eccee8}
+      \strng{authorfullhashraw}{37e4e0826fef9e71d304ada058eccee8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online Video; Accessed 2025/12/29]}
+      \field{title}{2019 SERC Research Review: Systems Thinking Workshop: The 5 W's of Systemigrams}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=s5A9dUh1_Mk
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=s5A9dUh1_Mk
+      \endverb
+    \endentry
+    \entry{Checkland2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bda8952a495c1b3685e490c7aa9614c6}{%
+           family={Checkland},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{fullhash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{fullhashraw}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{bibnamehash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{authorbibnamehash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{authornamehash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{authorfullhash}{bda8952a495c1b3685e490c7aa9614c6}
+      \strng{authorfullhashraw}{bda8952a495c1b3685e490c7aa9614c6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Systems Research and Behavioral Science Syst. Res}
+      \field{title}{Soft Systems Methodology: A Thirty Year Retrospective}
+      \field{volume}{17}
+      \field{year}{2000}
+      \field{pages}{S11\bibrangedash S58}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/1099-1743(200011)17:1
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/1099-1743
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/1099-1743
+      \endverb
+    \endentry
+    \entry{Ishikawa1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8628dd5ef1106fa20cffe29af28a487d}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Kaoru},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Asian Productivity Organization}%
+      }
+      \strng{namehash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{fullhash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{fullhashraw}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{bibnamehash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{authorbibnamehash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{authornamehash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{authorfullhash}{8628dd5ef1106fa20cffe29af28a487d}
+      \strng{authorfullhashraw}{8628dd5ef1106fa20cffe29af28a487d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{note}{[Originally published by GEMBA NO QC SHUHO (in Japanese), 1968]}
+      \field{title}{Guide to Quality Control}
+      \field{year}{1976}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
