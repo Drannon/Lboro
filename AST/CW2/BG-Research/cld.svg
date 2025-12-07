@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="63.99cm"
-   height="44.56cm"
-   viewBox="0 0 1814 1263"
+   width="33.02cm"
+   height="27.80cm"
+   viewBox="0 0 936 788"
    version="1.1"
-   id="svg191"
+   id="svg172"
    sodipodi:docname="cld.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -12,9 +12,181 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs191" />
+     id="defs172">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-60"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-6-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-2-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-60-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-60-7-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-5-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-60-7-7-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-5-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-60-7-7-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-5-3-5" />
+    </marker>
+  </defs>
   <sodipodi:namedview
-     id="namedview191"
+     id="namedview172"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -23,16 +195,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
-     showgrid="false"
-     inkscape:zoom="0.84790168"
-     inkscape:cx="1246.0171"
-     inkscape:cy="559.02708"
-     inkscape:window-width="3052"
-     inkscape:window-height="1667"
+     inkscape:zoom="2.9199341"
+     inkscape:cx="807.20999"
+     inkscape:cy="399.49531"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg191" />
+     inkscape:current-layer="svg172" />
   <title
      id="title1" />
   <desc
@@ -41,17 +212,179 @@
      style="fill:black; stroke:black; stroke-width:1"
      id="g1" />
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#FFFFFF; fill-opacity:1.00; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(0 0) scale(1.00 1.00)"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+     transform="translate(-21.431631,-19.161331)"
      id="g2">
     <rect
        x="0"
        y="0"
-       width="1814"
-       height="1263"
+       width="936"
+       height="788"
        rx="0.00"
        shape-rendering="auto"
        id="rect1" />
+  </g>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7-7-4)"
+     id="path168-18-2-1-3"
+     sodipodi:type="arc"
+     sodipodi:cx="532.07983"
+     sodipodi:cy="-287.06613"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 544.86092,-287.06613 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93362,-2.67974 12.781081,12.281821 0 0 1 -2.74479,-13.39771 12.781081,12.281821 0 0 1 11.83683,-7.55493"
+     sodipodi:open="true"
+     transform="scale(1,-1)" />
+  <text
+     xml:space="preserve"
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="527.53723"
+     y="290.27881"
+     id="text176-8-2-6"><tspan
+       sodipodi:role="line"
+       id="tspan175-9-9-1"
+       style="stroke-width:0.737008"
+       x="527.53723"
+       y="290.27881">R3</tspan></text>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7-7-3)"
+     id="path168-18-2-1-4"
+     sodipodi:type="arc"
+     sodipodi:cx="616.82983"
+     sodipodi:cy="311.06543"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 629.61092,311.06543 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93362,-2.67974 12.781081,12.281821 0 0 1 -2.74479,-13.39771 12.781081,12.281821 0 0 1 11.83683,-7.55493"
+     sodipodi:open="true" />
+  <text
+     xml:space="preserve"
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="612.28723"
+     y="314.27881"
+     id="text176-8-2-7"><tspan
+       sodipodi:role="line"
+       id="tspan175-9-9-8"
+       style="stroke-width:0.737008"
+       x="612.28723"
+       y="314.27881">B4</tspan></text>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7-7)"
+     id="path168-18-2-1"
+     sodipodi:type="arc"
+     sodipodi:cx="382.07983"
+     sodipodi:cy="524.81543"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 394.86092,524.81543 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93362,-2.67974 12.781081,12.281821 0 0 1 -2.74479,-13.39771 12.781081,12.281821 0 0 1 11.83683,-7.55493"
+     sodipodi:open="true" />
+  <text
+     xml:space="preserve"
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="377.53723"
+     y="528.02881"
+     id="text176-8-2"><tspan
+       sodipodi:role="line"
+       id="tspan175-9-9"
+       style="stroke-width:0.737008"
+       x="377.53723"
+       y="528.02881">B3</tspan></text>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7)"
+     id="path168-18-2"
+     sodipodi:type="arc"
+     sodipodi:cx="145.07983"
+     sodipodi:cy="391.31543"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 157.86092,391.31543 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93362,-2.67974 12.781081,12.281821 0 0 1 -2.74479,-13.39771 12.781081,12.281821 0 0 1 11.83683,-7.55493"
+     sodipodi:open="true" />
+  <text
+     xml:space="preserve"
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="140.53722"
+     y="394.52878"
+     id="text176-8"><tspan
+       sodipodi:role="line"
+       id="tspan175-9"
+       style="stroke-width:0.737008"
+       x="140.53722"
+       y="394.52878">B3</tspan></text>
+  <g
+     id="svg167-6"
+     transform="matrix(0.99981382,0,0,0.99981382,-16.970674,139.79472)">
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598784;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60)"
+       id="path168-18"
+       sodipodi:type="arc"
+       sodipodi:cx="133.22797"
+       sodipodi:cy="234.63052"
+       sodipodi:rx="12.783462"
+       sodipodi:ry="12.284108"
+       sodipodi:start="0"
+       sodipodi:end="4.7155373"
+       sodipodi:arc-type="arc"
+       d="m 146.01143,234.63052 a 12.783462,12.284108 0 0 1 -7.90074,11.35274 12.783462,12.284108 0 0 1 -13.93621,-2.68024 12.783462,12.284108 0 0 1 -2.74531,-13.40021 12.783462,12.284108 0 0 1 11.83904,-7.55633"
+       sodipodi:open="true" />
+  </g>
+  <g
+     id="svg167-9"
+     transform="matrix(0.99981382,0,0,-0.99981382,-27.262753,426.26818)">
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598784;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-2)"
+       id="path168-3"
+       sodipodi:type="arc"
+       sodipodi:cx="133.22797"
+       sodipodi:cy="234.63052"
+       sodipodi:rx="12.783462"
+       sodipodi:ry="12.284108"
+       sodipodi:start="0"
+       sodipodi:end="4.7155373"
+       sodipodi:arc-type="arc"
+       d="m 146.01143,234.63052 a 12.783462,12.284108 0 0 1 -7.90074,11.35274 12.783462,12.284108 0 0 1 -13.93621,-2.68024 12.783462,12.284108 0 0 1 -2.74531,-13.40021 12.783462,12.284108 0 0 1 11.83904,-7.55633"
+       sodipodi:open="true" />
+  </g>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-6)"
+     id="path168-1"
+     sodipodi:type="arc"
+     sodipodi:cx="186.64035"
+     sodipodi:cy="-174.5101"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 199.42143,-174.5101 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93361,-2.67974 12.781081,12.281821 0 0 1 -2.7448,-13.39771 12.781081,12.281821 0 0 1 11.83684,-7.55493"
+     sodipodi:open="true"
+     transform="scale(1,-1)" />
+  <g
+     id="svg167"
+     transform="matrix(0.99981382,0,0,0.99981382,15.445109,25.450007)">
+    <path
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598784;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+       id="path168"
+       sodipodi:type="arc"
+       sodipodi:cx="133.22797"
+       sodipodi:cy="234.63052"
+       sodipodi:rx="12.783462"
+       sodipodi:ry="12.284108"
+       sodipodi:start="0"
+       sodipodi:end="4.7155373"
+       sodipodi:arc-type="arc"
+       d="m 146.01143,234.63052 a 12.783462,12.284108 0 0 1 -7.90074,11.35274 12.783462,12.284108 0 0 1 -13.93621,-2.68024 12.783462,12.284108 0 0 1 -2.74531,-13.40021 12.783462,12.284108 0 0 1 11.83904,-7.55633"
+       sodipodi:open="true" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#FFFFFF; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00;"
@@ -59,2630 +392,2549 @@
      id="g3" />
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g4">
     <path
-       d="M1213.27 614.22 A730.00 730.00 0 0 0 982.85 616.12"
+       d="M1751.05 569.13 A137.00 137.00 0 0 0 1655.72 613.74"
        shape-rendering="auto"
        id="path3" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g5">
     <path
-       d="M1112 619 L1112 593"
+       d="M1728 585 L1724 559"
        shape-rendering="auto"
        id="path4" />
     <path
-       d="M1116 619 L1116 593"
+       d="M1731 584 L1727 558"
        shape-rendering="auto"
        id="path5" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g6">
     <polygon
-       points="1227 617 1214 610 1212 618 1227 617 "
+       points="1765 570 1751 565 1750 573 1765 570 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon5" />
     <text
-       x="1211.00"
-       y="605.00"
+       x="1747.00"
+       y="560.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1211.00 605.00)"
+       transform="rotate(0.00 1747.00 560.00)"
        id="text5">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g7">
     <path
-       d="M1309 604 L1363 529"
+       d="M1847 564 L1901 489"
        shape-rendering="auto"
        id="path6" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g8">
     <polygon
-       points="1372 518 1360 526 1366 531 1372 518 "
+       points="1910 478 1898 486 1904 491 1910 478 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon7" />
     <text
-       x="1348.00"
-       y="525.00"
+       x="1886.00"
+       y="485.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1348.00 525.00)"
+       transform="rotate(0.00 1886.00 485.00)"
        id="text7">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g9">
     <path
-       d="M1328.96 493.25 A814.00 814.00 0 0 0 976.06 595.90"
+       d="M1867.01 436.86 A211.00 211.00 0 0 0 1642.26 600.19"
        shape-rendering="auto"
        id="path8" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g10">
     <polygon
-       points="964 603 978 599 974 592 964 603 "
+       points="1640 614 1646 600 1638 599 1640 614 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon9" />
     <text
-       x="965.00"
-       y="587.00"
+       x="1625.00"
+       y="602.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 965.00 587.00)"
+       transform="rotate(0.00 1625.00 602.00)"
        id="text9">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g11">
     <path
-       d="M1014.26 1060.34 A614.00 614.00 0 0 0 1133.72 1266.24"
+       d="M1564.91 1041.45 A593.00 593.00 0 0 0 1671.99 1226.01"
        shape-rendering="auto"
        id="path10" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g12">
     <polygon
-       points="1010 1047 1010 1061 1018 1059 1010 1047 "
+       points="1561 1028 1561 1042 1568 1040 1561 1028 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon11" />
     <text
-       x="998.00"
-       y="1068.00"
+       x="1548.00"
+       y="1048.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 998.00 1068.00)"
+       transform="rotate(0.00 1548.00 1048.00)"
        id="text11">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g13">
     <path
-       d="M1522 1126 L1423 1021"
+       d="M2046 1086 L1877 970"
        shape-rendering="auto"
        id="path12" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g14">
     <polygon
-       points="1414 1011 1420 1023 1426 1018 1414 1011 "
+       points="1866 963 1875 974 1879 967 1866 963 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon13" />
     <text
-       x="1410.00"
-       y="1034.00"
+       x="1867.00"
+       y="985.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1410.00 1034.00)"
+       transform="rotate(0.00 1867.00 985.00)"
        id="text13">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g15">
     <path
-       d="M1179.31 1160.58 A179.00 179.00 0 0 0 1153.01 1252.05"
+       d="M1717.31 1120.58 A179.00 179.00 0 0 0 1691.01 1212.05"
        shape-rendering="auto"
        id="path14" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g16">
-    <polygon
-       points="1154 1266 1156 1251 1149 1252 1154 1266 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon15" />
-    <text
-       x="1137.00"
-       y="1256.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1137.00 1256.00)"
-       id="text15">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g17">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g16">
     <path
-       d="M1172.15 1108.83 A407.00 407.00 0 0 0 1080.89 1048.45"
+       d="M1707 1179 L1681 1175"
+       shape-rendering="auto"
+       id="path15" />
+    <path
+       d="M1708 1176 L1682 1172"
        shape-rendering="auto"
        id="path16" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g18">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g17">
     <polygon
-       points="1068 1043 1079 1052 1082 1044 1068 1043 "
+       points="1692 1226 1694 1211 1687 1212 1692 1226 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
-       id="polygon17" />
+       id="polygon16" />
     <text
-       x="1082.00"
-       y="1040.00"
+       x="1675.00"
+       y="1216.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1082.00 1040.00)"
-       id="text17">S</text>
+       transform="rotate(0.00 1675.00 1216.00)"
+       id="text16">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g18">
+    <path
+       d="M1704.36 1068.54 A343.00 343.00 0 0 0 1631.17 1025.76"
+       shape-rendering="auto"
+       id="path17" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g19">
     <path
-       d="M1328.03 1018.25 A525.00 525.00 0 0 0 1219.62 1108.65"
+       d="M1652 1050 L1664 1026"
        shape-rendering="auto"
        id="path18" />
+    <path
+       d="M1655 1051 L1667 1027"
+       shape-rendering="auto"
+       id="path19" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g20">
     <polygon
-       points="1340 1011 1325 1014 1330 1021 1340 1011 "
+       points="1618 1021 1629 1029 1632 1021 1618 1021 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon19" />
     <text
-       x="1318.00"
-       y="1011.00"
+       x="1632.00"
+       y="1016.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1318.00 1011.00)"
+       transform="rotate(0.00 1632.00 1016.00)"
        id="text19">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g21">
     <path
-       d="M773.31 870.33 A310.00 310.00 0 0 0 918.92 655.15"
+       d="M1798.29 973.95 A415.00 415.00 0 0 0 1745.34 1068.74"
        shape-rendering="auto"
        id="path20" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g22">
-    <polygon
-       points="761 877 775 873 771 866 761 877 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon21" />
-    <text
-       x="776.00"
-       y="886.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 776.00 886.00)"
-       id="text21">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g23">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g22">
     <path
-       d="M415.94 827.14 A781.00 781.00 0 0 0 655.01 893.25"
+       d="M1772 1041 L1748 1029"
+       shape-rendering="auto"
+       id="path21" />
+    <path
+       d="M1773 1038 L1749 1026"
        shape-rendering="auto"
        id="path22" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g24">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g23">
     <polygon
-       points="669 894 655 889 654 897 669 894 "
+       points="1807 963 1795 971 1801 976 1807 963 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
-       id="polygon23" />
+       id="polygon22" />
     <text
-       x="652.00"
-       y="910.00"
+       x="1785.00"
+       y="969.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 652.00 910.00)"
-       id="text23">S</text>
+       transform="rotate(0.00 1785.00 969.00)"
+       id="text22">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g25">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g24">
     <path
-       d="M761 916 L928 989"
+       d="M890.95 893.77 A1102.00 1102.00 0 0 0 1193.38 871.22"
        shape-rendering="auto"
-       id="path24" />
+       id="path23" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g26">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g25">
     <polygon
-       points="941 995 929 985 926 993 941 995 "
+       points="1207 868 1192 867 1194 875 1207 868 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
-       id="polygon25" />
+       id="polygon24" />
     <text
-       x="929.00"
-       y="981.00"
+       x="1193.00"
+       y="888.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1193.00 888.00)"
+       id="text24">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g26">
+    <path
+       d="M1299 879 L1485 969"
+       shape-rendering="auto"
+       id="path25" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g27">
+    <polygon
+       points="1498 976 1487 966 1483 973 1498 976 "
+       shape-rendering="auto"
+       style="fill-rule:evenodd;"
+       id="polygon26" />
+    <text
+       x="1487.00"
+       y="961.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 929.00 981.00)"
-       id="text25">O</text>
+       transform="rotate(0.00 1487.00 961.00)"
+       id="text26">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g27">
-    <path
-       d="M433.12 982.51 A2260.00 2260.00 0 0 0 655.96 918.12"
-       shape-rendering="auto"
-       id="path26" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g28">
-    <polygon
-       points="669 913 654 914 657 921 669 913 "
+    <path
+       d="M1033.97 843.26 A1850.00 1850.00 0 0 0 1193.00 855.82"
        shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon27" />
-    <text
-       x="657.00"
-       y="935.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 657.00 935.00)"
-       id="text27">S</text>
+       id="path27" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g29">
-    <path
-       d="M373 679 L662 863"
+    <polygon
+       points="1207 856 1193 851 1192 859 1207 856 "
        shape-rendering="auto"
-       id="path28" />
+       style="fill-rule:evenodd;"
+       id="polygon28" />
+    <text
+       x="1189.00"
+       y="872.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1189.00 872.00)"
+       id="text28">S</text>
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g30">
-    <polygon
-       points="674 871 664 860 660 866 674 871 "
+    <path
+       d="M911 639 L1200 823"
        shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon29" />
-    <text
-       x="666.00"
-       y="856.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 666.00 856.00)"
-       id="text29">S</text>
+       id="path29" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g31">
-    <path
-       d="M321.86 692.62 A121.00 121.00 0 0 0 341.94 775.04"
+    <polygon
+       points="1212 831 1202 820 1198 826 1212 831 "
        shape-rendering="auto"
-       id="path30" />
+       style="fill-rule:evenodd;"
+       id="polygon30" />
+    <text
+       x="1204.00"
+       y="816.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1204.00 816.00)"
+       id="text30">S</text>
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g32">
-    <polygon
-       points="325 679 317 691 325 693 325 679 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon31" />
-    <text
-       x="305.00"
-       y="693.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 305.00 693.00)"
-       id="text31">S</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g33">
     <path
-       d="M1302.98 1306.04 A197.00 197.00 0 0 0 1236.01 1160.99"
+       d="M839.87 650.39 A229.00 229.00 0 0 0 820.65 863.15"
        shape-rendering="auto"
-       id="path32" />
+       id="path31" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g34">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g33">
     <polygon
-       points="1302 1320 1306 1306 1298 1305 1302 1320 "
+       points="848 639 836 648 843 652 848 639 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
-       id="polygon33" />
+       id="polygon32" />
     <text
-       x="1312.00"
-       y="1310.00"
+       x="825.00"
+       y="646.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1312.00 1310.00)"
-       id="text33">S</text>
+       transform="rotate(0.00 825.00 646.00)"
+       id="text32">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g34">
+    <path
+       d="M1857.81 1238.06 A179.00 179.00 0 0 0 1785.33 1120.55"
+       shape-rendering="auto"
+       id="path33" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g35">
     <path
-       d="M980.05 1059.15 A225.00 225.00 0 0 0 1236.03 1371.14"
+       d="M1822 1178 L1844 1164"
        shape-rendering="auto"
        id="path34" />
+    <path
+       d="M1825 1181 L1847 1167"
+       shape-rendering="auto"
+       id="path35" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g36">
     <polygon
-       points="987 1047 976 1057 983 1061 987 1047 "
+       points="1859 1252 1861 1237 1853 1238 1859 1252 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon35" />
     <text
-       x="965.00"
-       y="1057.00"
+       x="1867.00"
+       y="1241.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 965.00 1057.00)"
+       transform="rotate(0.00 1867.00 1241.00)"
        id="text35">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g37">
     <path
-       d="M634.31 735.82 A403.00 403.00 0 0 0 695.38 871.43"
+       d="M1534.88 1041.02 A212.00 212.00 0 0 0 1810.01 1304.03"
        shape-rendering="auto"
        id="path36" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g38">
     <polygon
-       points="632 722 630 736 638 735 632 722 "
+       points="1540 1028 1531 1039 1538 1042 1540 1028 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon37" />
     <text
-       x="618.00"
-       y="741.00"
+       x="1518.00"
+       y="1040.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 618.00 741.00)"
+       transform="rotate(0.00 1518.00 1040.00)"
        id="text37">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g39">
     <path
-       d="M485.81 660.21 A109.00 109.00 0 0 0 561.99 707.10"
+       d="M1172.31 695.82 A403.00 403.00 0 0 0 1233.38 831.43"
        shape-rendering="auto"
        id="path38" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g40">
-    <path
-       d="M544 689 L536 715"
+    <polygon
+       points="1170 682 1168 696 1176 695 1170 682 "
        shape-rendering="auto"
-       id="path39" />
+       style="fill-rule:evenodd;"
+       id="polygon39" />
+    <text
+       x="1156.00"
+       y="701.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1156.00 701.00)"
+       id="text39">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g41">
     <path
-       d="M541 688 L533 714"
+       d="M1023.81 620.21 A109.00 109.00 0 0 0 1099.99 667.10"
        shape-rendering="auto"
        id="path40" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g41">
-    <polygon
-       points="479 648 482 662 489 658 479 648 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon40" />
-    <text
-       x="470.00"
-       y="670.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 470.00 670.00)"
-       id="text40">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g42">
     <path
-       d="M424.03 611.04 A115.00 115.00 0 0 0 375.36 620.45"
+       d="M1082 649 L1074 675"
        shape-rendering="auto"
        id="path41" />
+    <path
+       d="M1079 648 L1071 674"
+       shape-rendering="auto"
+       id="path42" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g43">
     <polygon
-       points="363 627 377 623 373 616 363 627 "
+       points="1017 608 1020 622 1027 618 1017 608 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon42" />
     <text
-       x="366.00"
-       y="612.00"
+       x="1008.00"
+       y="630.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 366.00 612.00)"
+       transform="rotate(0.00 1008.00 630.00)"
        id="text42">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g44">
     <path
-       d="M752.47 715.10 A250.00 250.00 0 0 0 711.65 871.03"
+       d="M962.03 571.04 A115.00 115.00 0 0 0 913.36 580.45"
        shape-rendering="auto"
        id="path43" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g45">
     <polygon
-       points="761 704 749 712 755 717 761 704 "
+       points="901 587 915 583 911 576 901 587 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon44" />
     <text
-       x="737.00"
-       y="711.00"
-       textLength="9"
+       x="904.00"
+       y="572.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 737.00 711.00)"
-       id="text44">O</text>
+       transform="rotate(0.00 904.00 572.00)"
+       id="text44">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g46">
     <path
-       d="M1148.57 742.58 A240.00 240.00 0 0 0 1274.00 656.00"
+       d="M1290.47 675.10 A250.00 250.00 0 0 0 1249.65 831.03"
        shape-rendering="auto"
        id="path45" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g47">
     <polygon
-       points="1135 746 1149 746 1147 738 1135 746 "
+       points="1299 664 1287 672 1293 677 1299 664 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon46" />
     <text
-       x="1148.00"
-       y="759.00"
-       textLength="7"
+       x="1275.00"
+       y="671.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1148.00 759.00)"
-       id="text46">S</text>
+       transform="rotate(0.00 1275.00 671.00)"
+       id="text46">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g48">
     <path
-       d="M1391.78 1011.01 A698.00 698.00 0 0 0 1446.27 1250.23"
+       d="M1527.00 721.20 A210.00 210.00 0 0 0 1820.14 616.06"
        shape-rendering="auto"
        id="path47" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g49">
     <polygon
-       points="1452 1263 1449 1248 1442 1251 1452 1263 "
+       points="1515 714 1524 724 1529 717 1515 714 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon48" />
     <text
-       x="1431.00"
-       y="1259.00"
+       x="1517.00"
+       y="737.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1431.00 1259.00)"
+       transform="rotate(0.00 1517.00 737.00)"
        id="text48">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g50">
     <path
-       d="M1362.05 1358.66 A122.00 122.00 0 0 0 1436.88 1325.59"
+       d="M1837.21 963.25 A787.00 787.00 0 0 0 1971.10 1212.19"
        shape-rendering="auto"
        id="path49" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g51">
     <polygon
-       points="1446 1315 1433 1322 1439 1328 1446 1315 "
+       points="1980 1223 1974 1209 1968 1214 1980 1223 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon50" />
     <text
-       x="1443.00"
-       y="1338.00"
+       x="1958.00"
+       y="1224.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1443.00 1338.00)"
+       transform="rotate(0.00 1958.00 1224.00)"
        id="text50">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g52">
     <path
-       d="M1476.55 1315.32 A81.00 81.00 0 0 0 1609.44 1315.33"
+       d="M1923.05 1295.81 A99.00 99.00 0 0 0 1965.69 1283.20"
        shape-rendering="auto"
        id="path51" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g53">
-    <path
-       d="M1557 1335 L1561 1361"
+    <polygon
+       points="1977 1275 1963 1279 1968 1286 1977 1275 "
        shape-rendering="auto"
-       id="path52" />
+       style="fill-rule:evenodd;"
+       id="polygon52" />
+    <text
+       x="1970.00"
+       y="1298.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1970.00 1298.00)"
+       id="text52">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g54">
     <path
-       d="M1554 1336 L1558 1362"
+       d="M2014.55 1275.32 A81.00 81.00 0 0 0 2147.44 1275.33"
        shape-rendering="auto"
        id="path53" />
   </g>
   <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g55">
+    <path
+       d="M2095 1295 L2099 1321"
+       shape-rendering="auto"
+       id="path54" />
+    <path
+       d="M2092 1296 L2096 1322"
+       shape-rendering="auto"
+       id="path55" />
+  </g>
+  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g54">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g56">
     <polygon
-       points="1616 1303 1605 1313 1612 1317 1616 1303 "
+       points="2154 1263 2143 1273 2150 1277 2154 1263 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
-       id="polygon53" />
+       id="polygon55" />
     <text
-       x="1618.00"
-       y="1325.00"
+       x="2156.00"
+       y="1285.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1618.00 1325.00)"
-       id="text53">S</text>
+       transform="rotate(0.00 2156.00 1285.00)"
+       id="text55">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g55">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g57">
     <path
-       d="M1609 1251 L1568 1189"
-       shape-rendering="auto"
-       id="path54" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g56">
-    <path
-       d="M1600 1214 L1578 1228"
-       shape-rendering="auto"
-       id="path55" />
-    <path
-       d="M1597 1211 L1575 1225"
+       d="M2147 1211 L2106 1149"
        shape-rendering="auto"
        id="path56" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g57">
-    <polygon
-       points="1561 1178 1565 1191 1572 1187 1561 1178 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon56" />
-    <text
-       x="1554.00"
-       y="1200.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1554.00 1200.00)"
-       id="text56">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g58">
     <path
-       d="M1336.00 973.99 A620.00 620.00 0 0 0 1081.23 991.41"
+       d="M2138 1174 L2116 1188"
        shape-rendering="auto"
        id="path57" />
+    <path
+       d="M2135 1171 L2113 1185"
+       shape-rendering="auto"
+       id="path58" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g59">
     <polygon
-       points="1068 996 1082 995 1079 987 1068 996 "
+       points="2099 1138 2103 1151 2110 1147 2099 1138 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon58" />
     <text
-       x="1074.00"
-       y="982.00"
+       x="2092.00"
+       y="1160.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1074.00 982.00)"
+       transform="rotate(0.00 2092.00 1160.00)"
        id="text58">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g60">
     <path
-       d="M1025.54 787.42 A374.00 374.00 0 0 0 997.09 995.14"
+       d="M1774.00 937.97 A526.00 526.00 0 0 0 1620.93 970.63"
        shape-rendering="auto"
        id="path59" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g61">
     <polygon
-       points="1032 775 1021 785 1029 789 1032 775 "
+       points="1608 976 1622 974 1619 966 1608 976 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon60" />
     <text
-       x="1010.00"
-       y="785.00"
+       x="1612.00"
+       y="962.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1010.00 785.00)"
+       transform="rotate(0.00 1612.00 962.00)"
        id="text60">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g62">
     <path
-       d="M1628.80 1251.08 A683.00 683.00 0 0 0 1579.16 921.58"
+       d="M1476.07 727.87 A426.00 426.00 0 0 0 1535.27 976.44"
        shape-rendering="auto"
        id="path61" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g63">
-    <path
-       d="M1612 1099 L1638 1097"
+    <polygon
+       points="1478 714 1472 727 1480 728 1478 714 "
        shape-rendering="auto"
-       id="path62" />
+       style="fill-rule:evenodd;"
+       id="polygon62" />
+    <text
+       x="1460.00"
+       y="730.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1460.00 730.00)"
+       id="text62">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g64">
     <path
-       d="M1613 1102 L1639 1100"
+       d="M2166.80 1211.08 A683.00 683.00 0 0 0 2117.16 881.58"
        shape-rendering="auto"
        id="path63" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g64">
-    <polygon
-       points="1573 909 1575 923 1582 919 1573 909 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon63" />
-    <text
-       x="1588.00"
-       y="919.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1588.00 919.00)"
-       id="text63">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g65">
     <path
-       d="M1304.60 669.22 A344.00 344.00 0 0 0 1500.71 864.76"
+       d="M2150 1059 L2176 1057"
        shape-rendering="auto"
        id="path64" />
+    <path
+       d="M2151 1062 L2177 1060"
+       shape-rendering="auto"
+       id="path65" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g66">
     <polygon
-       points="1300 656 1300 670 1308 667 1300 656 "
+       points="2111 869 2113 883 2120 879 2111 869 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon65" />
     <text
-       x="1287.00"
-       y="677.00"
-       textLength="9"
+       x="2126.00"
+       y="879.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1287.00 677.00)"
-       id="text65">O</text>
+       transform="rotate(0.00 2126.00 879.00)"
+       id="text65">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g67">
     <path
-       d="M1649.51 1251.44 A343.00 343.00 0 0 0 1730.13 974.65"
+       d="M1842.60 629.22 A344.00 344.00 0 0 0 2038.71 824.76"
        shape-rendering="auto"
        id="path66" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g68">
-    <path
-       d="M1704 1127 L1730 1135"
+    <polygon
+       points="1838 616 1838 630 1846 627 1838 616 "
        shape-rendering="auto"
-       id="path67" />
+       style="fill-rule:evenodd;"
+       id="polygon67" />
+    <text
+       x="1825.00"
+       y="637.00"
+       textLength="9"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1825.00 637.00)"
+       id="text67">O</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g69">
     <path
-       d="M1703 1130 L1729 1138"
+       d="M2187.51 1211.44 A343.00 343.00 0 0 0 2268.13 934.65"
        shape-rendering="auto"
        id="path68" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g69">
-    <polygon
-       points="1727 961 1726 975 1734 973 1727 961 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon68" />
-    <text
-       x="1740.00"
-       y="975.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1740.00 975.00)"
-       id="text68">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g70">
     <path
-       d="M1686 909 L1338 664"
+       d="M2242 1087 L2268 1095"
        shape-rendering="auto"
        id="path69" />
+    <path
+       d="M2241 1090 L2267 1098"
+       shape-rendering="auto"
+       id="path70" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g71">
     <polygon
-       points="1327 656 1336 667 1340 660 1327 656 "
+       points="2265 921 2264 935 2272 933 2265 921 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon70" />
     <text
-       x="1327.00"
-       y="679.00"
+       x="2278.00"
+       y="935.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1327.00 679.00)"
+       transform="rotate(0.00 2278.00 935.00)"
        id="text70">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g72">
     <path
-       d="M1736.33 909.16 A449.00 449.00 0 0 0 1058.71 358.98"
+       d="M2224 869 L1876 624"
        shape-rendering="auto"
        id="path71" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g73">
     <polygon
-       points="1048 368 1061 362 1056 355 1048 368 "
+       points="1865 616 1874 627 1878 620 1865 616 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon72" />
     <text
-       x="1045.00"
-       y="352.00"
-       textLength="9"
+       x="1865.00"
+       y="639.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1045.00 352.00)"
-       id="text72">O</text>
+       transform="rotate(0.00 1865.00 639.00)"
+       id="text72">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g74">
     <path
-       d="M1354.92 643.87 A278.00 278.00 0 0 0 1532.72 599.29"
+       d="M2274.33 869.16 A449.00 449.00 0 0 0 1596.71 318.98"
        shape-rendering="auto"
        id="path73" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g75">
     <polygon
-       points="1544 591 1530 596 1535 602 1544 591 "
+       points="1586 328 1599 322 1594 315 1586 328 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon74" />
     <text
-       x="1536.00"
-       y="614.00"
+       x="1583.00"
+       y="312.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1536.00 614.00)"
+       transform="rotate(0.00 1583.00 312.00)"
        id="text74">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g76">
     <path
-       d="M1597.38 539.26 A120.00 120.00 0 0 0 1617.90 476.95"
+       d="M1892.92 603.87 A278.00 278.00 0 0 0 2070.72 559.29"
        shape-rendering="auto"
        id="path75" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g77">
     <polygon
-       points="1617 463 1613 477 1621 476 1617 463 "
+       points="2082 551 2068 556 2073 562 2082 551 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon76" />
     <text
-       x="1627.00"
-       y="480.00"
-       textLength="7"
+       x="2074.00"
+       y="574.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1627.00 480.00)"
-       id="text76">S</text>
+       transform="rotate(0.00 2074.00 574.00)"
+       id="text76">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g78">
     <path
-       d="M1466.78 481.50 A741.00 741.00 0 0 0 1558.22 457.67"
+       d="M2135.38 499.26 A120.00 120.00 0 0 0 2155.90 436.95"
        shape-rendering="auto"
        id="path77" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g79">
-    <path
-       d="M1477 465 L1481 491"
+    <polygon
+       points="2155 423 2151 437 2159 436 2155 423 "
        shape-rendering="auto"
-       id="path78" />
+       style="fill-rule:evenodd;"
+       id="polygon78" />
+    <text
+       x="2165.00"
+       y="440.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2165.00 440.00)"
+       id="text78">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g80">
     <path
-       d="M1474 466 L1478 492"
+       d="M2004.78 441.50 A741.00 741.00 0 0 0 2096.22 417.67"
        shape-rendering="auto"
        id="path79" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g80">
-    <polygon
-       points="1453 484 1467 485 1466 477 1453 484 "
-       shape-rendering="auto"
-       style="fill-rule:evenodd;"
-       id="polygon79" />
-    <text
-       x="1465.00"
-       y="498.00"
-       textLength="7"
-       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1465.00 498.00)"
-       id="text79">S</text>
-  </g>
-  <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g81">
     <path
-       d="M941.96 590.84 A1147.00 1147.00 0 0 0 1010.41 420.13"
+       d="M2015 425 L2019 451"
        shape-rendering="auto"
        id="path80" />
+    <path
+       d="M2012 426 L2016 452"
+       shape-rendering="auto"
+       id="path81" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g82">
     <polygon
-       points="935 603 945 592 938 588 935 603 "
+       points="1991 444 2005 445 2004 437 1991 444 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon81" />
     <text
-       x="950.00"
-       y="600.00"
+       x="2003.00"
+       y="458.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 950.00 600.00)"
+       transform="rotate(0.00 2003.00 458.00)"
        id="text81">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g83">
     <path
-       d="M1501.15 868.21 A557.00 557.00 0 0 0 1040.31 985.53"
+       d="M1554.18 379.98 A411.00 411.00 0 0 0 1612.00 602.50"
        shape-rendering="auto"
        id="path82" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g84">
     <polygon
-       points="1030 995 1043 988 1037 982 1030 995 "
+       points="1620 614 1615 600 1608 604 1620 614 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon83" />
+    <text
+       x="1596.00"
+       y="613.00"
+       textLength="9"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1596.00 613.00)"
+       id="text83">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g85">
     <path
-       d="M1578.65 401.58 A300.00 300.00 0 0 0 1310.95 337.78"
+       d="M2116.65 361.58 A300.00 300.00 0 0 0 1848.95 297.78"
        shape-rendering="auto"
        id="path84" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g86">
     <polygon
-       points="1589 411 1581 398 1575 404 1589 411 "
+       points="2127 371 2119 358 2113 364 2127 371 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon85" />
     <text
-       x="1584.00"
-       y="395.00"
+       x="2122.00"
+       y="355.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1584.00 395.00)"
+       transform="rotate(0.00 2122.00 355.00)"
        id="text85">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g87">
     <path
-       d="M941.54 667.37 A205.00 205.00 0 0 0 995.84 723.22"
+       d="M1562.07 629.07 A117.00 117.00 0 0 0 1500.77 661.77"
        shape-rendering="auto"
        id="path86" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g88">
     <polygon
-       points="935 655 938 669 945 665 935 655 "
+       points="1576 628 1561 625 1562 633 1576 628 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon87" />
     <text
-       x="926.00"
-       y="677.00"
+       x="1558.00"
+       y="620.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 926.00 677.00)"
+       transform="rotate(0.00 1558.00 620.00)"
        id="text87">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g89">
     <path
-       d="M811.06 714.66 A197.00 197.00 0 0 0 957.03 772.91"
+       d="M1350.95 673.82 A120.00 120.00 0 0 0 1391.78 695.72"
        shape-rendering="auto"
        id="path88" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g90">
     <polygon
-       points="802 704 808 717 814 712 802 704 "
+       points="1341 664 1348 676 1353 670 1341 664 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon89" />
     <text
-       x="797.00"
-       y="727.00"
+       x="1337.00"
+       y="686.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 797.00 727.00)"
+       transform="rotate(0.00 1337.00 686.00)"
        id="text89">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g91">
     <path
-       d="M791.00 652.00 A85.00 85.00 0 0 0 761.58 573.84"
+       d="M1329.00 612.00 A85.00 85.00 0 0 0 1299.58 533.84"
        shape-rendering="auto"
        id="path90" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g92">
     <path
-       d="M773 612 L799 604"
+       d="M1311 572 L1337 564"
        shape-rendering="auto"
        id="path91" />
     <path
-       d="M774 615 L800 607"
+       d="M1312 575 L1338 567"
        shape-rendering="auto"
        id="path92" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g93">
     <polygon
-       points="750 566 759 577 763 570 750 566 "
+       points="1288 526 1297 537 1301 530 1288 526 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon92" />
     <text
-       x="765.00"
-       y="566.00"
-       textLength="7"
+       x="1302.00"
+       y="526.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 765.00 566.00)"
-       id="text92">S</text>
+       transform="rotate(0.00 1302.00 526.00)"
+       id="text92">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g94">
     <path
-       d="M658.92 583.94 A148.00 148.00 0 0 0 627.49 656.02"
+       d="M1196.92 543.94 A148.00 148.00 0 0 0 1165.49 616.02"
        shape-rendering="auto"
        id="path93" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g95">
     <path
-       d="M647 631 L621 623"
+       d="M1185 591 L1159 583"
        shape-rendering="auto"
        id="path94" />
     <path
-       d="M648 628 L622 620"
+       d="M1186 588 L1160 580"
        shape-rendering="auto"
        id="path95" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g96">
     <polygon
-       points="627 670 631 656 623 655 627 670 "
+       points="1165 630 1169 616 1161 615 1165 630 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon95" />
     <text
-       x="611.00"
-       y="660.00"
+       x="1149.00"
+       y="620.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 611.00 660.00)"
+       transform="rotate(0.00 1149.00 620.00)"
        id="text95">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g97">
     <path
-       d="M480.96 410.06 A77.00 77.00 0 0 0 407.93 475.05"
+       d="M1018.96 370.06 A77.00 77.00 0 0 0 945.93 435.05"
        shape-rendering="auto"
        id="path96" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g98">
     <polygon
-       points="408 489 411 475 403 475 408 489 "
+       points="946 449 949 435 941 435 946 449 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon97" />
     <text
-       x="391.00"
-       y="479.00"
+       x="929.00"
+       y="439.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 391.00 479.00)"
+       transform="rotate(0.00 929.00 439.00)"
        id="text97">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g99">
     <path
-       d="M518.75 287.95 A138.00 138.00 0 0 0 513.99 397.00"
+       d="M1056.75 247.95 A138.00 138.00 0 0 0 1051.99 357.00"
        shape-rendering="auto"
        id="path98" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g100">
     <path
-       d="M518 345 L492 345"
+       d="M1056 305 L1030 305"
        shape-rendering="auto"
        id="path99" />
     <path
-       d="M518 341 L492 341"
+       d="M1056 301 L1030 301"
        shape-rendering="auto"
        id="path100" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g101">
     <polygon
-       points="526 276 515 285 522 290 526 276 "
+       points="1064 236 1053 245 1060 250 1064 236 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon100" />
     <text
-       x="504.00"
-       y="284.00"
+       x="1042.00"
+       y="244.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 504.00 284.00)"
+       transform="rotate(0.00 1042.00 244.00)"
        id="text100">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g102">
     <path
-       d="M389 489 L325 422"
+       d="M927 449 L863 382"
        shape-rendering="auto"
        id="path101" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g103">
     <polygon
-       points="316 412 322 424 328 419 316 412 "
+       points="854 372 860 384 866 379 854 372 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon102" />
     <text
-       x="311.00"
-       y="435.00"
+       x="849.00"
+       y="395.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 311.00 435.00)"
+       transform="rotate(0.00 849.00 395.00)"
        id="text102">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g104">
     <path
-       d="M470.13 228.15 A171.00 171.00 0 0 0 296.53 359.89"
+       d="M1008.13 216.95 A279.00 279.00 0 0 0 848.37 319.52"
        shape-rendering="auto"
        id="path103" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g105">
     <path
-       d="M369 272 L353 250"
+       d="M927 264 L913 242"
        shape-rendering="auto"
        id="path104" />
     <path
-       d="M372 269 L356 247"
+       d="M930 261 L916 239"
        shape-rendering="auto"
        id="path105" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g106">
     <polygon
-       points="484 230 470 224 469 232 484 230 "
+       points="1022 215 1007 212 1008 220 1022 215 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon105" />
     <text
-       x="468.00"
-       y="219.00"
+       x="1004.00"
+       y="207.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 468.00 219.00)"
+       transform="rotate(0.00 1004.00 207.00)"
        id="text105">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g107">
     <path
-       d="M451.95 541.19 A73.00 73.00 0 0 0 544.50 462.51"
+       d="M989.95 501.19 A73.00 73.00 0 0 0 1082.50 422.51"
        shape-rendering="auto"
        id="path106" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g108">
     <polygon
-       points="541 449 540 463 548 461 541 449 "
+       points="1079 409 1078 423 1086 421 1079 409 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon107" />
     <text
-       x="553.00"
-       y="463.00"
+       x="1091.00"
+       y="423.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 553.00 463.00)"
+       transform="rotate(0.00 1091.00 423.00)"
        id="text107">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g109">
     <path
-       d="M560.70 385.31 A115.00 115.00 0 0 0 563.45 275.77"
+       d="M1098.70 345.31 A115.00 115.00 0 0 0 1101.45 235.77"
        shape-rendering="auto"
        id="path108" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g110">
     <polygon
-       points="553 397 564 387 557 383 553 397 "
+       points="1091 357 1102 347 1095 343 1091 357 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon109" />
     <text
-       x="567.00"
-       y="396.00"
+       x="1105.00"
+       y="356.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 567.00 396.00)"
+       transform="rotate(0.00 1105.00 356.00)"
        id="text109">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g111">
     <path
-       d="M907.21 589.84 A307.00 307.00 0 0 0 572.93 410.62"
+       d="M1491.40 337.66 A699.00 699.00 0 0 0 1110.92 364.79"
        shape-rendering="auto"
        id="path110" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g112">
     <polygon
-       points="912 603 910 588 903 591 912 603 "
+       points="1505 341 1492 333 1490 341 1505 341 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon111" />
     <text
-       x="917.00"
-       y="589.00"
-       textLength="7"
+       x="1490.00"
+       y="328.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 917.00 589.00)"
-       id="text111">S</text>
+       transform="rotate(0.00 1490.00 328.00)"
+       id="text111">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g113">
     <path
-       d="M953.40 377.66 A699.00 699.00 0 0 0 572.92 404.79"
+       d="M1525.76 317.49 A412.00 412.00 0 0 0 1145.90 193.47"
        shape-rendering="auto"
        id="path112" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g114">
     <polygon
-       points="967 381 954 373 952 381 967 381 "
+       points="1535 328 1528 314 1522 320 1535 328 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon113" />
     <text
-       x="952.00"
-       y="368.00"
-       textLength="9"
+       x="1532.00"
+       y="312.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 952.00 368.00)"
-       id="text113">O</text>
+       transform="rotate(0.00 1532.00 312.00)"
+       id="text113">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g115">
     <path
-       d="M987.76 357.49 A412.00 412.00 0 0 0 607.90 233.47"
+       d="M820.57 385.57 A303.00 303.00 0 0 0 855.37 587.36"
        shape-rendering="auto"
        id="path114" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g116">
     <polygon
-       points="997 368 990 354 984 360 997 368 "
+       points="824 372 816 384 824 386 824 372 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon115" />
     <text
-       x="994.00"
-       y="352.00"
-       textLength="7"
+       x="803.00"
+       y="386.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 994.00 352.00)"
-       id="text115">S</text>
+       transform="rotate(0.00 803.00 386.00)"
+       id="text115">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g117">
     <path
-       d="M282.57 425.57 A303.00 303.00 0 0 0 317.37 627.36"
+       d="M1067.76 584.50 A104.00 104.00 0 0 0 1111.46 407.50"
        shape-rendering="auto"
        id="path116" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g118">
     <polygon
-       points="286 412 278 424 286 426 286 412 "
+       points="1054 587 1068 588 1067 580 1054 587 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon117" />
     <text
-       x="265.00"
-       y="426.00"
-       textLength="9"
+       x="1066.00"
+       y="601.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 265.00 426.00)"
-       id="text117">O</text>
+       transform="rotate(0.00 1066.00 601.00)"
+       id="text117">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g119">
     <path
-       d="M529.76 624.50 A104.00 104.00 0 0 0 573.46 447.50"
+       d="M860.21 638.75 A152.00 152.00 0 0 0 929.42 816.88"
        shape-rendering="auto"
        id="path118" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g120">
     <polygon
-       points="516 627 530 628 529 620 516 627 "
+       points="942 823 931 813 927 820 942 823 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon119" />
     <text
-       x="528.00"
-       y="641.00"
-       textLength="7"
+       x="919.00"
+       y="832.00"
+       textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 528.00 641.00)"
-       id="text119">S</text>
+       transform="rotate(0.00 919.00 832.00)"
+       id="text119">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g121">
     <path
-       d="M278.73 676.59 A173.00 173.00 0 0 0 327.22 987.56"
+       d="M1553.12 327.98 A364.00 364.00 0 0 0 836.79 306.11"
        shape-rendering="auto"
        id="path120" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g122">
     <polygon
-       points="341 990 327 983 326 991 341 990 "
+       points="835 320 840 306 832 305 835 320 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon121" />
     <text
-       x="321.00"
-       y="1004.00"
+       x="819.00"
+       y="309.00"
        textLength="9"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 321.00 1004.00)"
+       transform="rotate(0.00 819.00 309.00)"
        id="text121">O</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g123">
     <path
-       d="M1073.06 519.12 A677.00 677.00 0 0 0 1045.09 723.01"
+       d="M1642.48 666.14 A491.00 491.00 0 0 0 1785.28 902.00"
        shape-rendering="auto"
        id="path122" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g124">
     <polygon
-       points="1078 506 1069 517 1076 520 1078 506 "
+       points="1796 911 1787 898 1782 905 1796 911 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon123" />
     <text
-       x="1057.00"
-       y="519.00"
+       x="1773.00"
+       y="915.00"
        textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1057.00 519.00)"
+       transform="rotate(0.00 1773.00 915.00)"
        id="text123">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g125">
     <path
-       d="M1337.67 459.38 A250.00 250.00 0 0 0 1134.91 453.79"
+       d="M1446 714 L1299 822"
        shape-rendering="auto"
        id="path124" />
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g126">
     <polygon
-       points="1350 466 1339 455 1335 462 1350 466 "
+       points="1288 831 1301 825 1296 819 1288 831 "
        shape-rendering="auto"
        style="fill-rule:evenodd;"
        id="polygon125" />
     <text
-       x="1339.00"
-       y="451.00"
-       textLength="9"
+       x="1304.00"
+       y="837.00"
+       textLength="7"
        style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1339.00 451.00)"
-       id="text125">O</text>
+       transform="rotate(0.00 1304.00 837.00)"
+       id="text125">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g127">
+    <path
+       d="M1592.98 475.78 A433.00 433.00 0 0 0 1487.33 661.82"
+       shape-rendering="auto"
+       id="path126" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g128">
+    <polygon
+       points="1603 466 1590 472 1595 478 1603 466 "
+       shape-rendering="auto"
+       style="fill-rule:evenodd;"
+       id="polygon127" />
+    <text
+       x="1580.00"
+       y="469.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1580.00 469.00)"
+       id="text127">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g129">
+    <path
+       d="M1879.66 419.38 A241.00 241.00 0 0 0 1675.98 413.95"
+       shape-rendering="auto"
+       id="path128" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g130">
+    <polygon
+       points="1892 426 1881 415 1877 422 1892 426 "
+       shape-rendering="auto"
+       style="fill-rule:evenodd;"
+       id="polygon129" />
+    <text
+       x="1882.00"
+       y="411.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1882.00 411.00)"
+       id="text129">S</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g131">
+    <path
+       d="M1458.41 650.24 A642.00 642.00 0 0 0 1111.21 394.30"
+       shape-rendering="auto"
+       id="path130" />
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g132">
+    <polygon
+       points="1466 662 1461 648 1455 652 1466 662 "
+       shape-rendering="auto"
+       style="fill-rule:evenodd;"
+       id="polygon131" />
+    <text
+       x="1466.00"
+       y="647.00"
+       textLength="7"
+       style="font-family:Arial; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#0000FF; fill-opacity:1.00; stroke:#0000FF; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1466.00 647.00)"
+       id="text131">S</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g127">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g133">
     <rect
-       x="1227"
-       y="604"
+       x="1765"
+       y="564"
        width="128"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect126" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g128">
+       id="rect132" />
     <text
-       x="1238.00"
-       y="635.00"
+       x="1776.00"
+       y="595.00"
        textLength="106"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1238.00 635.00)"
-       id="text127">Water Levels in River</text>
+       transform="rotate(0.00 1776.00 595.00)"
+       id="text132">Water Levels in River</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g129">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g134">
     <rect
-       x="861"
-       y="603"
+       x="1576"
+       y="614"
        width="122"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect128" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g130">
+       id="rect133" />
     <text
-       x="878.00"
-       y="634.00"
+       x="1593.00"
+       y="645.00"
        textLength="89"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 878.00 634.00)"
-       id="text129">Abstraction Rates</text>
+       transform="rotate(0.00 1593.00 645.00)"
+       id="text133">Abstraction Rates</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g131">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g135">
     <rect
-       x="1329"
-       y="466"
+       x="1867"
+       y="426"
        width="124"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect130" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g132">
+       id="rect134" />
     <text
-       x="1345.00"
-       y="497.00"
+       x="1883.00"
+       y="457.00"
        textLength="92"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1345.00 497.00)"
-       id="text131">Abstraction Limits</text>
+       transform="rotate(0.00 1883.00 457.00)"
+       id="text134">Abstraction Limits</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g133">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g136">
     <rect
-       x="936"
-       y="995"
+       x="1486"
+       y="976"
        width="132"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect132" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g134">
+       id="rect135" />
     <text
-       x="953.00"
-       y="1026.00"
+       x="1503.00"
+       y="1007.00"
        textLength="98"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 953.00 1026.00)"
-       id="text133">Customer Demand</text>
+       transform="rotate(0.00 1503.00 1007.00)"
+       id="text135">Customer Demand</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g135">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g137">
     <rect
-       x="1107"
-       y="1266"
+       x="1645"
+       y="1226"
        width="100"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect134" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g136">
+       id="rect136" />
     <text
-       x="1121.00"
-       y="1297.00"
+       x="1659.00"
+       y="1257.00"
        textLength="72"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1121.00 1297.00)"
-       id="text135">Wasted Water</text>
+       transform="rotate(0.00 1659.00 1257.00)"
+       id="text136">Wasted Water</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g137">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g138">
     <rect
-       x="1498"
-       y="1126"
+       x="2036"
+       y="1086"
        width="94"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect136" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g138">
+       id="rect137" />
     <text
-       x="1528.00"
-       y="1149.00"
+       x="2066.00"
+       y="1109.00"
        textLength="35"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1528.00 1149.00)"
+       transform="rotate(0.00 2066.00 1109.00)"
        id="text137">Winter</text>
     <text
-       x="1510.00"
-       y="1165.00"
+       x="2048.00"
+       y="1125.00"
        textLength="70"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1510.00 1165.00)"
+       transform="rotate(0.00 2048.00 1125.00)"
        id="text138">Temperature</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g139">
     <rect
-       x="1336"
-       y="959"
+       x="1774"
+       y="911"
        width="110"
        height="52"
        rx="0.00"
        shape-rendering="auto"
        id="rect138" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g140">
     <text
-       x="1349.00"
-       y="990.00"
+       x="1787.00"
+       y="942.00"
        textLength="84"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1349.00 990.00)"
+       transform="rotate(0.00 1787.00 942.00)"
        id="text139">Energy Demand</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g141">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g140">
     <rect
-       x="1409"
-       y="1263"
+       x="1947"
+       y="1223"
        width="110"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect140" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g142">
+       id="rect139" />
     <text
-       x="1439.00"
-       y="1294.00"
+       x="1977.00"
+       y="1254.00"
        textLength="51"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1439.00 1294.00)"
-       id="text141">Emissions</text>
+       transform="rotate(0.00 1977.00 1254.00)"
+       id="text140">Emissions</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g143">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g141">
     <rect
-       x="1134"
-       y="1109"
+       x="1672"
+       y="1069"
        width="128"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect142" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g144">
+       id="rect140" />
     <text
-       x="1153.00"
-       y="1140.00"
+       x="1691.00"
+       y="1100.00"
        textLength="91"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1153.00 1140.00)"
-       id="text143">Population Growth</text>
+       transform="rotate(0.00 1691.00 1100.00)"
+       id="text141">Population Growth</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g145">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g142">
     <rect
-       x="669"
-       y="871"
+       x="1207"
+       y="831"
        width="92"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect144" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g146">
+       id="rect141" />
     <text
-       x="703.00"
-       y="902.00"
+       x="1241.00"
+       y="862.00"
        textLength="25"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 703.00 902.00)"
-       id="text145">Fees</text>
+       transform="rotate(0.00 1241.00 862.00)"
+       id="text142">Fees</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g147">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g143">
     <rect
-       x="308"
-       y="775"
+       x="777"
+       y="863"
        width="114"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect146" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g148">
+       id="rect142" />
     <text
-       x="325.00"
-       y="806.00"
+       x="794.00"
+       y="894.00"
        textLength="81"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 325.00 806.00)"
-       id="text147">Operating Costs</text>
+       transform="rotate(0.00 794.00 894.00)"
+       id="text143">Operating Costs</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g149">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g144">
     <rect
-       x="341"
-       y="967"
+       x="942"
+       y="811"
        width="92"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect148" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g150">
+       id="rect143" />
     <text
-       x="361.00"
-       y="998.00"
+       x="962.00"
+       y="842.00"
        textLength="52"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 361.00 998.00)"
-       id="text149">Dividends</text>
+       transform="rotate(0.00 962.00 842.00)"
+       id="text144">Dividends</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g151">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g145">
     <rect
-       x="279"
-       y="627"
+       x="817"
+       y="587"
        width="108"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect150" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g152">
+       id="rect144" />
     <text
-       x="295.00"
-       y="658.00"
+       x="833.00"
+       y="618.00"
        textLength="76"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 295.00 658.00)"
-       id="text151">Company Debt</text>
+       transform="rotate(0.00 833.00 618.00)"
+       id="text145">Company Debt</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g153">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g146">
     <rect
-       x="481"
-       y="397"
+       x="1019"
+       y="357"
        width="92"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect152" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g154">
+       id="rect145" />
     <text
-       x="513.00"
-       y="428.00"
+       x="1051.00"
+       y="388.00"
        textLength="29"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 513.00 428.00)"
-       id="text153">Leaks</text>
+       transform="rotate(0.00 1051.00 388.00)"
+       id="text146">Leaks</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g155">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g147">
     <rect
-       x="1236"
-       y="1320"
+       x="1797"
+       y="1252"
        width="126"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect154" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g156">
+       id="rect146" />
     <text
-       x="1250.00"
-       y="1351.00"
+       x="1811.00"
+       y="1283.00"
        textLength="98"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1250.00 1351.00)"
-       id="text155">Agricultural Activity</text>
+       transform="rotate(0.00 1811.00 1283.00)"
+       id="text147">Agricultural Activity</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g157">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g149">
     <rect
-       x="562"
-       y="670"
+       x="1100"
+       y="630"
        width="130"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect156" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g158">
+       id="rect147" />
     <text
-       x="578.00"
-       y="693.00"
+       x="1116.00"
+       y="653.00"
        textLength="99"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF0000; fill-opacity:1.00; stroke:#FF0000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 578.00 693.00)"
-       id="text157">Regulator (OFWAT)</text>
+       transform="rotate(0.00 1116.00 653.00)"
+       id="text148">Regulator (OFWAT)</text>
     <text
-       x="598.00"
-       y="709.00"
+       x="1136.00"
+       y="669.00"
        textLength="58"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF0000; fill-opacity:1.00; stroke:#FF0000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 598.00 709.00)"
-       id="text158">Involvment</text>
+       transform="rotate(0.00 1136.00 669.00)"
+       id="text149">Involvment</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g159">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g150">
     <rect
-       x="424"
-       y="596"
+       x="962"
+       y="556"
        width="92"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect158" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g160">
+       id="rect149" />
     <text
-       x="456.00"
-       y="627.00"
+       x="994.00"
+       y="587.00"
        textLength="28"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 456.00 627.00)"
-       id="text159">Fines</text>
+       transform="rotate(0.00 994.00 587.00)"
+       id="text150">Fines</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g161">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g152">
     <rect
-       x="967"
-       y="368"
+       x="1505"
+       y="328"
        width="102"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect160" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g162">
+       id="rect150" />
     <text
-       x="982.00"
-       y="391.00"
+       x="1520.00"
+       y="351.00"
        textLength="72"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 982.00 391.00)"
-       id="text161">Water Storage</text>
+       transform="rotate(0.00 1520.00 351.00)"
+       id="text151">Water Storage</text>
     <text
-       x="993.00"
-       y="407.00"
+       x="1531.00"
+       y="367.00"
        textLength="50"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 993.00 407.00)"
-       id="text162">Suitability</text>
+       transform="rotate(0.00 1531.00 367.00)"
+       id="text152">Suitability</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g163">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g153">
     <rect
-       x="484"
-       y="224"
+       x="1022"
+       y="184"
        width="124"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect162" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g164">
+       id="rect152" />
     <text
-       x="499.00"
-       y="255.00"
+       x="1037.00"
+       y="215.00"
        textLength="95"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 499.00 255.00)"
-       id="text163">New Infrastructure</text>
+       transform="rotate(0.00 1037.00 215.00)"
+       id="text153">New Infrastructure</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g165">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g155">
     <rect
-       x="715"
-       y="652"
+       x="1253"
+       y="612"
        width="136"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect164" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g166">
+       id="rect153" />
     <text
-       x="733.00"
-       y="675.00"
+       x="1271.00"
+       y="635.00"
        textLength="100"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 733.00 675.00)"
-       id="text165">Public Perception of</text>
+       transform="rotate(0.00 1271.00 635.00)"
+       id="text154">Public Perception of</text>
     <text
-       x="738.00"
-       y="691.00"
+       x="1276.00"
+       y="651.00"
        textLength="91"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 738.00 691.00)"
-       id="text166">Water Companies</text>
+       transform="rotate(0.00 1276.00 651.00)"
+       id="text155">Water Companies</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g167">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g157">
     <rect
-       x="957"
-       y="723"
+       x="1392"
+       y="662"
        width="178"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect166" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g168">
+       id="rect155" />
     <text
-       x="979.00"
-       y="746.00"
+       x="1414.00"
+       y="685.00"
        textLength="134"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 979.00 746.00)"
-       id="text167">GAP - Water Demanded vs</text>
+       transform="rotate(0.00 1414.00 685.00)"
+       id="text156">GAP - Water Demanded vs</text>
     <text
-       x="1023.00"
-       y="762.00"
+       x="1458.00"
+       y="701.00"
        textLength="46"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1023.00 762.00)"
-       id="text168">Available</text>
+       transform="rotate(0.00 1458.00 701.00)"
+       id="text157">Available</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g169">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g158">
     <rect
-       x="1570"
-       y="1251"
+       x="2108"
+       y="1211"
        width="110"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect168" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g170">
+       id="rect157" />
     <text
-       x="1584.00"
-       y="1282.00"
+       x="2122.00"
+       y="1242.00"
        textLength="83"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1584.00 1282.00)"
-       id="text169">Climate Change</text>
+       transform="rotate(0.00 2122.00 1242.00)"
+       id="text158">Climate Change</text>
   </g>
   <g
      style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g171">
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g159">
     <rect
-       x="1501"
-       y="857"
+       x="2039"
+       y="817"
        width="120"
        height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect158" />
+    <text
+       x="2064.00"
+       y="848.00"
+       textLength="70"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2064.00 848.00)"
+       id="text159">Dry Summers</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g161">
+    <rect
+       x="2211"
+       y="869"
+       width="98"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect159" />
+    <text
+       x="2224.00"
+       y="892.00"
+       textLength="73"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2224.00 892.00)"
+       id="text160">Heavy Rainfall</text>
+    <text
+       x="2243.00"
+       y="908.00"
+       textLength="34"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2243.00 908.00)"
+       id="text161">Events</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g162">
+    <rect
+       x="2050"
+       y="499"
+       width="126"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect161" />
+    <text
+       x="2066.00"
+       y="530.00"
+       textLength="95"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2066.00 530.00)"
+       id="text162">Sediment in water</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g163">
+    <rect
+       x="2096"
+       y="371"
+       width="110"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect162" />
+    <text
+       x="2111.00"
+       y="402.00"
+       textLength="80"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF0000; fill-opacity:1.00; stroke:#FF0000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 2111.00 402.00)"
+       id="text163">EA Involvement</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g165">
+    <rect
+       x="1753"
+       y="289"
+       width="96"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect163" />
+    <text
+       x="1768.00"
+       y="312.00"
+       textLength="67"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1768.00 312.00)"
+       id="text164">Conservation</text>
+    <text
+       x="1779.00"
+       y="328.00"
+       textLength="44"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1779.00 328.00)"
+       id="text165">Pressure</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g166">
+    <rect
+       x="1160"
+       y="492"
+       width="128"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect165" />
+    <text
+       x="1176.00"
+       y="523.00"
+       textLength="97"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 1176.00 523.00)"
+       id="text166">Legislative Change</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g168">
+    <rect
+       x="904"
+       y="449"
+       width="94"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect166" />
+    <text
+       x="918.00"
+       y="472.00"
+       textLength="66"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 918.00 472.00)"
+       id="text167">Repair of Old</text>
+    <text
+       x="916.00"
+       y="488.00"
+       textLength="70"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 916.00 488.00)"
+       id="text168">Infrastructure</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g170">
+    <rect
+       x="772"
+       y="320"
+       width="116"
+       height="52"
+       rx="0.00"
+       shape-rendering="auto"
+       id="rect168" />
+    <text
+       x="788.00"
+       y="343.00"
+       textLength="85"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 788.00 343.00)"
+       id="text169">Appetite for New</text>
+    <text
+       x="795.00"
+       y="359.00"
+       textLength="70"
+       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
+       xml:space="preserve"
+       transform="rotate(0.00 795.00 359.00)"
+       id="text170">Infrastructure</text>
+  </g>
+  <g
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
+     id="g171">
+    <rect
+       x="1003"
+       y="254"
+       width="160"
+       height="80"
        rx="0.00"
        shape-rendering="auto"
        id="rect170" />
   </g>
   <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
+     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
+     transform="translate(-470 -10) scale(0.61 0.61)"
      id="g172">
-    <text
-       x="1526.00"
-       y="888.00"
-       textLength="70"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1526.00 888.00)"
-       id="text171">Dry Summers</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g173">
     <rect
-       x="1673"
-       y="909"
-       width="98"
+       x="1567"
+       y="414"
+       width="130"
        height="52"
        rx="0.00"
        shape-rendering="auto"
-       id="rect172" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g174">
+       id="rect171" />
     <text
-       x="1686.00"
-       y="932.00"
-       textLength="73"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1686.00 932.00)"
-       id="text173">Heavy Rainfall</text>
-    <text
-       x="1705.00"
-       y="948.00"
-       textLength="34"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1705.00 948.00)"
-       id="text174">Events</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g175">
-    <rect
-       x="1512"
-       y="539"
-       width="126"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect174" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g176">
-    <text
-       x="1528.00"
-       y="570.00"
-       textLength="95"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1528.00 570.00)"
-       id="text175">Sediment in water</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g177">
-    <rect
-       x="1558"
-       y="411"
-       width="110"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect176" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g178">
-    <text
-       x="1573.00"
-       y="442.00"
-       textLength="80"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF0000; fill-opacity:1.00; stroke:#FF0000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1573.00 442.00)"
-       id="text177">EA Involvement</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g179">
-    <rect
-       x="1215"
-       y="329"
-       width="96"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect178" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g180">
-    <text
-       x="1230.00"
-       y="352.00"
-       textLength="67"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1230.00 352.00)"
-       id="text179">Conservation</text>
-    <text
-       x="1241.00"
-       y="368.00"
-       textLength="44"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#00964B; fill-opacity:1.00; stroke:#00964B; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 1241.00 368.00)"
-       id="text180">Pressure</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g181">
-    <rect
-       x="622"
-       y="532"
-       width="128"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect180" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g182">
-    <text
-       x="638.00"
-       y="563.00"
+       x="1584.00"
+       y="437.00"
        textLength="97"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#FF8000; fill-opacity:1.00; stroke:#FF8000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 638.00 563.00)"
-       id="text181">Legislative Change</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g183">
-    <rect
-       x="366"
-       y="489"
-       width="94"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect182" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g184">
-    <text
-       x="380.00"
-       y="512.00"
-       textLength="66"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 380.00 512.00)"
-       id="text183">Repair of Old</text>
-    <text
-       x="378.00"
-       y="528.00"
-       textLength="70"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 378.00 528.00)"
-       id="text184">Infrastructure</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g185">
-    <rect
-       x="234"
-       y="360"
-       width="116"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect184" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g186">
-    <text
-       x="250.00"
-       y="383.00"
-       textLength="85"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 250.00 383.00)"
-       id="text185">Appetite for New</text>
-    <text
-       x="257.00"
-       y="399.00"
-       textLength="70"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#008080; fill-opacity:1.00; stroke:#008080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 257.00 399.00)"
-       id="text186">Infrastructure</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g188">
-    <rect
-       x="121"
-       y="787"
-       width="160"
-       height="80"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect186" />
-    <text
-       x="131.00"
-       y="824.00"
-       textLength="140"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#408080; fill-opacity:1.00; stroke:#408080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 131.00 824.00)"
-       id="text187">In some cases, Shareholder</text>
-    <text
-       x="146.00"
-       y="840.00"
-       textLength="110"
-       style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#408080; fill-opacity:1.00; stroke:#408080; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
-       xml:space="preserve"
-       transform="rotate(0.00 146.00 840.00)"
-       id="text188">Demands DRIVE debt</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g189">
-    <rect
-       x="1018"
-       y="454"
-       width="136"
-       height="52"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect188" />
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#0C71FF; fill-opacity:1.00; stroke:#0C71FF; stroke-opacity:1.00;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g190">
-    <text
-       x="1022.00"
-       y="477.00"
-       textLength="129"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1022.00 477.00)"
-       id="text189">Pressure to abstract more</text>
+       transform="rotate(0.00 1584.00 437.00)"
+       id="text171">Pressure to change</text>
     <text
-       x="1072.00"
-       y="493.00"
+       x="1618.00"
+       y="453.00"
        textLength="29"
        style="font-family:Cabin; font-weight:400; font-style:normal; font-size:8.25pt; text-decoration: none; fill:#000000; fill-opacity:1.00; stroke:#000000; stroke-opacity:1.00; stroke-width:0; white-space: pre;"
        xml:space="preserve"
-       transform="rotate(0.00 1072.00 493.00)"
-       id="text190">water</text>
-  </g>
-  <g
-     style="stroke-width:1; stroke-linecap:round; stroke-linejoin:round; fill:#000000; fill-opacity:0.0; stroke:#000000; stroke-opacity:0.0;"
-     transform="translate(-133 -246) scale(1.10 1.10)"
-     id="g191">
-    <rect
-       x="465"
-       y="294"
-       width="160"
-       height="80"
-       rx="0.00"
-       shape-rendering="auto"
-       id="rect190" />
+       transform="rotate(0.00 1618.00 453.00)"
+       id="text172">limits</text>
   </g>
   <text
      xml:space="preserve"
-     style="font-size:14.0009px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.45993;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:25.3984"
-     x="386.56595"
-     y="283.85602"
-     id="text191"><tspan
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="145.03267"
+     y="263.18719"
+     id="text173"><tspan
        sodipodi:role="line"
-       id="tspan191"
-       style="stroke-width:1.45993"></tspan></text>
+       id="tspan172"
+       style="stroke-width:0.737008"
+       x="145.03267"
+       y="263.18719">B1</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.0009px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.45993;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:25.3984"
-     x="393.64267"
-     y="295.35568"
-     id="text203"><tspan
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="182.09775"
+     y="177.18124"
+     id="text174"><tspan
        sodipodi:role="line"
-       id="tspan203"
-       style="stroke-width:1.45993"
-       x="393.64267"
-       y="295.35568">B1</tspan></text>
+       id="tspan173"
+       style="stroke-width:0.737008"
+       x="182.09775"
+       y="177.18124">B2</tspan></text>
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-6-7)"
+     id="path168-1-0"
+     sodipodi:type="arc"
+     sodipodi:cx="66.329842"
+     sodipodi:cy="-312.56613"
+     sodipodi:rx="12.781081"
+     sodipodi:ry="12.281821"
+     sodipodi:start="0"
+     sodipodi:end="4.7155373"
+     sodipodi:arc-type="arc"
+     d="m 79.110923,-312.56613 a 12.781081,12.281821 0 0 1 -7.899269,11.35062 12.781081,12.281821 0 0 1 -13.933617,-2.67974 12.781081,12.281821 0 0 1 -2.744793,-13.39771 12.781081,12.281821 0 0 1 11.836836,-7.55493"
+     sodipodi:open="true"
+     transform="scale(1,-1)" />
   <text
      xml:space="preserve"
-     style="font-size:14.0009px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.45993;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:25.3984"
-     x="467.06363"
-     y="118.43763"
-     id="text204"><tspan
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="61.787239"
+     y="315.23727"
+     id="text174-2"><tspan
        sodipodi:role="line"
-       id="tspan204"
-       style="stroke-width:1.45993"
-       x="467.06363"
-       y="118.43763">B2</tspan></text>
+       id="tspan173-3"
+       style="stroke-width:0.737008"
+       x="61.787239"
+       y="315.23727">R3</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.0009px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.45993;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:25.3984"
-     x="275.10757"
-     y="114.89927"
-     id="text205"><tspan
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="102.36751"
+     y="194.83099"
+     id="text175"><tspan
        sodipodi:role="line"
-       id="tspan205"
-       style="stroke-width:1.45993"
-       x="275.10757"
-       y="114.89927">R1</tspan></text>
+       id="tspan174"
+       style="stroke-width:0.737008"
+       x="102.36751"
+       y="194.83099">R1</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:14.0009px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke-width:1.45993;stroke-linecap:round;stroke-linejoin:bevel;stroke-dashoffset:25.3984"
-     x="697.05713"
-     y="66.246811"
-     id="text206"><tspan
+     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
+     x="111.68988"
+     y="377.59491"
+     id="text176"><tspan
        sodipodi:role="line"
-       id="tspan206"
-       style="stroke-width:1.45993"
-       x="697.05713"
-       y="66.246811">B3</tspan></text>
+       id="tspan175"
+       style="stroke-width:0.737008"
+       x="111.68988"
+       y="377.59491">R2</tspan></text>
 </svg>

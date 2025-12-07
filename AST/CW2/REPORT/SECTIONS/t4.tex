@@ -159,9 +159,73 @@ This continues until a set of root causes are determined.
 Further fidelity could be acheived, but for the purposes of insight a high-level investigation is sufficient.
 
 As with the pig model, the creation of the diagram was educative; some of the lower level causes were revealed, such as the cost of living affecting the public's ability to repair leaking water fixtures, wasting water overall.
+It also helped categorise different causes, which went on to inform the grouping of concerns in the Causal Loop Diagram (see figure \ref{fig:T4CLD})
+A key takeaway from the diagram is the focus on climate change's effect in the "Demand" branch, affecting all of "Increased Usage", "Energy Demand", and "Agriculture".
+Additionally, the diagram captures the conflicting purposes that the water suppliers face:
+They are legally obligated to supply water and have a duty of care over their environment, but also have pressure from their shareholders to grow and generate value for them.
 
+All of the above diagrams have been used to generate a causal loop diagram, following the 
+
+\begin{figure}[H]
+    \includesvg[width=.9\linewidth]{UTIL/Figures/cld.svg}
+    \caption[width=.5\linewidth]{Causal Loop Diagram showing the interactions different elements of the system have on each other.}
+    \label{fig:T4CLD}
+\end{figure}
+
+The CLD shows the interactions between different elements, the elements that are key in the system and those that are on the periphery, and can also be used to predict the behaviour that emerges from the system over time.
+A key way of doing this is by looking at system archetypes, as detailed by Kim and Anderson\cite{Kim1998}.
+When looking at figure \ref{fig:T4CLD}, two archetypes are apparent.
+The first is a sort of "shifting the burden", concerning leaks, new infrastucture and repairing old infrastructure.
+There is a time delay in creating new infrastructure, and this is also driven by the appetite that the water companies have for new infrastructure investment.
+It is required, however, to reduce the leaking and thus reduce overall amount of water needed to supply the demand, as shown by loop B2.
+Loop B1 instead offers a quicker and cheaper "fix" in repairing the aging infrastructure that is being used.
+This seems attractive and on the surface has the same effect as new infrastructure.
+Loop R1 shows the consequence of this however, as in the long term there is a reduction in a desire for new infrastructure, which then only serves to make repairs more attractive.
+Old infrastructure can only be repaired, not improved easily, so this solution does not scale with the increased needs being driven by population growth and climate change.
+As a result, there is an overall reduction in leaks, but the burden has shifted to an infrastructure network that cannot be fit for purpose without even more costly repairs and expansions, or entirely new infrastructure.
+
+Another archetype that is obvious is the "drifting goals" archetype, where it is easier to reduce expectations and bend limits than actually achieve the goals that are set.
+This can be seen with the abstraction limits:
+They are dependent on the water that flows through the rivers, and they serve to moderate the abstraction (B4).
+However, this leads to a gap between the amount of water demanded and the amount available.
+This can be remedied with better infrastructure, efforts to reduce demand, or even a reduction in emissions and climate change in the long term, but it is easier to simply pressure these limits to be lowered so that more water can be abstracted.
+This has been shown in Southern Water's request to abstract more than they are allowed to from the river Test\cite{SouthernWaterServicesLimited2025}.
+The CLD also shows that the main method of regulating usage of the river is through abstraction licenses.
+They serve to limit the amount that can be abstracted, and as such are the main controllable element from the Environment Agency's viewpoint.
+This corroborates what was seen in the systemigram (figure \ref{fig:T4SGM}).
+Fines are the instrument by which these licenses (and targets from Ofwat) are enforced, but then the diagram shows that there are many effects of fines that have negative consequences.
+An example of this is loop R2, where poor performance sours public perception of the company, which drives legislative change and regulator involvement.
+This results in fines, which increase the company's debt - something that is already an issue, considering the company's reduction in credit rating from BBB (negative outlook) to BBB- (negative outlook) by Fitch\cite{SouthernWaterLimited2025}.
+Such fines then result in an increase in fees, which serve to further degrade public opinion.
+
+Finally, a context diagram was drafted to understand what areas are within the System of Interest (SOI), and can thus be controlled, which can be influenced (wider SoI), and which are uncontrollable but are important to take note of (Environment).
+Written from the point of view of the Environment Agency, this diagram can be seen in figure \ref{fig:T4SOI}.
 
 \begin{figure}[H]
     \includesvg[width=.9\linewidth]{UTIL/Figures/Method-application-context-diag.svg}
+    \caption[width=.5\linewidth]{A context diagram showing what is controllable (SoI), what can be influenced (wider SoI), and what is uncontrollable (Environment and Wider Environment)}
+    \label{fig:T4SOI}
 \end{figure}
 
+Of note in this diagram is how mamy important elements of the system are not within the SoI.
+This includes legislation, emissions, and public opinion.
+This is due to a few factors:
+The Enviornment Agency can only use powers granted to it by legislation (such as abstraction licenses) to manage the management catchment.
+A large number of important elements in the wider SoI are goverened by such legislation, which must pass through the Houses of Parliament.
+As these are voted on by members, there is no way to directly control whether it gets passed.
+Instead, the Environment Agency (and by extension DEFRA) can influence this by controlling content and by managing members and their constituents.
+Even abstraction limits are outside of control to an extent, as the drought order requests are directed to DEFRA and not to the Environment Agency.
+Directly within control however are also elements such as publications and education, which can help to reduce wasted water and reduce the demand for water overall.
+
+\medskip
+
+With the insight gained from the above methods, the research questions can be answered:
+
+\begin{enumerate}
+    \item The key stakeholders in the management catchment are Southern Water, the Environment Agency, Customers of Southern Water, and wildlife
+    \item Key subsystems are the demand for water and subsequent abstraction moderated by abstraction licenses, the infrastrcutrure used to abstract and deliver this water, the business model that Southern Water operates, and the effect that climate change has.
+    \item Elements most sensitive are those best connected, such as fees, fines, abstraction rates, and demand.
+    \item Current initiatives such as the Catchment Based Approach\cite{DEFRA2013}, which aims to grant agency to the public who otherwise are removed from water companies' decisions, show promise and target an issue highlighted in this paper. Other initiatives, such as the new reservoires being constructed, may prove very useful but the time they take may stop them from avoiding outcomes such as supply discontinuity in the short term.
+    \item Impacting fines is likely to result in reduced investment, and higher fees, and with the taxpayer eventually funding these companies as Operators of Last Resort, may only serve to saddle a new publicly owned supplier with debt.
+    \item Greenhouse gasses are produced from abstraction itself, but also from energy demand, growing population, and agriculture. Mitigations that can be enacted are education on water demand's influence or subsidy of clean energy and low-carbon methods of construction. 
+\end{enumerate}

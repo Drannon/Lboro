@@ -486,6 +486,7 @@
       \strng{authornamehash}{03132fea03e8a2f7e9d7da991d54ad87}
       \strng{authorfullhash}{03132fea03e8a2f7e9d7da991d54ad87}
       \strng{authorfullhashraw}{03132fea03e8a2f7e9d7da991d54ad87}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -626,6 +627,115 @@
       \field{note}{[Originally published by GEMBA NO QC SHUHO (in Japanese), 1968]}
       \field{title}{Guide to Quality Control}
       \field{year}{1976}
+    \endentry
+    \entry{Kim1998}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=bf38fd79273c56d262c8d34cdcf4d1b7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Daniel\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1fb6dc43ad4de9c7d8ce7c989706695a}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Pegasus Communications, Inc.}%
+      }
+      \strng{namehash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{fullhash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{fullhashraw}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{bibnamehash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{authorbibnamehash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{authornamehash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{authorfullhash}{0c7d28e5ded12378461e6683280daa9b}
+      \strng{authorfullhashraw}{0c7d28e5ded12378461e6683280daa9b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{7818947175}
+      \field{title}{Systems Archetype Basics: From Story to Structure}
+      \field{type}{techreport}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb www.pegasuscom.com
+      \endverb
+      \verb{url}
+      \verb www.pegasuscom.com
+      \endverb
+    \endentry
+    \entry{SouthernWaterServicesLimited2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2024edc0f8664e19723e59280618c96e}{%
+           family={Limited},
+           familyi={L\bibinitperiod},
+           given={Southern\bibnamedelimb Water\bibnamedelima Services},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2024edc0f8664e19723e59280618c96e}
+      \strng{fullhash}{2024edc0f8664e19723e59280618c96e}
+      \strng{fullhashraw}{2024edc0f8664e19723e59280618c96e}
+      \strng{bibnamehash}{2024edc0f8664e19723e59280618c96e}
+      \strng{authorbibnamehash}{2024edc0f8664e19723e59280618c96e}
+      \strng{authornamehash}{2024edc0f8664e19723e59280618c96e}
+      \strng{authorfullhash}{2024edc0f8664e19723e59280618c96e}
+      \strng{authorfullhashraw}{2024edc0f8664e19723e59280618c96e}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{STATUTORY NOTICE FOR DROUGHT ORDER APPLICATION SOUTHERN WATER SERVICES LIMITED THE SOUTHERN WATER SERVICES LIMITED (RIVER TEST) DROUGHT ORDER 2025 SECTIONS 73 AND 74(2)(F) AND SCHEDULE 8 OF THE WATER RESOURCES ACT 1991}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.southernwater.co.uk/drought-restrictions
+      \endverb
+      \verb{url}
+      \verb https://www.southernwater.co.uk/drought-restrictions
+      \endverb
+    \endentry
+    \entry{SouthernWaterLimited2025}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=5c53aa31ec3d0b0960089d3d24dfd7ad}{%
+           family={Limited},
+           familyi={L\bibinitperiod},
+           given={Southern\bibnamedelima Water},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0470450a999926b1cc3c0ecd3729ae8a}{%
+           family={LLP},
+           familyi={L\bibinitperiod},
+           given={Deloitte},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Companies Hosuse}%
+      }
+      \strng{namehash}{0192cef7226af68e563d000131382d29}
+      \strng{fullhash}{0192cef7226af68e563d000131382d29}
+      \strng{fullhashraw}{0192cef7226af68e563d000131382d29}
+      \strng{bibnamehash}{0192cef7226af68e563d000131382d29}
+      \strng{authorbibnamehash}{0192cef7226af68e563d000131382d29}
+      \strng{authornamehash}{0192cef7226af68e563d000131382d29}
+      \strng{authorfullhash}{0192cef7226af68e563d000131382d29}
+      \strng{authorfullhashraw}{0192cef7226af68e563d000131382d29}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{ANNUAL REPORT AND FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://find-and-update.company-information.service.gov.uk/company/02366620/filing-history/MzQ4MDIyMjg1M2FkaXF6a2N4/document?format=pdf&download=0
+      \endverb
+      \verb{url}
+      \verb https://find-and-update.company-information.service.gov.uk/company/02366620/filing-history/MzQ4MDIyMjg1M2FkaXF6a2N4/document?format=pdf&download=0
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
