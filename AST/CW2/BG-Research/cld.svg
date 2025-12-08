@@ -110,25 +110,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="Triangle-60-7"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path135-6-5" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="Triangle-60-7-7"
        refX="0"
        refY="0"
@@ -196,8 +177,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
      inkscape:zoom="2.9199341"
-     inkscape:cx="807.20999"
-     inkscape:cy="399.49531"
+     inkscape:cx="752.41423"
+     inkscape:cy="372.26867"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="0"
@@ -213,7 +194,7 @@
      id="g1" />
   <g
      style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
-     transform="translate(-21.431631,-19.161331)"
+     transform="translate(-48.658273,-31.490376)"
      id="g2">
     <rect
        x="0"
@@ -248,7 +229,7 @@
        id="tspan175-9-9-1"
        style="stroke-width:0.737008"
        x="527.53723"
-       y="290.27881">R3</tspan></text>
+       y="290.27881">R4</tspan></text>
   <path
      style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7-7-3)"
      id="path168-18-2-1-4"
@@ -272,7 +253,7 @@
        id="tspan175-9-9-8"
        style="stroke-width:0.737008"
        x="612.28723"
-       y="314.27881">B4</tspan></text>
+       y="314.27881">B3</tspan></text>
   <path
      style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7-7)"
      id="path168-18-2-1"
@@ -297,30 +278,6 @@
        style="stroke-width:0.737008"
        x="377.53723"
        y="528.02881">B3</tspan></text>
-  <path
-     style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:0.598673;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle-60-7)"
-     id="path168-18-2"
-     sodipodi:type="arc"
-     sodipodi:cx="145.07983"
-     sodipodi:cy="391.31543"
-     sodipodi:rx="12.781081"
-     sodipodi:ry="12.281821"
-     sodipodi:start="0"
-     sodipodi:end="4.7155373"
-     sodipodi:arc-type="arc"
-     d="m 157.86092,391.31543 a 12.781081,12.281821 0 0 1 -7.89927,11.35062 12.781081,12.281821 0 0 1 -13.93362,-2.67974 12.781081,12.281821 0 0 1 -2.74479,-13.39771 12.781081,12.281821 0 0 1 11.83683,-7.55493"
-     sodipodi:open="true" />
-  <text
-     xml:space="preserve"
-     style="font-size:9px;font-family:Cabin;-inkscape-font-specification:'Cabin, @wght=700';font-variation-settings:'wght' 700;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.737008"
-     x="140.53722"
-     y="394.52878"
-     id="text176-8"><tspan
-       sodipodi:role="line"
-       id="tspan175-9"
-       style="stroke-width:0.737008"
-       x="140.53722"
-       y="394.52878">B3</tspan></text>
   <g
      id="svg167-6"
      transform="matrix(0.99981382,0,0,0.99981382,-16.970674,139.79472)">

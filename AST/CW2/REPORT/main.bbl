@@ -737,6 +737,35 @@
       \verb https://find-and-update.company-information.service.gov.uk/company/02366620/filing-history/MzQ4MDIyMjg1M2FkaXF6a2N4/document?format=pdf&download=0
       \endverb
     \endentry
+    \entry{CatchmentBasedApproach2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed39f1b04278c5060fab7de0ffa7f2e9}{%
+           family={Approach},
+           familyi={A\bibinitperiod},
+           given={Catchment\bibnamedelima Based},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{fullhash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{fullhashraw}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{bibnamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{authorbibnamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{authornamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{authorfullhash}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{authorfullhashraw}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Local Communities - CaBA}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://catchmentbasedapproach.org/local-communities/
+      \endverb
+      \verb{url}
+      \verb https://catchmentbasedapproach.org/local-communities/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
