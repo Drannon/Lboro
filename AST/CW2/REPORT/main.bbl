@@ -347,38 +347,6 @@
       \verb https://www.southernwater.co.uk/media/5o2p1vzz/114-appx-4-testwood-abstraction-licence-11-42-1816-546.pdf
       \endverb
     \endentry
-    \entry{GovernmentOfficeforScience2022}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=5ed857aa1345e318db8add3a57fb1c3e}{%
-           family={Science},
-           familyi={S\bibinitperiod},
-           given={Government\bibnamedelima Office},
-           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod},
-           prefix={for},
-           prefixi={f\bibinitperiod}}}%
-      }
-      \strng{namehash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{fullhash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{fullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{bibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{authorbibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{authornamehash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{authorfullhash}{5ed857aa1345e318db8add3a57fb1c3e}
-      \strng{authorfullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Systems thinking: An Introductory Toolkit for Civil Servants}
-      \field{type}{techreport}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
-      \endverb
-      \verb{url}
-      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
-      \endverb
-    \endentry
     \entry{NavyCommandFOISection2021}{report}{}{}
       \name{author}{1}{}{%
         {{hash=87b1c61f93cf2438cbdc34f8a8360e69}{%
@@ -395,8 +363,8 @@
       \strng{authornamehash}{87b1c61f93cf2438cbdc34f8a8360e69}
       \strng{authorfullhash}{87b1c61f93cf2438cbdc34f8a8360e69}
       \strng{authorfullhashraw}{87b1c61f93cf2438cbdc34f8a8360e69}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -426,8 +394,8 @@
       \strng{authornamehash}{8592bd4a69e0a92771c029c78ad3ec98}
       \strng{authorfullhash}{8592bd4a69e0a92771c029c78ad3ec98}
       \strng{authorfullhashraw}{8592bd4a69e0a92771c029c78ad3ec98}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online; Accessed 2025/11/28]}
@@ -438,6 +406,38 @@
       \endverb
       \verb{url}
       \verb https://www.army.mod.uk/learn-and-explore/about-the-army/corps-regiments-and-units/royal-logistic-corps/regular-units/17-port-and-maritime-regiment-rlc/
+      \endverb
+    \endentry
+    \entry{GovernmentOfficeforScience2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ed857aa1345e318db8add3a57fb1c3e}{%
+           family={Science},
+           familyi={S\bibinitperiod},
+           given={Government\bibnamedelima Office},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={for},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{fullhash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{fullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{bibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorbibnamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authornamehash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorfullhash}{5ed857aa1345e318db8add3a57fb1c3e}
+      \strng{authorfullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Systems thinking: An Introductory Toolkit for Civil Servants}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/systems-thinking-for-civil-servants
       \endverb
     \endentry
     \entry{VisitWinchester2024}{misc}{}{}
@@ -737,33 +737,34 @@
       \verb https://find-and-update.company-information.service.gov.uk/company/02366620/filing-history/MzQ4MDIyMjg1M2FkaXF6a2N4/document?format=pdf&download=0
       \endverb
     \endentry
-    \entry{CatchmentBasedApproach2025}{online}{}{}
+    \entry{HMGovernment2025}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=ed39f1b04278c5060fab7de0ffa7f2e9}{%
-           family={Approach},
-           familyi={A\bibinitperiod},
-           given={Catchment\bibnamedelima Based},
-           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=12477bdf8218bbfdae5f26e0e92ed53a}{%
+           family={Government},
+           familyi={G\bibinitperiod},
+           given={HM},
+           giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{fullhash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{fullhashraw}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{bibnamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{authorbibnamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{authornamehash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{authorfullhash}{ed39f1b04278c5060fab7de0ffa7f2e9}
-      \strng{authorfullhashraw}{ed39f1b04278c5060fab7de0ffa7f2e9}
+      \strng{namehash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{fullhash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{fullhashraw}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{bibnamehash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{authorbibnamehash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{authornamehash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{authorfullhash}{12477bdf8218bbfdae5f26e0e92ed53a}
+      \strng{authorfullhashraw}{12477bdf8218bbfdae5f26e0e92ed53a}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Local Communities - CaBA}
+      \field{note}{[Online; Accessed 05/12/2025]}
+      \field{title}{Great British Railways and the public ownership programme - GOV.UK}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://catchmentbasedapproach.org/local-communities/
+      \verb https://www.gov.uk/guidance/great-british-railways
       \endverb
       \verb{url}
-      \verb https://catchmentbasedapproach.org/local-communities/
+      \verb https://www.gov.uk/guidance/great-british-railways
       \endverb
     \endentry
   \enddatalist
