@@ -408,6 +408,197 @@
       \verb https://www.army.mod.uk/learn-and-explore/about-the-army/corps-regiments-and-units/royal-logistic-corps/regular-units/17-port-and-maritime-regiment-rlc/
       \endverb
     \endentry
+    \entry{McCormack04052023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b0cfa68811d0774133a9635fd6c47976}{%
+           family={McCormack},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3eb340f4858c93c12cd64b3592380476}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Gemma\bibnamedelimb J.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf291d3a895ac7a05992b1a437a3c9ae}{%
+           family={Hulme},
+           familyi={H\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b1849ebe9005e66246e96d0be7d0d96e}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Ben\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=6f0bf0660b20e36dbb65b7bcc30c6a91}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92dc00532bf303d19a30c7b7e261e5d9}{%
+           family={Salmon},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{f574464da2d0555f7ce50ccc411dfd88}
+      \strng{fullhash}{d7ae6600b27dda4f7477facca1829323}
+      \strng{fullhashraw}{d7ae6600b27dda4f7477facca1829323}
+      \strng{bibnamehash}{d7ae6600b27dda4f7477facca1829323}
+      \strng{authorbibnamehash}{d7ae6600b27dda4f7477facca1829323}
+      \strng{authornamehash}{f574464da2d0555f7ce50ccc411dfd88}
+      \strng{authorfullhash}{d7ae6600b27dda4f7477facca1829323}
+      \strng{authorfullhashraw}{d7ae6600b27dda4f7477facca1829323}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ergonomics}
+      \field{note}{PMID: 35866642}
+      \field{number}{5}
+      \field{title}{Using systems thinking-based risk assessment methods to assess hazardous manual tasks: a comparison of Net-HARMS, EAST-BL, FRAM and STPA}
+      \field{volume}{66}
+      \field{year}{2023}
+      \field{pages}{609\bibrangedash 626}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/00140139.2022.2105959
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/00140139.2022.2105959
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00140139.2022.2105959
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00140139.2022.2105959
+      \endverb
+    \endentry
+    \entry{Rasmussen1997}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=72f19f84e127f393b5a414bef06e1faa}{%
+           family={Rasmussen},
+           familyi={R\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{fullhash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{fullhashraw}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{bibnamehash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{authorbibnamehash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{authornamehash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{authorfullhash}{72f19f84e127f393b5a414bef06e1faa}
+      \strng{authorfullhashraw}{72f19f84e127f393b5a414bef06e1faa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0925-7535}
+      \field{issue}{2-3}
+      \field{journaltitle}{Safety Science}
+      \field{month}{11}
+      \field{title}{Risk management in a dynamic society: a modelling problem}
+      \field{volume}{27}
+      \field{year}{1997}
+      \field{pages}{183\bibrangedash 213}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1016/S0925-7535(97)00052-0
+      \endverb
+    \endentry
+    \entry{Beer1972}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd1fd36e7960e25622cccc0e9ced8e95}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Stafford},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Allen Lane}%
+      }
+      \strng{namehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{bibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorbibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authornamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brain of the firm : the managerial cybernetics of organization}
+      \field{year}{1972}
+    \endentry
+    \entry{Henshaw2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7d358b07467245b91e3d9d06b48de3cc}{%
+           family={Michael\bibnamedelima Henshaw},
+           familyi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Duncan\bibnamedelima Kemp},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           suffix={Melanie\bibnamedelima King},
+           suffixi={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{fullhash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{fullhashraw}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{bibnamehash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{authorbibnamehash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{authornamehash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{authorfullhash}{7d358b07467245b91e3d9d06b48de3cc}
+      \strng{authorfullhashraw}{7d358b07467245b91e3d9d06b48de3cc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{[In Person Lecture Series.]}
+      \field{title}{Applied Systems Thinking}
+      \field{year}{2025}
+    \endentry
+    \entry{Kurtz2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c14a8d0c185be9413d6756534bb79d38}{%
+           family={Kurtz},
+           familyi={K\bibinitperiod},
+           given={C\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a33935b095e8e8b07896abccf043034a}{%
+           family={Snowden},
+           familyi={S\bibinitperiod},
+           given={D\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{fullhash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{fullhashraw}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{bibnamehash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{authorbibnamehash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{authornamehash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{authorfullhash}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \strng{authorfullhashraw}{6068d8eff1f55ebc2c895421bfa8abb4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{IBM SYSTEMS JOURNAL}
+      \field{title}{The new dynamics of strategy: Sense-making in a complex and complicated world}
+      \field{volume}{42}
+      \field{year}{2003}
+      \field{pages}{462\bibrangedash 483}
+      \range{pages}{22}
+    \endentry
     \entry{GovernmentOfficeforScience2022}{report}{}{}
       \name{author}{1}{}{%
         {{hash=5ed857aa1345e318db8add3a57fb1c3e}{%
@@ -426,8 +617,8 @@
       \strng{authornamehash}{5ed857aa1345e318db8add3a57fb1c3e}
       \strng{authorfullhash}{5ed857aa1345e318db8add3a57fb1c3e}
       \strng{authorfullhashraw}{5ed857aa1345e318db8add3a57fb1c3e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Systems thinking: An Introductory Toolkit for Civil Servants}
@@ -456,8 +647,8 @@
       \strng{authornamehash}{9f129eb336f08d0ac2d926dadda8c17c}
       \strng{authorfullhash}{9f129eb336f08d0ac2d926dadda8c17c}
       \strng{authorfullhashraw}{9f129eb336f08d0ac2d926dadda8c17c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online; Accessed 2025/11/19]}
@@ -487,8 +678,8 @@
       \strng{authorfullhash}{03132fea03e8a2f7e9d7da991d54ad87}
       \strng{authorfullhashraw}{03132fea03e8a2f7e9d7da991d54ad87}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online; Accessed 2025/12/05]}
@@ -517,8 +708,8 @@
       \strng{authornamehash}{c7e0a041338ff38c79b965a57d374c11}
       \strng{authorfullhash}{c7e0a041338ff38c79b965a57d374c11}
       \strng{authorfullhashraw}{c7e0a041338ff38c79b965a57d374c11}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -550,8 +741,8 @@
       \strng{authornamehash}{37e4e0826fef9e71d304ada058eccee8}
       \strng{authorfullhash}{37e4e0826fef9e71d304ada058eccee8}
       \strng{authorfullhashraw}{37e4e0826fef9e71d304ada058eccee8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online Video; Accessed 2025/12/29]}
@@ -580,8 +771,8 @@
       \strng{authornamehash}{bda8952a495c1b3685e490c7aa9614c6}
       \strng{authorfullhash}{bda8952a495c1b3685e490c7aa9614c6}
       \strng{authorfullhashraw}{bda8952a495c1b3685e490c7aa9614c6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Systems Research and Behavioral Science Syst. Res}
@@ -619,8 +810,8 @@
       \strng{authornamehash}{8628dd5ef1106fa20cffe29af28a487d}
       \strng{authorfullhash}{8628dd5ef1106fa20cffe29af28a487d}
       \strng{authorfullhashraw}{8628dd5ef1106fa20cffe29af28a487d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2}
@@ -652,8 +843,8 @@
       \strng{authornamehash}{0c7d28e5ded12378461e6683280daa9b}
       \strng{authorfullhash}{0c7d28e5ded12378461e6683280daa9b}
       \strng{authorfullhashraw}{0c7d28e5ded12378461e6683280daa9b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{7818947175}
@@ -684,8 +875,8 @@
       \strng{authorfullhash}{2024edc0f8664e19723e59280618c96e}
       \strng{authorfullhashraw}{2024edc0f8664e19723e59280618c96e}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -722,8 +913,8 @@
       \strng{authornamehash}{0192cef7226af68e563d000131382d29}
       \strng{authorfullhash}{0192cef7226af68e563d000131382d29}
       \strng{authorfullhashraw}{0192cef7226af68e563d000131382d29}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -753,8 +944,8 @@
       \strng{authornamehash}{12477bdf8218bbfdae5f26e0e92ed53a}
       \strng{authorfullhash}{12477bdf8218bbfdae5f26e0e92ed53a}
       \strng{authorfullhashraw}{12477bdf8218bbfdae5f26e0e92ed53a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online; Accessed 05/12/2025]}
