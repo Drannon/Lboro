@@ -15,6 +15,35 @@ they require infrastructure.
 
 \subsection{Problem Statement}
 
+Autonomy in workboats is as such becoming increasingly mature and is being deployed to many different platforms.
+Until a level of assurance in the autonomous controller's capabilies and reliability is reached (if such a level will ever be reached), human oversight of the vessel will be required in some from.
+Even in situations where autonomy is not the end goal for the vessel, there is a need for a method of removing the crew from the vessel in hazardous conditions.
+This can reduce the chance and/or severity of accidents (man overboard, injuries from machinery, loss of platform) whilst potentially improving quality of life for those crews
+(e.g.\ protection from the elements).
+Moreover, there is an opportunity for workboats to be constructed without a wheelhouse and on board controls, which could reduce the cost, complexity, and displacement of the platform.
+In all of these situations remote control of the vessel is desirable: to keep watch over autonomy or remove the crew from the vessel.
+As mentioned above, Workboat Code edition 3 Annexe 2 \cite{ShipStandards2025} prescribes requirements for an ROUV, but does not prescribe solutions to this issue.
+
+In designing a remote control unit (RCU), the manner in which the operator issues commands and receives information is important.
+The RCU will have to be provide situational awareness that is at least as good as a crew member would have aboard the vessel.
+It also must be able to provide the same functionality and level of control as those controls normally found aboard the platform.
+Additionally, it must be capable of connecting to the vessel in a reliable and secure way.
+Such a communication channel must be capable of providing an appropriate SIL, and must permit the transmission of commands, information, and alerts simultaneously.
+There a number of approaches to this that are dependant on the setting in which the controller would be used.
+
+There are also specific needs that an RCU will need to meet introduced by the remote control.
+The platform can only accept one controller at a time to avoid complexity in controller hierarchy.
+As such, the RCU will need to manage assuming control of the vessel, both from a ``cold start'' and from an exant controller.
+Additionally, the RCU will need to manage different methods of control behaviour (open water operation, confined spaces, and dynamic station keeping) whilst also being able to manage a degraded
+communication environment (such as in inclement weather).
+
+Managing ROUV subsystems is also core functionality that must be met.
+Control of the propulsion and power systems is necessary for controlling movement and for enabling a ``cold start'' scenario.
+COLREGs 1972 mandates shapes, lights, and sounds that must be managed depending on the boat's situation and movements, and must be controlled as well.
+Additionally, the emergency system aboard the vessel must be controlled as well.
+This includes both alerts to the operator and the emergency stop functionalities.
+To that end, the vessel must also comply with all relevent legislation, such as that pertaining to the ROUV and also to those regarding radio communications.
+
 \subsection{System Narrative}
 
 \subsection{Aims and Objectives}

@@ -16,5 +16,43 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ShipStandards2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=4ed729d0dae75396f292b4877e5d1b18}{%
+           family={{Ship Standards}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Maritime}%
+        {Coastguard Agency}%
+      }
+      \strng{namehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{fullhash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{fullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{bibnamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorbibnamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authornamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorfullhash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorfullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Workboat Code Edition 3}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb www.gov.uk/government/organisations/maritime-and-coastguard-agency
+      \endverb
+      \verb{url}
+      \verb www.gov.uk/government/organisations/maritime-and-coastguard-agency
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
