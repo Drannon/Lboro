@@ -70,6 +70,7 @@
       \strng{authornamehash}{4ed729d0dae75396f292b4877e5d1b18}
       \strng{authorfullhash}{4ed729d0dae75396f292b4877e5d1b18}
       \strng{authorfullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -247,6 +248,121 @@
       \verb www.hd.com/en/business/shipbuilding/avikus/contents
       \endverb
     \endentry
+    \entry{TextronSystems2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=0631881133c3c9cb764b42ae394b6cb4}{%
+           family={{Textron Systems}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{fullhash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{fullhashraw}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{bibnamehash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{authorbibnamehash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{authornamehash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{authorfullhash}{0631881133c3c9cb764b42ae394b6cb4}
+      \strng{authorfullhashraw}{0631881133c3c9cb764b42ae394b6cb4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Common Unmanned Surface Vehicle | Textron Systems}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.textronsystems.com/products/cusv
+      \endverb
+      \verb{url}
+      \verb https://www.textronsystems.com/products/cusv
+      \endverb
+    \endentry
+    \entry{Manley2008}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7531beeb2ffdc02f240ed78fea53a00}{%
+           family={Manley},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{fullhash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{fullhashraw}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{bibnamehash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{authorbibnamehash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{authornamehash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{authorfullhash}{f7531beeb2ffdc02f240ed78fea53a00}
+      \strng{authorfullhashraw}{f7531beeb2ffdc02f240ed78fea53a00}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bibliographic Level Mode of Issuance: Monograph.}
+      \field{booktitle}{Unmanned Surface Vehicles, 15 Years of Development}
+      \field{isbn}{9781424426201}
+      \field{title}{Oceans 2008}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.scopus.com/pages/publications/70350103995?origin=resultslist
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/pages/publications/70350103995?origin=resultslist
+      \endverb
+    \endentry
+    \entry{Campbell2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=179d6b0bcad5924e6235d22a57e9ec25}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e64a8e454ad266fb789a035173ab45cd}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=434e67999991dea1820586cc3cc069d1}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{356a7889b9dd045f09348d1f7e01525e}
+      \strng{fullhash}{145754eba39143440267d754dc666f12}
+      \strng{fullhashraw}{145754eba39143440267d754dc666f12}
+      \strng{bibnamehash}{145754eba39143440267d754dc666f12}
+      \strng{authorbibnamehash}{145754eba39143440267d754dc666f12}
+      \strng{authornamehash}{356a7889b9dd045f09348d1f7e01525e}
+      \strng{authorfullhash}{145754eba39143440267d754dc666f12}
+      \strng{authorfullhashraw}{145754eba39143440267d754dc666f12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13675788}
+      \field{issue}{2}
+      \field{journaltitle}{Annual Reviews in Control}
+      \field{month}{9}
+      \field{title}{A review on improving the autonomy of unmanned surface vehicles through intelligent collision avoidance manoeuvres}
+      \field{volume}{36}
+      \field{year}{2012}
+      \field{pages}{267\bibrangedash 283}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.arcontrol.2012.09.008
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367578812000430?getft_integrator=scopus&pes=vor#s0030
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367578812000430?getft_integrator=scopus&pes=vor#s0030
+      \endverb
+      \keyw{Autonomy,COLREGs,Collision avoidance,Guidance,Motion planning,USVs}
+    \endentry
     \entry{COLREGS1972}{report}{}{}
       \name{author}{1}{}{%
         {{hash=ff97d06cedbf89b55b2034f8f425367b}{%
@@ -269,7 +385,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
-      \field{title}{972 CONVENTION ON THE INTERNATIONAL REGULATIONS FOR PREVENTING COLLISIONS AT SEA}
+      \field{title}{1972 CONVENTION ON THE INTERNATIONAL REGULATIONS FOR PREVENTING COLLISIONS AT SEA}
       \field{type}{techreport}
       \field{year}{1972}
       \verb{urlraw}
@@ -277,6 +393,178 @@
       \endverb
       \verb{url}
       \verb www.cil.nus.edu.sg
+      \endverb
+    \endentry
+    \entry{MIN698}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=4ed729d0dae75396f292b4877e5d1b18}{%
+           family={{Ship Standards}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Maritime}%
+        {Coastguard Agency}%
+      }
+      \strng{namehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{fullhash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{fullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{bibnamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorbibnamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authornamehash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorfullhash}{4ed729d0dae75396f292b4877e5d1b18}
+      \strng{authorfullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{615084:2010}
+      \field{month}{12}
+      \field{title}{MARINE INFORMATION NOTE MIN 698 Amendment 1 (M) Workboat Code Edition 3-Standards and Guidelines for Best Practice}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://assets.publishing.service.gov.uk/media/67654c6fcdb5e64b69e30912/MIN_698_Amendment_1.pdf
+      \endverb
+      \verb{url}
+      \verb https://assets.publishing.service.gov.uk/media/67654c6fcdb5e64b69e30912/MIN_698_Amendment_1.pdf
+      \endverb
+      \keyw{M-notice}
+    \endentry
+    \entry{IEC61508}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=c221291e3a0d7879b5dabb8a6b10903f}{%
+           family={{IEC}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {British Standards Institute}%
+      }
+      \strng{namehash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{fullhash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{fullhashraw}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{bibnamehash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{authorbibnamehash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{authornamehash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{authorfullhash}{c221291e3a0d7879b5dabb8a6b10903f}
+      \strng{authorfullhashraw}{c221291e3a0d7879b5dabb8a6b10903f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{BS EN 61508-1:2010 Functional safety of electrical/electronic/programmable electronic safety-related-systems - Part 1: General requirements}
+      \field{type}{techreport}
+      \field{year}{2010}
+    \endentry
+    \entry{ISO26262}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={{ISO}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {British Standards Institute}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{BS ISO 26262-1:2018 Road Vehicles - Functional Safety Part 1: Vocabulary}
+      \field{type}{techreport}
+      \field{year}{2018}
+    \endentry
+    \entry{DeepTrekker2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=4667bba59549a1a210746f7389461ad9}{%
+           family={Trekker},
+           familyi={T\bibinitperiod},
+           given={Deep},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4667bba59549a1a210746f7389461ad9}
+      \strng{fullhash}{4667bba59549a1a210746f7389461ad9}
+      \strng{fullhashraw}{4667bba59549a1a210746f7389461ad9}
+      \strng{bibnamehash}{4667bba59549a1a210746f7389461ad9}
+      \strng{authorbibnamehash}{4667bba59549a1a210746f7389461ad9}
+      \strng{authornamehash}{4667bba59549a1a210746f7389461ad9}
+      \strng{authorfullhash}{4667bba59549a1a210746f7389461ad9}
+      \strng{authorfullhashraw}{4667bba59549a1a210746f7389461ad9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BRIDGE Console | Advanced ROV Control Station | Deep Trekker}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.deeptrekker.com/shop/products/deep-trekker-display-console
+      \endverb
+      \verb{url}
+      \verb https://www.deeptrekker.com/shop/products/deep-trekker-display-console
+      \endverb
+    \endentry
+    \entry{MARINENAV2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=44e9a7f2a5e0977863e2fbbc7e985bd0}{%
+           family={MARINENAV},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{fullhash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{fullhashraw}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{bibnamehash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{authorbibnamehash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{authornamehash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{authorfullhash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \strng{authorfullhashraw}{44e9a7f2a5e0977863e2fbbc7e985bd0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Oceanus Ultimate ROV System}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.marinenav.ca/oceanus-ultimate-rov.html
+      \endverb
+      \verb{url}
+      \verb https://www.marinenav.ca/oceanus-ultimate-rov.html
+      \endverb
+    \endentry
+    \entry{UXVTechnologies}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b003414e8bdfd3ad880071d024007626}{%
+           family={Technologies},
+           familyi={T\bibinitperiod},
+           given={UXV},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{b003414e8bdfd3ad880071d024007626}
+      \strng{fullhash}{b003414e8bdfd3ad880071d024007626}
+      \strng{fullhashraw}{b003414e8bdfd3ad880071d024007626}
+      \strng{bibnamehash}{b003414e8bdfd3ad880071d024007626}
+      \strng{authorbibnamehash}{b003414e8bdfd3ad880071d024007626}
+      \strng{authornamehash}{b003414e8bdfd3ad880071d024007626}
+      \strng{authorfullhash}{b003414e8bdfd3ad880071d024007626}
+      \strng{authorfullhashraw}{b003414e8bdfd3ad880071d024007626}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SRoC 7" Linux - Enterprise Ground Control Station (GCS)}
+      \verb{urlraw}
+      \verb https://www.uxvtechnologies.com/ground-control-stations/sroc-linux-7
+      \endverb
+      \verb{url}
+      \verb https://www.uxvtechnologies.com/ground-control-stations/sroc-linux-7
       \endverb
     \endentry
   \enddatalist
