@@ -9,9 +9,18 @@ controlling these. Whilst autonomy is garnering a lot of attention in this way,
 there is a need for the expertise and skill that a human controller brings,
 whilst standing them off from the dangers of hazardous environments.
 
-In response to this, development of a remote control system is advisable
-.There have been numerous solutions to this in the past, but often they are static and
-they require infrastructure.
+An area of great interest currently is in unmanned air vehicles, where
+development is being taken up in earnest by organisations from major engineering
+firms to undergraduate project groups.
+Another field which is developing rapidly, however, is that of marine autonomy.
+This is evidenced by the speech given by the First Sea Lord at the DSEI conference,
+where the need for a ``fleet of crewed, uncrewed, and autonomous platforms''\cite{Jenkins2025} was identified.
+Additionally in the merchant naval space, the uncrewed platforms are being recognised,
+with the Workboat Code Edition 3 adding Annexe 2 in 2025 to specifically target
+what it terms ``Remotely Operated Unmanned Vessels (ROUVs)'' in section 1.1.1 \cite{WBC3}.
+
+Companies such as Saab AB, Thales Group, and L3Harris \cite{SaabAB}\cite{ThalesGroup2025}\cite{L3Harris2026} have been making progress towards realising the vision of a ``hybrid fleet'' whilst companies such as ACUA Ocean, Deep Ocean Engineering, and HD Hyundai \cite{ACUAOcean2025}\cite{DeepOcean2025}\cite{HDHyundaiCoLtd2024} are investing in ROUVs for the commercial market.
+
 
 \subsection{Problem Statement}
 
@@ -22,7 +31,9 @@ This can reduce the chance and/or severity of accidents (man overboard, injuries
 (e.g.\ protection from the elements).
 Moreover, there is an opportunity for workboats to be constructed without a wheelhouse and on board controls, which could reduce the cost, complexity, and displacement of the platform.
 In all of these situations remote control of the vessel is desirable: to keep watch over autonomy or remove the crew from the vessel.
-As mentioned above, Workboat Code edition 3 Annexe 2 \cite{ShipStandards2025} prescribes requirements for an ROUV, but does not prescribe solutions to this issue.
+As mentioned above, Workboat Code edition 3 Annexe 2 \cite{WBC3} prescribes requirements for an ROUV, but does not prescribe solutions to this issue.
+
+\subsection{System Narrative}
 
 In designing a remote control unit (RCU), the manner in which the operator issues commands and receives information is important.
 The RCU will have to be provide situational awareness that is at least as good as a crew member would have aboard the vessel.
@@ -39,11 +50,22 @@ communication environment (such as in inclement weather).
 
 Managing ROUV subsystems is also core functionality that must be met.
 Control of the propulsion and power systems is necessary for controlling movement and for enabling a ``cold start'' scenario.
-COLREGs 1972 mandates shapes, lights, and sounds that must be managed depending on the boat's situation and movements, and must be controlled as well.
+COLREGs 1972 mandates shapes, lights, and sounds that must be managed depending on the boat's situation and movements, and must be controlled as well \cite{COLREGS1972}.
 Additionally, the emergency system aboard the vessel must be controlled as well.
 This includes both alerts to the operator and the emergency stop functionalities.
-To that end, the vessel must also comply with all relevent legislation, such as that pertaining to the ROUV and also to those regarding radio communications.
+To that end, the vessel must also comply with all relevent legislation, such as that pertaining to the ROUV and also to those regarding radio communications \cite{WBC3}, \cite{COLREGS1972}, .
 
-\subsection{System Narrative}
 
 \subsection{Aims and Objectives}
+
+This report aims to provide an initial architectural solution to a man portable RCU that can control an ROUV within line of sight in compliance with all relevant legislation, which can be then used to inform the design of a realised solution.
+
+To do this, this report has the following objectives:
+\begin{enumerate}
+    \item{} To identify scenarios, capabilites, and use cases for an RCU, whilst understanding the relationships between different use cases and the actors external to the system.
+    \item{} To define a set of user activities that the RCU would need to be capable of facilitating derived from the scnearios and use cases.
+    \item{} To derive a set of requirements from the activities, use cases, and relevant legislation, and to functionally decompose them to inform the structure of the RCU.
+    \item{} To identify the constituent parts of a solution, defining their properties and internal structures, allocating them to the functional requirements, and structuring them such that the RCU would be able to facilitate the user activities and scenarios.
+    \item{} To supplement the behavioural model of the architected solution with respect to the structral model, to further understand the interaction between the actors and subsystems.
+\end{enumerate}
+

@@ -19,7 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{ShipStandards2025}{report}{}{}
+    \entry{Jenkins2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e5be34c41fabbac06aeefa482bc4ac22}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Gwyn},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {HM Government}%
+      }
+      \strng{namehash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{fullhash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{fullhashraw}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{bibnamehash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{authorbibnamehash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{authornamehash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{authorfullhash}{e5be34c41fabbac06aeefa482bc4ac22}
+      \strng{authorfullhashraw}{e5be34c41fabbac06aeefa482bc4ac22}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{First Sea Lord General Sir Gwyn Jenkins Speech at DSEI 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/speeches/first-sea-lord-general-sir-gwyn-jenkins-speech-at-dsei-2025
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/speeches/first-sea-lord-general-sir-gwyn-jenkins-speech-at-dsei-2025
+      \endverb
+    \endentry
+    \entry{WBC3}{report}{}{}
       \name{author}{1}{}{%
         {{hash=4ed729d0dae75396f292b4877e5d1b18}{%
            family={{Ship Standards}},
@@ -37,8 +70,8 @@
       \strng{authornamehash}{4ed729d0dae75396f292b4877e5d1b18}
       \strng{authorfullhash}{4ed729d0dae75396f292b4877e5d1b18}
       \strng{authorfullhashraw}{4ed729d0dae75396f292b4877e5d1b18}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{1}
@@ -50,6 +83,200 @@
       \endverb
       \verb{url}
       \verb www.gov.uk/government/organisations/maritime-and-coastguard-agency
+      \endverb
+    \endentry
+    \entry{SaabAB}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=074edf91759ad7f3f051aa40ba513711}{%
+           family={{Saab AB}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{fullhash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{fullhashraw}{074edf91759ad7f3f051aa40ba513711}
+      \strng{bibnamehash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{authorbibnamehash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{authornamehash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{authorfullhash}{074edf91759ad7f3f051aa40ba513711}
+      \strng{authorfullhashraw}{074edf91759ad7f3f051aa40ba513711}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naval Autonomy | Naval | Saab}
+      \verb{urlraw}
+      \verb www.saab.com/products/naval/naval-autonomy
+      \endverb
+      \verb{url}
+      \verb www.saab.com/products/naval/naval-autonomy
+      \endverb
+    \endentry
+    \entry{ThalesGroup2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1033c5e76aa26a0f1a91c0a47bd8a357}{%
+           family={{Thales Group}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{fullhash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{fullhashraw}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{bibnamehash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{authorbibnamehash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{authornamehash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{authorfullhash}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \strng{authorfullhashraw}{1033c5e76aa26a0f1a91c0a47bd8a357}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Naval Drone Warfare | Thales Group}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.thalesgroup.com/en/solutions-catalogue/defence/naval/naval-drone-warfare
+      \endverb
+      \verb{url}
+      \verb https://www.thalesgroup.com/en/solutions-catalogue/defence/naval/naval-drone-warfare
+      \endverb
+    \endentry
+    \entry{L3Harris2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a3825189e241543489ea537191aeabe5}{%
+           family={{L3Harris}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3825189e241543489ea537191aeabe5}
+      \strng{fullhash}{a3825189e241543489ea537191aeabe5}
+      \strng{fullhashraw}{a3825189e241543489ea537191aeabe5}
+      \strng{bibnamehash}{a3825189e241543489ea537191aeabe5}
+      \strng{authorbibnamehash}{a3825189e241543489ea537191aeabe5}
+      \strng{authornamehash}{a3825189e241543489ea537191aeabe5}
+      \strng{authorfullhash}{a3825189e241543489ea537191aeabe5}
+      \strng{authorfullhashraw}{a3825189e241543489ea537191aeabe5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Autonomous Systems | L3Harris® Fast. Forward.}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.l3harris.com/all-capabilities/autonomous-systems
+      \endverb
+      \verb{url}
+      \verb https://www.l3harris.com/all-capabilities/autonomous-systems
+      \endverb
+    \endentry
+    \entry{ACUAOcean2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f70aeb586cd05c9b8ce82233ff63911}{%
+           family={{ACUA Ocean}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{fullhash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{fullhashraw}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{bibnamehash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{authorbibnamehash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{authornamehash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{authorfullhash}{5f70aeb586cd05c9b8ce82233ff63911}
+      \strng{authorfullhashraw}{5f70aeb586cd05c9b8ce82233ff63911}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Home | ACUA Ocean | Uncrewed Surface Vessel | USV | Plymouth, UK}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb www.ocean.tech
+      \endverb
+      \verb{url}
+      \verb www.ocean.tech
+      \endverb
+    \endentry
+    \entry{DeepOcean2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=dba64ce69cddc99dbaa4bed4de16578a}{%
+           family={{Deep Ocean}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{fullhash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{fullhashraw}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{bibnamehash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{authorbibnamehash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{authornamehash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{authorfullhash}{dba64ce69cddc99dbaa4bed4de16578a}
+      \strng{authorfullhashraw}{dba64ce69cddc99dbaa4bed4de16578a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Underwater ROV, USV - Underwater Drones - Deep Ocean Engineering}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb www.deepocean.com
+      \endverb
+      \verb{url}
+      \verb www.deepocean.com
+      \endverb
+    \endentry
+    \entry{HDHyundaiCoLtd2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=0416f393e6fe5de119163878a7080ec1}{%
+           family={{HD Hyundai Co. Ltd.}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{fullhash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{fullhashraw}{0416f393e6fe5de119163878a7080ec1}
+      \strng{bibnamehash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{authorbibnamehash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{authornamehash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{authorfullhash}{0416f393e6fe5de119163878a7080ec1}
+      \strng{authorfullhashraw}{0416f393e6fe5de119163878a7080ec1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Avikus | HD Hyundai}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb www.hd.com/en/business/shipbuilding/avikus/contents
+      \endverb
+      \verb{url}
+      \verb www.hd.com/en/business/shipbuilding/avikus/contents
+      \endverb
+    \endentry
+    \entry{COLREGS1972}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=ff97d06cedbf89b55b2034f8f425367b}{%
+           family={{International Maritime Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Maritime Organization}%
+      }
+      \strng{namehash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{fullhash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{fullhashraw}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{bibnamehash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{authorbibnamehash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{authornamehash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{authorfullhash}{ff97d06cedbf89b55b2034f8f425367b}
+      \strng{authorfullhashraw}{ff97d06cedbf89b55b2034f8f425367b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{972 CONVENTION ON THE INTERNATIONAL REGULATIONS FOR PREVENTING COLLISIONS AT SEA}
+      \field{type}{techreport}
+      \field{year}{1972}
+      \verb{urlraw}
+      \verb www.cil.nus.edu.sg
+      \endverb
+      \verb{url}
+      \verb www.cil.nus.edu.sg
       \endverb
     \endentry
   \enddatalist
