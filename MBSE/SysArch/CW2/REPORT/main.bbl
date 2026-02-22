@@ -485,20 +485,18 @@
     \endentry
     \entry{DeepTrekker2025}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=4667bba59549a1a210746f7389461ad9}{%
-           family={Trekker},
-           familyi={T\bibinitperiod},
-           given={Deep},
-           giveni={D\bibinitperiod}}}%
+        {{hash=ac8a6fff95ec7ed9950917c8076664e7}{%
+           family={{Deep Trekker}},
+           familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{4667bba59549a1a210746f7389461ad9}
-      \strng{fullhash}{4667bba59549a1a210746f7389461ad9}
-      \strng{fullhashraw}{4667bba59549a1a210746f7389461ad9}
-      \strng{bibnamehash}{4667bba59549a1a210746f7389461ad9}
-      \strng{authorbibnamehash}{4667bba59549a1a210746f7389461ad9}
-      \strng{authornamehash}{4667bba59549a1a210746f7389461ad9}
-      \strng{authorfullhash}{4667bba59549a1a210746f7389461ad9}
-      \strng{authorfullhashraw}{4667bba59549a1a210746f7389461ad9}
+      \strng{namehash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{fullhash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{fullhashraw}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{bibnamehash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{authorbibnamehash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{authornamehash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{authorfullhash}{ac8a6fff95ec7ed9950917c8076664e7}
+      \strng{authorfullhashraw}{ac8a6fff95ec7ed9950917c8076664e7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -515,7 +513,7 @@
     \entry{MARINENAV2026}{online}{}{}
       \name{author}{1}{}{%
         {{hash=44e9a7f2a5e0977863e2fbbc7e985bd0}{%
-           family={MARINENAV},
+           family={{MARINENAV}},
            familyi={M\bibinitperiod}}}%
       }
       \strng{namehash}{44e9a7f2a5e0977863e2fbbc7e985bd0}
@@ -541,20 +539,18 @@
     \endentry
     \entry{UXVTechnologies}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=b003414e8bdfd3ad880071d024007626}{%
-           family={Technologies},
-           familyi={T\bibinitperiod},
-           given={UXV},
-           giveni={U\bibinitperiod}}}%
+        {{hash=2d8ed39db177d608eda7c3680fc7cc75}{%
+           family={{UXV Technologies}},
+           familyi={U\bibinitperiod}}}%
       }
-      \strng{namehash}{b003414e8bdfd3ad880071d024007626}
-      \strng{fullhash}{b003414e8bdfd3ad880071d024007626}
-      \strng{fullhashraw}{b003414e8bdfd3ad880071d024007626}
-      \strng{bibnamehash}{b003414e8bdfd3ad880071d024007626}
-      \strng{authorbibnamehash}{b003414e8bdfd3ad880071d024007626}
-      \strng{authornamehash}{b003414e8bdfd3ad880071d024007626}
-      \strng{authorfullhash}{b003414e8bdfd3ad880071d024007626}
-      \strng{authorfullhashraw}{b003414e8bdfd3ad880071d024007626}
+      \strng{namehash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{fullhash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{fullhashraw}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{bibnamehash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{authorbibnamehash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{authornamehash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{authorfullhash}{2d8ed39db177d608eda7c3680fc7cc75}
+      \strng{authorfullhashraw}{2d8ed39db177d608eda7c3680fc7cc75}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -565,6 +561,65 @@
       \endverb
       \verb{url}
       \verb https://www.uxvtechnologies.com/ground-control-stations/sroc-linux-7
+      \endverb
+    \endentry
+    \entry{ObjectManagementGroup2017}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d6b6fbad838f7618c462458711482fa}{%
+           family={{Object Management Group}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Object Management Gruop}%
+      }
+      \strng{namehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{fullhash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{fullhashraw}{4d6b6fbad838f7618c462458711482fa}
+      \strng{bibnamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorbibnamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authornamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorfullhash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorfullhashraw}{4d6b6fbad838f7618c462458711482fa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{OMG Systems Modeling Language Version 1.5}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.omg.org/spec/SysML/20161101
+      \endverb
+      \verb{url}
+      \verb http://www.omg.org/spec/SysML/20161101
+      \endverb
+    \endentry
+    \entry{SparxSystems2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ecae6f2a146b2be5b2eb6481437570fa}{%
+           family={{Sparx Systems}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{fullhash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{fullhashraw}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{bibnamehash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{authorbibnamehash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{authornamehash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{authorfullhash}{ecae6f2a146b2be5b2eb6481437570fa}
+      \strng{authorfullhashraw}{ecae6f2a146b2be5b2eb6481437570fa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Full Lifecycle Modeling for Business, Software and Systems | Sparx Systems}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://sparxsystems.com/products/ea/
+      \endverb
+      \verb{url}
+      \verb https://sparxsystems.com/products/ea/
       \endverb
     \endentry
   \enddatalist

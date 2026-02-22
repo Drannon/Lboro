@@ -3,13 +3,97 @@
 
 \subsection{Functional Requirements Definition}
 
-\subsection{Functional Decomposition, Elaboration, and Allocation}
+A set of functional requirements has been defined and captured in the architectural model.
+These requirements were elicited from the problem statement and the system narrative, along with key legislation.
+This set comprises four high-level requirements (see figure), pertaining to four key functionalities that the RCU must enable:
+\begin{enumerate}
+    \item Taking control of the ROUV
+    \item Operating the ROUV
+    \item Displaying information about the ROUV and its surroundings
+    \item Enabling the control of the ROUV's subsystems
+\end{enumerate}
+
+This was captured in a SysML 1.5~\cite{ObjectManagementGroup2017} requirements diagram using Sparx System's Enterprise Architect~\cite{SparxSystems2026}.
+A requirements diagram was used over traditional requirements management techniques (such as document based approaches) as it allows for a diagrammatic and logical requirement structure to be captured in the model itself.
+It also allows for other model elements to be related to requirements, such that traceability between the requirements and elements can be communicated.
+Key to this approach is the containment relationship, which as shown in Section~\ref{2.2} is further used to define the functional trees that requirements belong to.
+
+When writing the requirements set, the system boundary was set at the human machine interface (HMI) controls and at the connectivity subsystem.
+This leaves the operator and the ROUV itself as external actors on the system.
+As such, requirements such as for training the operator or for the ROUV's handling of RCU data is not considered.
+For this stage in solution architecture, the two key sources of requirements beyond the problem statement were WBC3 Annex 2~\cite{WBC3} and COLREGs~\cite{COLREGS1972}.
+This generally concerns the management of the ROUV subsystems and the communication of information and alerts to the operator.
+Other legislature and standards (such as those set out by OFCOM for radio communications) have been omitted, so that complexity is managed.
+Additionally, the requirements all use the \texttt{<<functionalRequirement>>} stereotype.  
+This is defined in Annex E of the SysML 1.5 specification, and is implemented as standard by Enterprise Architect.
+This adds granularity to the requirements set in separating the functional requirements from any non-functional requirements that may be added at a later point.
+To this end, other requirements (interface, performance, physical, and design requirements) have not yet been elicited in this work.
+These were unnecessary for the initial architecture to be drafted, however would need to be added to complete the set and ensure that all consideration are accounted for in design.
+
+Requirements were also drafted from the creation of scenarios.
+The main flow scenario was shore based operation of the ROUV prior to any open water work.
+This included operating in harbour, transiting to the area of operations, and recovery post-mission.
+An alternative scenario of rescuing the ROUV after a loss of communications/other malfunction leaves it stranded was imagined as an example of alternative behaviour that the architecture will need to be able to accommodate.
+Both of these scenarios define the need to operate the ROUV, both in open water and in harbour.
+Additionally, common to these scenarios is the need to take control of the ROUV\@.
+The ROUV will have a controller that is ``in control,'' such as an autonomy system or coxswain.
+For the RCU to control the ROUV, it will need a method of taking control.
+This was deemed sufficiently distinct from the other three top level requirements and was set at this level.
+
+\subsection{Functional Decomposition, Elaboration, and Allocation}\label{2.2}
+
+Following the definition of the top level requirements, these were functionally decomposed until atomic requirements were reached.
+These decomposed requirements again use the containment relationship to show ownership by their parent, defining functional trees as mentioned above.
+The functional trees do not exist in isolation of each other, however, and relations between different requirements has been captured.
+For example, requirement 3.1 (display navigational data) is owned by requirement 3 (Provide Information) as it is a information requirement, but is derived from requirement 2 (Control ROUV Navigation).
+In order to control the ROUV, it is necessary to understand its current movement and behaviour (see figure).
+
+The requirements set in this state is not complete; level 1 and 2 requirements can be decomposed further, and no consideration has been given to subsystem requirements.
+They are in some cases, however, elaborated upon using the \texttt{<<refines>>} relationship from use cases, as discussed in Section~\ref{2.4}. 
+This provides further traceability through to the behavioural model of the system, and specifically the capabilities that stakeholders require of the system.
+
+Allocation of system requirements to structural parts is done through the\texttt{<<satisfies>>} relation (see figure).
+The blocks that have been allocated to in this way were earmarked for detailed definition, and traceability is maintained throughout the model.
+This avoids the situation where the system does not fully meet its requirement set, and can enable verification of the system to be focussed on the subsystem that is responsible for each requirement.
+In this work, some subsystems are included that have not had any requirements allocated to them; this is the result of incomplete requirements.
+Whilst in a complete requirement set this would indicate that the subsystem is superfluous, at this initial stage of architecture this is not the case.
+
+This requirements set captures the core functionality of the RCU that can then be taken through to structural definition.
 
 \subsection{System Structure Definition}
 
-\subsection{System Interface Behaviour}
+Following the definition and decomposition of requirements, a structural model of the RCU was created.
+This was done using a SysML block definition diagram, along with internal block diagrams created as children of some blocks.
+The blocks are all defined in a hierarchical structure, with a common parent block called RCU\@.
+The system was designed following a hub and spoke structure, with a central ``processor'' sitting between the other parts.
+All parts were related to the RCU block using parts reference relationships.
+
+Of particular focus in this work was the ``HMI Components'' block, which is allocated to a number or requirements.
+This itself has been decomposed into four subsystems and has had its internal structure defined in an IBD\@.
+These subsystems have then had component parts defined which are then used as to type full ports (see below).
+The communications subsystem, which sits at the boundary between the RCU and the ROUV, has also been modelled, though to less detail than the HMI components.
+For completeness, the chassis and power subsystem have been included as placeholders.
+The processor in this stage of the architecture currently serves to manage the connections between the different subsystems in the RCU\@.
+This decision has been chosen both to manage complexity and to inform future system design, mimicking the architecture of a PC or a mobile device.
+In this way the processor can be seen as a ``translation layer'' between the HMI components and the connectivity subsystem.
+
+Internally, the HMI Components have been modelled as passing items between the RCU Operator and the processor.
+The Components are varied and provide a different types of inputs, which have been typed as ``humanInputs.''
+Each part takes these inputs and converts them into ``controlVoltages,'' which are common can be passed onto the processor.
+Similarly, the display and headset take data from the processor and output it to the RCU operator.
+The value type ``data'' is a generalisation of controlVoltages, image, and sound, so that the proxy ports connecting the HMI components to the processors can be of the same type, again to manage complexity.
+
+The RCU IBD defines the rest of the system's internal behaviour.
+Two generic ports have been defined on the system boundary as analogues for the RCU operator and the ROUV controller, which is not within the boundary.
+This keeps the architecture platform agnostic, with any integration to an actual platform requiring definition of this interface.
+This diagram shows the translation layer structure of the processor, with value properties typed as data (or its specialisations) representing the item flow at an instance in time.
+This is then connected to the connectivity subsystem, whose components define the ports.
+In this, the distinction between alerts and information has been modelled, as is required by WBC3\cite{WBC3}.
+Moreover, the neccesity of two-way communication has been modelled through the bi-directional item flow to ``duplexLinkToROUV'', as WBC3 mandates certain information being displayed at all times, including when the RCU is sending commands.
+\subsection{System Interface Behaviour}\label{2.4}
 
 \subsection{Alternative Behaviours}
 
 \subsection{Architecture Analysis}
 
+\end{document}
