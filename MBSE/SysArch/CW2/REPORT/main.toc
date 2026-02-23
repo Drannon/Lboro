@@ -8,10 +8,10 @@
 \contentsline {subsection}{\numberline {2.2}Functional Decomposition, Elaboration, and Allocation}{5}{}%
 \contentsline {subsection}{\numberline {2.3}System Structure Definition}{6}{}%
 \contentsline {subsection}{\numberline {2.4}System Interface Behaviour}{6}{}%
-\contentsline {subsection}{\numberline {2.5}Alternative Behaviours}{6}{}%
-\contentsline {subsection}{\numberline {2.6}Architecture Analysis}{6}{}%
-\contentsline {section}{\numberline {3}Conclusion}{7}{}%
-\contentsline {subsection}{\numberline {3.1}System Specification}{7}{}%
-\contentsline {subsection}{\numberline {3.2}Achievement of Aims and Objectives}{7}{}%
-\contentsline {subsection}{\numberline {3.3}Highlights and Recommendations}{7}{}%
-\contentsline {section}{References}{8}{}%
+\contentsline {subsection}{\numberline {2.5}Alternative Behaviours}{7}{}%
+\contentsline {subsection}{\numberline {2.6}Architecture Analysis}{7}{}%
+\contentsline {section}{\numberline {3}Conclusion}{8}{}%
+\contentsline {subsection}{\numberline {3.1}System Specification}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Achievement of Aims and Objectives}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Highlights and Recommendations}{8}{}%
+\contentsline {section}{References}{9}{}%

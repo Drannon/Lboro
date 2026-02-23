@@ -90,10 +90,56 @@ This diagram shows the translation layer structure of the processor, with value 
 This is then connected to the connectivity subsystem, whose components define the ports.
 In this, the distinction between alerts and information has been modelled, as is required by WBC3\cite{WBC3}.
 Moreover, the neccesity of two-way communication has been modelled through the bi-directional item flow to ``duplexLinkToROUV'', as WBC3 mandates certain information being displayed at all times, including when the RCU is sending commands.
+As mentioned in Section~\ref{1.3}, the method of communication is important.
+
+
 \subsection{System Interface Behaviour}\label{2.4}
 
+The behavioural model of the system has also been modelled, with the main behaviour focussing on the normal operation scenario.
+Initially, a SysML activity hierarchy~\cite{ObjectManagementGroup2017} was created, within which are a number of activity diagrams.
+These activity diagrams are in some cases comprised of activities themselves.
+These are linked by part references to the Normal Operation top level activity, which itself has no diagram.
+Due to the HMI nature of the RCU, all diagrams share three partitions: RCU Operator, RCU, and ROUV\@.
+In almost all cases, the RCU Operator and ROUV never interact directly; the RCU is the sole means of communication between the two.
+This is not true specifically in the ``Hand Over Control'' activity defined in ``Prepare ROUV for boarding'' (whilst the parent activity is not part of Normal Operation, the child activity is).
+This is because in this specific situation, the ROUV is being handed off to crew aboard the vessel, where the ROUV could reasonably be taken ``offline.''
+This is as such a generalisation of the handover relationship.
+The SendSignal and ReceiveEvent kinds of action have been used to represent interrupts sent between the RCU and the ROUV\@.
+This is distinct from the atomic actions, which activate solely from tokens passed along control flows or items along object flows (i.e.\ synchronous events).
+Another feature of note is the use of \texttt{<<continuous>>} object flows in the Take Control activity diagram.
+This represents the continuous, broadcast nature of the ROUV's information channels.
+This is to enable any connected RCU to see the control positions and other information at all times (some of which is mandated by~\cite{WBC3}).
+This does pose a security concern in that the information, if constantly broadcast, could be intercepted by a threat actor.
+To mitigate this, a method of encryption should be employed for critical information, though this is without the scope of this work at this stage.
+
+Following the definition of the RCU structure, the system operation calls were modelled through SysML sequence diagrams~\cite{ObjectManagementGroup2017}.
+These have been produced for two scenarios: initial RCU connection (in RCU connection SD), and RCU General Sequences.
+RCU connection SD is an example of the subsystem-level sequence modelling that will be employed over the rest of the possible procedures and scenarios.
+It again shows the intermediary nature of the processor, and also it's status as a system controller (in owning the initialiseRCU method).
+The RCU General Sequences diagram shows.
 \subsection{Alternative Behaviours}
 
 \subsection{Architecture Analysis}
+
+There is a risk that the communication link between the ROUV and the RCU would require a radio frequency that is not easily accessible.
+Most frequency bands are managed by OFCOM in the UK and require a license to use.
+Acquiring a license for a different frequency band than has already been acquired for a vessel introduces cost and integration delays that could be avoided with the use of a frequency band without the need of a license.
+To check this, a simplified model of the harbour environment was used.
+Free Space Path Loss (FSPL) can be calculated as follows:
+$FSPL = 20 \log_{10}{d} + 20 \log_{10}{f} + 32.44 - G_{t} - G_{r}$, where $d$ is the distance of measurement in kilometres, $f$ is the frequency of the transmission in megahertz, and $G_{t}$ and $G_{r}$ are the antenna gains of the transmitter and receiver, respectively~\cite{IEEEAntennasandPropagationSociety2013}\cite{Kou2000}.
+For the receiver to receive valid commands reliably, the FSPL must be less than the receiver sensitivity value.
+Assuming that the communication is over LDP433 (A frequency band at 433 MHz exempt from licensing under OFCOM's IR 2030\cite{OFCOM2023}), the equation can be solved for $d$.
+\begin{align*}
+    \Rightarrow 20\log_{10}{d} =& FSPL + G_{t} + G_{r} - 32.44 - 20\log_{10}{f} \\
+    \Rightarrow \log_{10}{d} =& \frac{\left(FSPL + G_{t} + G_{r}\right)}{20} - 1.622 - \log_{10}{f} \\
+    \Rightarrow d =& 10^{\left(\frac{\left(FSPL + G_{t} + G_{r}\right)}{20} - 1.622 - \log_{10}{f}\right)} \\
+    let f \equiv& 433 MHz \\
+    G_{t} \equiv& G_{r} \equiv 1.5 dB \\ 
+    FSPL \equiv& 100 dB \\
+    \Rightarrow d =& 10 ^{\left(\frac{\left(100 + 1.5 + 1.5\right)}{20}-1.622-\log_{10}{433}\right)} \\
+    \Rightarrow d =& 10 ^{\left(5.15 - 1.622 - 2.636\right)} = 10^{0.892} \\
+    \Rightarrow d \approx& 7.8 km
+\end{align*}
+Taking an acceptable line of sight range of 5 km, it is safe to assume that LDP433 is a suitable frequency band and can be used on the RCU, enabling this method of communication over another (such as fibreoptic link).
 
 \end{document}

@@ -595,7 +595,7 @@
       \verb http://www.omg.org/spec/SysML/20161101
       \endverb
     \endentry
-    \entry{SparxSystems2026}{misc}{}{}
+    \entry{SparxSystems2026}{online}{}{}
       \name{author}{1}{}{%
         {{hash=ecae6f2a146b2be5b2eb6481437570fa}{%
            family={{Sparx Systems}},
@@ -620,6 +620,108 @@
       \endverb
       \verb{url}
       \verb https://sparxsystems.com/products/ea/
+      \endverb
+    \endentry
+    \entry{IEEEAntennasandPropagationSociety2013}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=d33e4f19553fcdefe424eb9d8abbe249}{%
+           family={Antennas},
+           familyi={A\bibinitperiod},
+           given={IEEE},
+           giveni={I\bibinitperiod}}}%
+        {{hash=aef39caa99e7ce3adb8e93b153cff7c7}{%
+           family={Society},
+           familyi={S\bibinitperiod},
+           given={Propagation},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{03260cd84b3924246742a484e9418ab5}
+      \strng{fullhash}{03260cd84b3924246742a484e9418ab5}
+      \strng{fullhashraw}{03260cd84b3924246742a484e9418ab5}
+      \strng{bibnamehash}{03260cd84b3924246742a484e9418ab5}
+      \strng{authorbibnamehash}{03260cd84b3924246742a484e9418ab5}
+      \strng{authornamehash}{03260cd84b3924246742a484e9418ab5}
+      \strng{authorfullhash}{03260cd84b3924246742a484e9418ab5}
+      \strng{authorfullhashraw}{03260cd84b3924246742a484e9418ab5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{IEEE Standard for Definitions of Terms for Antennas}
+      \field{type}{techreport}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6758443
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6758443
+      \endverb
+      \keyw{IEEE 145™,antennas,definitions,terms}
+    \endentry
+    \entry{Kou2000}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=4da1327b129f768957f090ec0f9e8924}{%
+           family={Kou},
+           familyi={K\bibinitperiod},
+           given={Yajun},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{fullhash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{fullhashraw}{4da1327b129f768957f090ec0f9e8924}
+      \strng{bibnamehash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{authorbibnamehash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{authornamehash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{authorfullhash}{4da1327b129f768957f090ec0f9e8924}
+      \strng{authorfullhashraw}{4da1327b129f768957f090ec0f9e8924}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Derivation the dB version of the Path Loss Equation for Free Space.}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://www.ece.uvic.ca/~peterd/35001/ass1a/node1.html
+      \endverb
+      \verb{url}
+      \verb https://www.ece.uvic.ca/~peterd/35001/ass1a/node1.html
+      \endverb
+    \endentry
+    \entry{OFCOM2023}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d58dc2254a414353d82d24274538bd17}{%
+           family={OFCOM},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {OFCOM}%
+      }
+      \strng{namehash}{d58dc2254a414353d82d24274538bd17}
+      \strng{fullhash}{d58dc2254a414353d82d24274538bd17}
+      \strng{fullhashraw}{d58dc2254a414353d82d24274538bd17}
+      \strng{bibnamehash}{d58dc2254a414353d82d24274538bd17}
+      \strng{authorbibnamehash}{d58dc2254a414353d82d24274538bd17}
+      \strng{authornamehash}{d58dc2254a414353d82d24274538bd17}
+      \strng{authorfullhash}{d58dc2254a414353d82d24274538bd17}
+      \strng{authorfullhashraw}{d58dc2254a414353d82d24274538bd17}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{IR 2030 – UK Interface Requirements 2030}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ofcom.org.uk/siteassets/resources/documents/spectrum/interface-requirements/ir-2030.pdf?v=335258
+      \endverb
+      \verb{url}
+      \verb https://www.ofcom.org.uk/siteassets/resources/documents/spectrum/interface-requirements/ir-2030.pdf?v=335258
       \endverb
     \endentry
   \enddatalist
