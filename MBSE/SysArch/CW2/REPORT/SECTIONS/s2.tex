@@ -1,7 +1,7 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 
-\subsection{Functional Requirements Definition}
+\subsection{Functional Requirements Definition}\label{2.1}
 
 A set of functional requirements has been defined and captured in the architectural model.
 These requirements were elicited from the problem statement and the system narrative, along with key legislation.
@@ -115,12 +115,53 @@ To mitigate this, a method of encryption should be employed for critical informa
 Following the definition of the RCU structure, the system operation calls were modelled through SysML sequence diagrams~\cite{ObjectManagementGroup2017}.
 These have been produced for two scenarios: initial RCU connection (in RCU connection SD), and RCU General Sequences.
 RCU connection SD is an example of the subsystem-level sequence modelling that will be employed over the rest of the possible procedures and scenarios.
-It again shows the intermediary nature of the processor, and also it's status as a system controller (in owning the initialiseRCU method).
-The RCU General Sequences diagram shows.
+It again shows the intermediary nature of the processor, and also its status as a system controller (in owning the initialiseRCU method).
+The RCU General Sequences diagram shows the high-level operation of the ROUV, with the HMI components and connectivity subsystem as nested lifelines of the RCU\@.
+This allows for certain behaviours (in this case the takeControl operation) to be owned by the RCU as a whole, concealing the complexity in the operation and focussing on the manoeuvring control structure.
+Within the loop is the \texttt{opt} fragment, which can handle alerts being raised and mimicking the high priority of alerts that is mandated in~\cite{WBC3}.
+It is important to note that as the RCU Operator and the ROUV are actors, they do not have operations that can be called by the RCU\@.
+Instead, they are passed asynchronous signals (such as Command) which are followed by another asynchronous signal or call being made ``in response''.
+
 \subsection{Alternative Behaviours}
+
+Alternative behaviours that the RCU may exhibit have been modelled in this work.
+Alongside the main scenarios, a scenario in which the RCU is used to rescue a stranded ROUV has been identified (see Section~\ref{2.1}).
+In this instance, there is the possibility that the ROUV would need to be boarded by crew to repair the ROUV\@.
+This has been modelled in the ``Rescue ROUV'' use case diagram, where the ROUV can either be navigated home or manoeuvred for personelle transfer.
+Furthermore, this has been developed into the ``Prepare ROUV for boarding'' activity diagram.
+It initally calls a number of other activities, before bringing the boat alongside.
+The need to keep station in various different conditions has been modelled, such that the ROUV can be moored and boarded.
+Once boarded, the ``Hand Over Control'' activity details the handover process, which has been reused as part of the main behaviour (see Section~\ref{2.4})
+This behaviour generally calls for the ability to manoeuvre in tight spaces, to keep station and to permit control handover to a rescue crew.
+The architecture already permits this usage, with the control handover procedure to all types of controller being identical across these types, and the need to dyanmically keep position or drop anchor being mandated by~\cite{WBC3}.
+
+
+Additionally, the need to manage emergencies that occur aboard the ROUV was identified.
+This has been preliminarily explored in the ``Manage Emergencies'' use-case diagram, though the actual implementation of any damage control or emergency stop is highly dependent on the ROUV's control and safety systems, along with the jurisdiction that it is operating in.
+As such, it was not developed beyond this stage.
 
 \subsection{Architecture Analysis}
 
+The architecture successfully addresses all of the core functional requirements drawn from \cite{WBC3} and \cite{COLREGS1972}, along with those derived from the core system scenarios.
+To do this, some tradeoffs have had to be made.
+As mentioned in Section~\ref{1.2}, many solutions extant are bulky or even static.
+This has benefits: Protection from the elements, comfortable working conditions, and greatly enhanced situational awareness is possible from a static control station solution.
+Having multiple monitors and a large number of controls provides an excellent analogue for being aboard the vessel, and as mentioned is a sensible choice for operation beyond visual range.
+These benefits however direclty affect the portability of the device.
+With a single computer monitor ranging from 19 inches diagonal to 34 inches diagonal in some cases~\cite{Knerl2024}, it is infeasible to carry even one monitor around a dockyard, let alone the multiple that are seen in some control station offerings.
+To maintain the mobility and flexibility required by the scenarios (and by moving between those scenarios seamlessly), only a single display has been selected (as evidenced by the multiplicity in ``RCU Structure'').
+This limitation is somewhat offset by the line of sight requirement of the RCU, but this necessitates an alternative control station that can be used for beyond visual range operation, adding cost and complexity to any system of systems that envisions such a scenario.
+Additionally captured is the use of the display as both input and output, using some form of touchscreen (\texttt{RCU::HMI Components::Display::screenSensor}).
+Using a touchscreen permits much greater flexibility in the use of the ROUV, with entire functionalities being added or patched with no change to the hardware.
+It also enables the nesting of menus, gesture control, and an intuitive control scheme that is aligned with current paradigms in personal electronic devices.
+
+Additionally, to maintain portability, battery power has been selected for the power system (evidenced in the \texttt{maxPowerCapacity} value property of \texttt{RCU::Power System} being of type \texttt{batteryCapacity}).
+Whilst lithium ion batteries have become commonplace in many electronic devices, WBC3~\cite{WBC3} mandates that any remote control station have a backup power supply, in the event that the primary supply fails.
+Indeed, questions of reliability must be considered; to maintain an acceptable SIL level for the RCU~\cite{IEC61508}, any batteries selected must be approved to the same SIL level, or used in parallel to add redundancy.
+This has implications for the weight of the unit, and also implications for uptime as a single battery must not be depleted before the completion of the mission.
+The power system has not been investigated in detail in this work, so further research may neccessitate changes.
+
+Furthermore, to maintain a platform agnostic approach, a chassis mounted antenna has been selected as the communcation interface for the RCU\@.
 There is a risk that the communication link between the ROUV and the RCU would require a radio frequency that is not easily accessible.
 Most frequency bands are managed by OFCOM in the UK and require a license to use.
 Acquiring a license for a different frequency band than has already been acquired for a vessel introduces cost and integration delays that could be avoided with the use of a frequency band without the need of a license.
@@ -140,6 +181,6 @@ Assuming that the communication is over LDP433 (A frequency band at 433 MHz exem
     \Rightarrow d =& 10 ^{\left(5.15 - 1.622 - 2.636\right)} = 10^{0.892} \\
     \Rightarrow d \approx& 7.8 km
 \end{align*}
-Taking an acceptable line of sight range of 5 km, it is safe to assume that LDP433 is a suitable frequency band and can be used on the RCU, enabling this method of communication over another (such as fibreoptic link).
+It is reasonable to assume that line of sight operation of the ROUV will be within 1 kilometer, so it is safe to assume that LDP433 is a suitable frequency band and can be used on the RCU, enabling this method of communication over another (such as fibreoptic link).
 
 \end{document}

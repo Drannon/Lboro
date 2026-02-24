@@ -2,3 +2,7 @@
 *.bcf
 *.log
 *.run.xml
+*.toc
+*.bbl
+*.blg
+MBSE/SysArch/CW2/Model
