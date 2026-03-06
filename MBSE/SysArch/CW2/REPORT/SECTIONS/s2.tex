@@ -1,11 +1,12 @@
 \documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../UTIL/FIGS}}}
 \begin{document}
 
 \subsection{Functional Requirements Definition}\label{2.1}
 
 A set of functional requirements has been defined and captured in the architectural model.
 These requirements were elicited from the problem statement and the system narrative, along with key legislation.
-This set comprises four high-level requirements (see figure), pertaining to four key functionalities that the RCU must enable:
+This set comprises four high-level requirements (see figure~\ref{fig:topReq}), pertaining to four key functionalities that the RCU must enable:
 \begin{enumerate}
     \item Taking control of the ROUV
     \item Operating the ROUV
@@ -17,6 +18,13 @@ This was captured in a SysML 1.5~\cite{ObjectManagementGroup2017} requirements d
 A requirements diagram was used over traditional requirements management techniques (such as document based approaches) as it allows for a diagrammatic and logical requirement structure to be captured in the model itself.
 It also allows for other model elements to be related to requirements, such that traceability between the requirements and elements can be communicated.
 Key to this approach is the containment relationship, which as shown in Section~\ref{2.2} is further used to define the functional trees that requirements belong to.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/RCU-Top-Level-Requirements.png}
+        \caption[width=.7\linewidth]{RCU Top Level Requirements}
+        \label{fig:topReq}
+\end{figure}
 
 When writing the requirements set, the system boundary was set at the human machine interface (HMI) controls and at the connectivity subsystem.
 This leaves the operator and the ROUV itself as external actors on the system.
@@ -46,13 +54,13 @@ Following the definition of the top level requirements, these were functionally 
 These decomposed requirements again use the containment relationship to show ownership by their parent, defining functional trees as mentioned above.
 The functional trees do not exist in isolation of each other, however, and relations between different requirements has been captured.
 For example, requirement 3.1 (display navigational data) is owned by requirement 3 (Provide Information) as it is a information requirement, but is derived from requirement 2 (Control ROUV Navigation).
-In order to control the ROUV, it is necessary to understand its current movement and behaviour (see figure).
+In order to control the ROUV, it is necessary to understand its current movement and behaviour (see figure~\ref{fig:derAndSat}).
 
 The requirements set in this state is not complete; level 1 and 2 requirements can be decomposed further, and no consideration has been given to subsystem requirements.
 They are in some cases, however, elaborated upon using the \texttt{<<refines>>} relationship from use cases, as discussed in Section~\ref{2.4}. 
 This provides further traceability through to the behavioural model of the system, and specifically the capabilities that stakeholders require of the system.
 
-Allocation of system requirements to structural parts is done through the\texttt{<<satisfies>>} relation (see figure).
+Allocation of system requirements to structural parts is done through the\texttt{<<satisfies>>} relation (see figure~\ref{fig:derAndSat}).
 The blocks that have been allocated to in this way were earmarked for detailed definition, and traceability is maintained throughout the model.
 This avoids the situation where the system does not fully meet its requirement set, and can enable verification of the system to be focussed on the subsystem that is responsible for each requirement.
 In this work, some subsystems are included that have not had any requirements allocated to them; this is the result of incomplete requirements.
@@ -60,28 +68,57 @@ Whilst in a complete requirement set this would indicate that the subsystem is s
 
 This requirements set captures the core functionality of the RCU that can then be taken through to structural definition.
 
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.5\linewidth]{UTIL/FIGS/derive-and-satisfy.png}
+        \caption[width=.7\linewidth]{Excerpt of requirements heirarchy showing \texttt{<<deriveReqt>>} and \texttt{<<satisfy>>} relationships.}
+        \label{fig:derAndSat}
+\end{figure}
+
+
 \subsection{System Structure Definition}
 
 Following the definition and decomposition of requirements, a structural model of the RCU was created.
 This was done using a SysML block definition diagram, along with internal block diagrams created as children of some blocks.
 The blocks are all defined in a hierarchical structure, with a common parent block called RCU\@.
-The system was designed following a hub and spoke structure, with a central ``processor'' sitting between the other parts.
+The system was designed following a hub and spoke structure, with a central ``processor'' sitting between the other parts (see figure~\ref{fig:TLBDD}).
 All parts were related to the RCU block using parts reference relationships.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/RCU-Structure-One-Level.png}
+        \caption[width=.7\linewidth]{Top Level Block Defintion Diagram}
+        \label{fig:TLBDD}
+\end{figure}
 
 Of particular focus in this work was the ``HMI Components'' block, which is allocated to a number or requirements.
 This itself has been decomposed into four subsystems and has had its internal structure defined in an IBD\@.
-These subsystems have then had component parts defined which are then used as to type full ports (see below).
+These subsystems have then had component parts defined which are then used as to type full ports (see figure~\ref{fig:PortSection}).
 The communications subsystem, which sits at the boundary between the RCU and the ROUV, has also been modelled, though to less detail than the HMI components.
 For completeness, the chassis and power subsystem have been included as placeholders.
 The processor in this stage of the architecture currently serves to manage the connections between the different subsystems in the RCU\@.
 This decision has been chosen both to manage complexity and to inform future system design, mimicking the architecture of a PC or a mobile device.
 In this way the processor can be seen as a ``translation layer'' between the HMI components and the connectivity subsystem.
 
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/ibd-section.png}
+        \caption[width=.7\linewidth]{Section of RCU IBD, showing HMI item type conversion}
+        \label{fig:IBDSection}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/port-view.png}
+        \caption[width=.7\linewidth]{Section of HMI Components IBD, showing full port defintion}
+        \label{fig:PortSection}
+\end{figure}
+
 Internally, the HMI Components have been modelled as passing items between the RCU Operator and the processor.
 The Components are varied and provide a different types of inputs, which have been typed as ``humanInputs.''
 Each part takes these inputs and converts them into ``controlVoltages,'' which are common can be passed onto the processor.
 Similarly, the display and headset take data from the processor and output it to the RCU operator.
-The value type ``data'' is a generalisation of controlVoltages, image, and sound, so that the proxy ports connecting the HMI components to the processors can be of the same type, again to manage complexity.
+The value type ``data'' is a generalisation of controlVoltages, image, and sound, so that the proxy ports connecting the HMI components to the processors can be of the same type, again to manage complexity (see figure~\ref{fig:IBDSection}).
 
 The RCU IBD defines the rest of the system's internal behaviour.
 Two generic ports have been defined on the system boundary as analogues for the RCU operator and the ROUV controller, which is not within the boundary.
@@ -89,7 +126,7 @@ This keeps the architecture platform agnostic, with any integration to an actual
 This diagram shows the translation layer structure of the processor, with value properties typed as data (or its specialisations) representing the item flow at an instance in time.
 This is then connected to the connectivity subsystem, whose components define the ports.
 In this, the distinction between alerts and information has been modelled, as is required by WBC3\cite{WBC3}.
-Moreover, the neccesity of two-way communication has been modelled through the bi-directional item flow to ``duplexLinkToROUV'', as WBC3 mandates certain information being displayed at all times, including when the RCU is sending commands.
+Moreover, the necessity of two-way communication has been modelled through the bi-directional item flow to ``duplexLinkToROUV'', as WBC3 mandates certain information being displayed at all times, including when the RCU is sending commands.
 As mentioned in Section~\ref{1.3}, the method of communication is important.
 
 
@@ -104,7 +141,7 @@ In almost all cases, the RCU Operator and ROUV never interact directly; the RCU 
 This is not true specifically in the ``Hand Over Control'' activity defined in ``Prepare ROUV for boarding'' (whilst the parent activity is not part of Normal Operation, the child activity is).
 This is because in this specific situation, the ROUV is being handed off to crew aboard the vessel, where the ROUV could reasonably be taken ``offline.''
 This is as such a generalisation of the handover relationship.
-The SendSignal and ReceiveEvent kinds of action have been used to represent interrupts sent between the RCU and the ROUV\@.
+The SendSignal and ReceiveEvent kinds of action have been used to represent interrupts sent between the RCU and the ROUV (see figure~\ref{fig:signals}).
 This is distinct from the atomic actions, which activate solely from tokens passed along control flows or items along object flows (i.e.\ synchronous events).
 Another feature of note is the use of \texttt{<<continuous>>} object flows in the Take Control activity diagram.
 This represents the continuous, broadcast nature of the ROUV's information channels.
@@ -112,29 +149,49 @@ This is to enable any connected RCU to see the control positions and other infor
 This does pose a security concern in that the information, if constantly broadcast, could be intercepted by a threat actor.
 To mitigate this, a method of encryption should be employed for critical information, though this is without the scope of this work at this stage.
 
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/signals.png}
+        \caption[width=.7\linewidth]{Section of Operate ROUV activity diagram, showing the use of sendSignal and receiveEvent kinds of activity.}
+        \label{fig:signals}
+\end{figure}
+
 Following the definition of the RCU structure, the system operation calls were modelled through SysML sequence diagrams~\cite{ObjectManagementGroup2017}.
 These have been produced for two scenarios: initial RCU connection (in RCU connection SD), and RCU General Sequences.
 RCU connection SD is an example of the subsystem-level sequence modelling that will be employed over the rest of the possible procedures and scenarios.
 It again shows the intermediary nature of the processor, and also its status as a system controller (in owning the initialiseRCU method).
 The RCU General Sequences diagram shows the high-level operation of the ROUV, with the HMI components and connectivity subsystem as nested lifelines of the RCU\@.
 This allows for certain behaviours (in this case the takeControl operation) to be owned by the RCU as a whole, concealing the complexity in the operation and focussing on the manoeuvring control structure.
-Within the loop is the \texttt{opt} fragment, which can handle alerts being raised and mimicking the high priority of alerts that is mandated in~\cite{WBC3}.
+Within the loop is the \texttt{opt} fragment, which can handle alerts being raised and mimicking the high priority of alerts that is mandated in~\cite{WBC3} (see figure~\ref{fig:opt}).
 It is important to note that as the RCU Operator and the ROUV are actors, they do not have operations that can be called by the RCU\@.
 Instead, they are passed asynchronous signals (such as Command) which are followed by another asynchronous signal or call being made ``in response''.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/opt.png}
+        \caption[width=.7\linewidth]{Section of RCU Sequences sequence diagram, showing alert catching behaviour on receipt of alert}
+        \label{fig:opt}
+\end{figure}
 
 \subsection{Alternative Behaviours}
 
 Alternative behaviours that the RCU may exhibit have been modelled in this work.
 Alongside the main scenarios, a scenario in which the RCU is used to rescue a stranded ROUV has been identified (see Section~\ref{2.1}).
 In this instance, there is the possibility that the ROUV would need to be boarded by crew to repair the ROUV\@.
-This has been modelled in the ``Rescue ROUV'' use case diagram, where the ROUV can either be navigated home or manoeuvred for personelle transfer.
+This has been modelled in the ``Rescue ROUV'' use case diagram, where the ROUV can either be navigated home or manoeuvred for personnel transfer (see figure~\ref{fig:altBehave}).
 Furthermore, this has been developed into the ``Prepare ROUV for boarding'' activity diagram.
-It initally calls a number of other activities, before bringing the boat alongside.
+It initially calls a number of other activities, before bringing the boat alongside.
 The need to keep station in various different conditions has been modelled, such that the ROUV can be moored and boarded.
 Once boarded, the ``Hand Over Control'' activity details the handover process, which has been reused as part of the main behaviour (see Section~\ref{2.4})
 This behaviour generally calls for the ability to manoeuvre in tight spaces, to keep station and to permit control handover to a rescue crew.
-The architecture already permits this usage, with the control handover procedure to all types of controller being identical across these types, and the need to dyanmically keep position or drop anchor being mandated by~\cite{WBC3}.
+The architecture already permits this usage, with the control handover procedure to all types of controller being identical across these types, and the need to dynamically keep position or drop anchor being mandated by~\cite{WBC3}.
 
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/rescue-rouv.png}
+        \caption[width=.7\linewidth]{Section of Rescue ROUV use case diagram showing focussed use case}
+        \label{fig:altBehave}
+\end{figure}
 
 Additionally, the need to manage emergencies that occur aboard the ROUV was identified.
 This has been preliminarily explored in the ``Manage Emergencies'' use-case diagram, though the actual implementation of any damage control or emergency stop is highly dependent on the ROUV's control and safety systems, along with the jurisdiction that it is operating in.
@@ -142,12 +199,11 @@ As such, it was not developed beyond this stage.
 
 \subsection{Architecture Analysis}
 
-The architecture successfully addresses all of the core functional requirements drawn from \cite{WBC3} and \cite{COLREGS1972}, along with those derived from the core system scenarios.
-To do this, some tradeoffs have had to be made.
+To do effectively meet the requirements, some tradeoffs have had to be made in the architecture.
 As mentioned in Section~\ref{1.2}, many solutions extant are bulky or even static.
 This has benefits: Protection from the elements, comfortable working conditions, and greatly enhanced situational awareness is possible from a static control station solution.
 Having multiple monitors and a large number of controls provides an excellent analogue for being aboard the vessel, and as mentioned is a sensible choice for operation beyond visual range.
-These benefits however direclty affect the portability of the device.
+These benefits however directly affect the portability of the device.
 With a single computer monitor ranging from 19 inches diagonal to 34 inches diagonal in some cases~\cite{Knerl2024}, it is infeasible to carry even one monitor around a dockyard, let alone the multiple that are seen in some control station offerings.
 To maintain the mobility and flexibility required by the scenarios (and by moving between those scenarios seamlessly), only a single display has been selected (as evidenced by the multiplicity in ``RCU Structure'').
 This limitation is somewhat offset by the line of sight requirement of the RCU, but this necessitates an alternative control station that can be used for beyond visual range operation, adding cost and complexity to any system of systems that envisions such a scenario.
@@ -159,9 +215,9 @@ Additionally, to maintain portability, battery power has been selected for the p
 Whilst lithium ion batteries have become commonplace in many electronic devices, WBC3~\cite{WBC3} mandates that any remote control station have a backup power supply, in the event that the primary supply fails.
 Indeed, questions of reliability must be considered; to maintain an acceptable SIL level for the RCU~\cite{IEC61508}, any batteries selected must be approved to the same SIL level, or used in parallel to add redundancy.
 This has implications for the weight of the unit, and also implications for uptime as a single battery must not be depleted before the completion of the mission.
-The power system has not been investigated in detail in this work, so further research may neccessitate changes.
+The power system has not been investigated in detail in this work, so further research may necessitate changes.
 
-Furthermore, to maintain a platform agnostic approach, a chassis mounted antenna has been selected as the communcation interface for the RCU\@.
+Furthermore, to maintain a platform agnostic approach, a chassis mounted antenna has been selected as the communication interface for the RCU\@.
 There is a risk that the communication link between the ROUV and the RCU would require a radio frequency that is not easily accessible.
 Most frequency bands are managed by OFCOM in the UK and require a license to use.
 Acquiring a license for a different frequency band than has already been acquired for a vessel introduces cost and integration delays that could be avoided with the use of a frequency band without the need of a license.
@@ -181,6 +237,6 @@ Assuming that the communication is over LDP433 (A frequency band at 433 MHz exem
     \Rightarrow d =& 10 ^{\left(5.15 - 1.622 - 2.636\right)} = 10^{0.892} \\
     \Rightarrow d \approx& 7.8 km
 \end{align*}
-It is reasonable to assume that line of sight operation of the ROUV will be within 1 kilometer, so it is safe to assume that LDP433 is a suitable frequency band and can be used on the RCU, enabling this method of communication over another (such as fibreoptic link).
+It is reasonable to assume that line of sight operation of the ROUV will be within 1 kilometre, so it is safe to assume that LDP433 is a suitable frequency band and can be used on the RCU, enabling this method of communication over another (such as fibreoptic link).
 
 \end{document}

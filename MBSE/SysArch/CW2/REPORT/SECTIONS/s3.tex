@@ -2,12 +2,39 @@
 \begin{document}
     
 \subsection{System Specification}
+\begin{itemize}
+    \item{} The need for a man portable, platform agnostic remote control unit for a remotely operated unmanned vessel has been identified.
+    \item{} Scenarios in which the RCU would need to operate have been synthesised, and capabilities of the RCU in these scenarios developed.
+    \item{} These capabilities have been captured in a preliminary set of use cases and activities for the RCU, forming the basis for a behavioural model of the RCU\@.
+    \item{} Included in this are two potential alternative behaviours that the system would need to facilitate.
+    \item{} A set of core functional requirements was defined from this problem statement and the capabilities, and further requirements from regulation were added.
+    \item{} These requirements were functionally decomposed to level 2 requirements, and then allocated to specific subsystems of the RCU\@.
+    \item{} The initial behavioural model and requirements model informed the development of a structural model, defining subsystems and components using a block definition diagram.
+    \item{} This structural model has been developed through the use of internal block diagrams, defining the internal structure and item flow within the system.
+    \item{} The behavioural model of the system has been developed with sequence diagrams demonstrating sequence of operation and signal flow into and out of the system across the interfaces specified in the structural model.
+    \item{} Architecture has been justified through simple scientific modelling or through discussion of trade offs.
+\end{itemize}
 
 \subsection{Achievement of Aims and Objectives}
+
+This work has achieved its objectives:
+
+\begin{enumerate}
+    \item{} Scenarios, capabilities, and use cases have been defined and captured in the model after research into the area and available solutions on the market, along with technical challenges facing solutions.
+    \item{} Anticipated activity flows have been created, with traceability being maintained from the use cases and research, which have then gone onto creating a requirement model.
+    \item{} The structure defined in the block definition diagram and internal block diagrams are sufficient to facilitate the requirements, as evidenced through the sequence diagramming and allocation of subsystems to requirements.
+    \item{} The structure is able to support two alternative behaviours without any modification.
+
+\end{enumerate}
 
 \subsection{Highlights and Recommendations}
 
 Generally, this architecture is a suitable solution to the need for a platform agnostic remote controller for ROUVs as defined by~\cite{WBC3}.
-At this initial level of fidelity, focussing on core functionality, the architecture meets all relevent requirements from~\cite{WBC3} and~\cite{COLREGS1972}, along with those set out in the problem statement.
-
+At this initial level of fidelity, focussing on core functionality, the architecture meets all relevant requirements from~\cite{WBC3} and~\cite{COLREGS1972}, along with those set out in the problem statement.
+Of particular note is the platform agnostic approach, with complexities in communication being contained entirely in the integrating vessel's control system.
+This allows for a one size fits all RCU, which interfaces with marine radios that are mandatory to have on any vessel~\cite{WBC3}.
+Additionally, this approach means that simple modification of the controls could allow the system to be used in other contexts, such as unmanned ground vehicles.
+The model also maintains traceability throughout and allows for effective and informative communication with stakeholders at various levels of technical prowess.
+The creation of a requirements model also allows for verification and validation planning to be conducted, adding performance requirements and creating test cases that draw from the model.
+Most importantly, this provides a sufficient solution for ROUV control within line of sight, allowing for reduced crew workload, increased safety and quality of life, and for autonomous systems to be deployed to vessels, meeting the call for a ``hybrid fleet.''\cite{Jenkins2025}
 \end{document}

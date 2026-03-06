@@ -1,13 +1,35 @@
 \documentclass[11pt]{article}
 \usepackage{./UTIL/cw2}
 
-\title{}
-\author{Matthew Morton}
-\date{}
+\title{25WS72 Coursework 2: Architectural Design of Remote Control Unit for Remotely Operated Unmanned Vehicle}
+\author{Matthew Morton - F537796}
 
 \begin{document}
 
+\begin{center}
+    \textbf{25WS72: Systems Architecture Coursework 2}
+
+    \textbf{Architectural Design of Remote Control Unit for Remotely Operated Unmanned Vehicle}
+
+    \textbf{F537796}
+\end{center}
+
 \linespread{1.15}
+
+\section*{Abstract}
+
+Autonomy in marine applications is becoming increasingly popular, having developed significantly over the last few decades.
+Whilst confidence in uncrewed vessels is growing, there are still questions around their safety and reliability.
+This presents the need for a method of control for a human operator at certain stages of a mission.
+One such phase is that where the vessel is within line of sight of the operator, such as in docking and undocking.
+To meet this need, an initial architecture for a remote control unit (RCU) has been created.
+This architecture aims to meet the core functional requirements set out by regulation such as the Maritime and Coastguard Agency's Workboat Code Edition 3 Annexe 2.
+Such a remote controller is to be portable and usable in a harbour environment, and must provide control no worse than that of a coxswain aboard a vessel.
+A structural, behavioural, and requirements model has been created in SysML 1.5, and traceability has been created between all three to communicate the architecture clearly to a variety of stakeholders.
+This has resulted in a tablet-like device with physical human machine interface (HMI) controls that sits between the operator and the ROUV\@.
+It converts human inputs to radiofrequency (RF) signals for control of the ROUV, and receives RF signals which it displays to the operator as information or alerts.
+It utilises a hub and spoke structure centreing around a central processor, similar to most modern PCs.
+This serves as a good base for further verification, validation, and design work to create a product ready for this space in the market.
 
 \hrulefill
 

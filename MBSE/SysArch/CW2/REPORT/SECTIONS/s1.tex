@@ -1,4 +1,5 @@
 \documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../UTIL/FIGS}}}
 \begin{document}
 
 \subsection{Background}
@@ -17,46 +18,46 @@ This is evidenced by the speech given by the First Sea Lord at the DSEI conferen
 where the need for a ``fleet of crewed, uncrewed, and autonomous platforms''\cite{Jenkins2025} was identified.
 Additionally in the merchant naval space, the uncrewed platforms are being recognised,
 with the Workboat Code Edition 3 adding Annexe 2 in 2025 to specifically target
-what it terms ``Remotely Operated Unmanned Vessels (ROUVs)'' in section 1.1.1 \cite{WBC3}.
+what it terms ``Remotely Operated Unmanned Vessels (ROUVs)'' in section 1.1.1~\cite{WBC3}.
 
-Companies such as Saab AB, Thales Group, and L3Harris \cite{SaabAB}\cite{ThalesGroup2025}\cite{L3Harris2026} have been making progress towards realising the vision of a ``hybrid fleet'' whilst companies such as ACUA Ocean, Deep Ocean Engineering, and HD Hyundai \cite{ACUAOcean2025}\cite{DeepOcean2025}\cite{HDHyundaiCoLtd2024} are investing in ROUVs for the commercial market.
-Additonally, the US Navy has begun fielding ROUVs, for example the Fleet class Unmanned Surface Vessel built by Textron \cite{TextronSystems2025}.
-In all of these cases autonomy has been the end goal, to perform dangerous task such as mine countermeasures, tedious ones such as survey work \cite{Manley2008}, and other routine but challenging tasks such as docking \cite{Campbell2012}.
+Companies such as Saab AB, Thales Group, and L3Harris~\cite{SaabAB}\cite{ThalesGroup2025}\cite{L3Harris2026} have been making progress towards realising the vision of a ``hybrid fleet'' whilst companies such as ACUA Ocean, Deep Ocean Engineering, and HD Hyundai~\cite{ACUAOcean2025}\cite{DeepOcean2025}\cite{HDHyundaiCoLtd2024} are investing in ROUVs for the commercial market.
+Additionally, the US Navy has begun fielding ROUVs, for example the Fleet class Unmanned Surface Vessel built by Textron~\cite{TextronSystems2025}.
+In all of these cases autonomy has been the end goal, to perform dangerous task such as mine countermeasures, tedious ones such as survey work~\cite{Manley2008}, and other routine but challenging tasks such as docking~\cite{Campbell2012}.
 
 Autonomy in surface ships is a significant challenge, however.
 Any oceangoing vessel must comply with national and international law, which not only set requirements for the vessels but also for the behaviours that they must exhibit.
-A key example of this is the Convention on the International Regulations for Preventing Collisions at Sea (COLREGs) \cite{COLREGS1972}.
+A key example of this is the Convention on the International Regulations for Preventing Collisions at Sea (COLREGs)~\cite{COLREGS1972}.
 COLREGs set out rules determining the lights, shapes, and sounds that a vessel must display depending on its state, but also they describe responsibilities of different vessels in different situations.
-These rules are often subjective, however, and were designed for human navigators \cite{Campbell2012}.
+These rules are often subjective, however, and were designed for human navigators~\cite{Campbell2012}.
 Implementing COLREGs into autonomous systems is as such an area of active development.
 
 To operate in national waters, a ship must be approved by a national agency, which in the UK is the Maritime and Coastguard Agency (MCA).
 To do this, the vessel must show that it is compliant with Workboat Code Edition 3 (WBC3).
-ROUVs are now goverened specifically by Annexe 2, which sets out requirements on the ROUVs and their control stations.
+ROUVs are now governed specifically by Annexe 2, which sets out requirements on the ROUVs and their control stations.
 The control stations on a ROUV can be varied, from a wheelhouse on a retrofit vessel to a land based operations centre.
-Of note is that ROUVs through WBC3 must comply with a number of standards \cite{MIN698}, including BS EN 61508: 2010 \cite{IEC61508}.
+Of note is that ROUVs through WBC3 must comply with a number of standards~\cite{MIN698}, including BS EN 61508: 2010~\cite{IEC61508}.
 This standards concerns the functional safety of electrical/electronic/programmable electronic safety related systems, such as the emergency stop system on a vessel or its damage control systems.
-BS EN 61508 defines Safety Integrity Levels (SIL), which correspond to a number of dangerous failurs per hour.
+BS EN 61508 defines Safety Integrity Levels (SIL), which correspond to a number of dangerous failures per hour.
 For example, achieving SIL 1 compliance requires a failure rate no greater than $10^{-5}$ dangerous failures per hour, whilst SIL 3 requires no greater than $10^{-9}$.
-Whilst implementations of BS EN 61508 are common in many sectors (for example, ISO 26262 for the automotive industry \cite{ISO26262}), ensuring that any automated controllers are also compliant is a challenge.
+Whilst implementations of BS EN 61508 are common in many sectors (for example, ISO 26262 for the automotive industry~\cite{ISO26262}), ensuring that any automated controllers are also compliant is a challenge.
 To ensure that an ROUV has a safety case sufficient to be granted approval from the MCA, remote crew operation capability is often required.
 
 \subsection{Problem Statement}\label{1.2}
 
 As mentioned above, autonomy in workboats is as such becoming increasingly mature and is being deployed to many different platforms.
-Until a level of assurance in the autonomous controller's capabilies and reliability is reached (if such a level will ever be reached), human oversight of the vessel will be required in some from.
+Until a level of assurance in the autonomous controller's capabilities and reliability is reached (if such a level will ever be reached), human oversight of the vessel will be required in some from.
 Even in situations where autonomy is not the end goal for the vessel, there is a need for a method of removing the crew from the vessel in hazardous conditions.
 This can reduce the chance and/or severity of accidents (man overboard, injuries from machinery, loss of platform) whilst potentially improving quality of life for those crews
 (e.g.\ protection from the elements).
 Moreover, there is an opportunity for workboats to be constructed without a wheelhouse and on board controls, which could reduce the cost, complexity, and displacement of the platform.
 In all of these situations remote control of the vessel is desirable: to keep watch over autonomy or remove the crew from the vessel.
-As mentioned above, Workboat Code edition 3 Annexe 2 \cite{WBC3} prescribes requirements for an ROUV, but does not prescribe solutions to this issue.
+As mentioned above, Workboat Code edition 3 Annexe 2~\cite{WBC3} prescribes requirements for an ROUV, but does not prescribe solutions to this issue.
 
 Existing control stations for ROUVs are large and bulky.
 They often are entire rooms, with multiple monitors, a PC like interface, and additional hardware controls set up with communications software built in to enable control or keeping watch of the ROUV beyond visual range.
-In the case where they are designed for use outside (such as in the case of line of sight control or), they are still too large and heavy to be carried by an operator, needing instead to be set up from a single vantage point (such as the Deep Trekker BRIDGE Console \cite{DeepTrekker2025} and MarineNav Oceanus \cite{MARINENAV2026}).
+In the case where they are designed for use outside (such as in the case of line of sight control or), they are still too large and heavy to be carried by an operator, needing instead to be set up from a single vantage point (such as the Deep Trekker BRIDGE Console~\cite{DeepTrekker2025} and MarineNav Oceanus~\cite{MARINENAV2026}).
 This is ideal for situations that are beyond visual range, such as mission operation, however within line of sight this solution becomes significantly less desirable, as being able to walk around a harbour or be aboard a vessel whilst controlling it may provide better situational awareness.
-A possible solution is the SRoC Series of ground control station provided by UXV Technologies \cite{UXVTechnologies}.
+A possible solution is the SRoC Series of ground control station provided by UXV Technologies~\cite{UXVTechnologies}.
 It is a control tablet that is man portable, providing control of a remote vehicle over radio communications using hardware buttons and joysticks built into the tablet.
 This solution is however restricted in its platform agnostic design, failing to offer specific needs of a marine craft (such as throttle control) and integrates with a proprietary communications suite.
 
@@ -73,16 +74,16 @@ There a number of approaches to this that are dependant on the setting in which 
 
 There are also specific needs that an RCU will need to meet introduced by the remote control.
 The platform can only accept one controller at a time to avoid complexity in controller hierarchy.
-As such, the RCU will need to manage assuming control of the vessel, both from a ``cold start'' and from an exant controller.
+As such, the RCU will need to manage assuming control of the vessel, both from a ``cold start'' and from an extant controller.
 Additionally, the RCU will need to manage different methods of control behaviour (open water operation, confined spaces, and dynamic station keeping) whilst also being able to manage a degraded
 communication environment (such as in inclement weather).
 
 Managing ROUV subsystems is also core functionality that must be met.
 Control of the propulsion and power systems is necessary for controlling movement and for enabling a ``cold start'' scenario.
-COLREGs 1972 mandates shapes, lights, and sounds that must be managed depending on the boat's situation and movements, and must be controlled as well \cite{COLREGS1972}.
+COLREGs 1972 mandates shapes, lights, and sounds that must be managed depending on the boat's situation and movements, and must be controlled as well~\cite{COLREGS1972}.
 Additionally, the emergency system aboard the vessel must be controlled as well.
 This includes both alerts to the operator and the emergency stop functionalities.
-To that end, the vessel must also comply with all relevent legislation, and the RCU must enable the vessel to meet those requirements \cite{WBC3} \cite{COLREGS1972}.
+To that end, the vessel must also comply with all relevant legislation, and the RCU must enable the vessel to meet those requirements~\cite{WBC3}~\cite{COLREGS1972}.
 
 
 \subsection{Aims and Objectives}
@@ -91,11 +92,19 @@ This report aims to provide an initial architectural solution to a man portable 
 
 To do this, this report has the following objectives:
 \begin{enumerate}
-    \item{} To identify scenarios, capabilites, and use cases for an RCU, whilst understanding the relationships between different use cases and the actors external to the system.
-    \item{} To define a set of user activities that the RCU would need to be capable of facilitating derived from the scnearios and use cases.
-    \item{} To derive a set of requirements from the activities, use cases, and relevant legislation, and to functionally decompose them to inform the structure of the RCU.
-    \item{} To identify the constituent parts of a solution, defining their properties and internal structures, allocating them to the functional requirements, and structuring them such that the RCU would be able to facilitate the user activities and scenarios.
-    \item{} To supplement the behavioural model of the architected solution with respect to the structral model, to further understand the interaction between the actors and subsystems.
+    \item{} To identify scenarios, capabilities, and use cases for an RCU, whilst understanding the relationships between different use cases and the actors external to the system.
+    \item{} To define a set of functional requirements that can be traced throughout the model, ensuring compliance and justification to inform the structure of the RCU\@.
+    \item{} To identify the constituent parts of a solution, defining their properties and internal structures, allocating them to the functional requirements.
+    \item{} To structure the elements of the system such that the RCU is able to facilitate the user activities and scenarios.
+    \item{} To create an extensible architecture that allows for flexibility in the RCU without significant redesign or modification of the system.
 \end{enumerate}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{../UTIL/FIGS/fleet-class-usv}
+        \caption[width=.7\linewidth]{Fleet Class USV~\cite{FleetClassUSV}}
+        \label{fig:CUSM}
+\end{figure}
+
 
 \end{document}
