@@ -61,7 +61,7 @@ ax0.set_ylabel("Draught [m]")
 ax0.legend(bbox_to_anchor=(0.5, 1.5))
 
 fig0.savefig(
-    "/home/matth/Documents/Courses/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/hull_profile_demos.png",
+    "/home/matth/Documents/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/hull_profile_demos.png",
     dpi=300,
 )
 
@@ -100,7 +100,7 @@ ax1.plot_surface(
 fig1.set_size_inches(16, 9)
 
 fig1.savefig(
-    "/home/matth/Documents/Courses/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/u-k-P-iso.png",
+    "/home/matth/Documents/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/u-k-P-iso.png",
     dpi=300,
 )
 
@@ -108,7 +108,7 @@ ax1.view_init(elev=0, azim=180, roll=0)
 ax1.set_xlabel("")
 ax1.get_xaxis().set_visible(False)
 fig1.savefig(
-    "/home/matth/Documents/Courses/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/k-P.png", dpi=300
+    "/home/matth/Documents/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/k-P.png", dpi=300
 )
 
 ax1.view_init(elev=0, azim=90, roll=0)
@@ -118,7 +118,7 @@ ax1.set_ylabel("")
 ax1.get_yaxis().set_visible(False)
 ax1.set_yticks([])
 fig1.savefig(
-    "/home/matth/Documents/Courses/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/u-P.png", dpi=300
+    "/home/matth/Documents/Lboro/MBSE/VV/CW2/REPORT/UTIL/FIGS/u-P.png", dpi=300
 )
 
 # Range Determination
@@ -160,27 +160,27 @@ t_u_d_1, a_bar_d_1 = utilities.acceleration_time(
     mode=2,
 )
 print(t_u_a_1, a_bar_a_1)
-s_to_u_max_1 = u_cruise_range[0] * t_u_a_1 + a_bar_a_1 * t_u_a_1**2
-s_from_u_max_1 = u_cruise_range * t_u_d_1 + a_bar_d_1 * t_u_d_1**2
-s_cruise = 300 - s_to_u_max_1 - s_from_u_max_1
-
-t_cruise_1 = s_cruise / (u_cruise_range)
-t_total_1 = t_u_a_1 + t_u_d_1 + t_cruise_1
-t_range_1 = np.linspace(0, t_total_1, 100)
-
-Re_cruise_1 = (L * u_cruise_ex) / nu_w
-P_cruise_1 = utilities.drag_power(V_d, L, B, T, Re_cruise_1, rho_w, nu_w)
-
-profile_1 = pd.DataFrame()
-profile_1["Time"] = t_range_1
-profile_1["Energy"] = None
-
-for pos, time in enumerate(profile_1["Time"]):
-    if time <= t_u_a_1:
-        profile_1.loc[pos, "Power"] = P_m
-    elif time <= (t_total_1 - t_u_d_1):
-        profile_1.loc[pos, "Power"] = P_cruise_1
-    else:
-        profile_1.loc[pos, "Power"] = P_m
-
+# s_to_u_max_1 = u_cruise_range[0] * t_u_a_1 + a_bar_a_1 * t_u_a_1**2
+# s_from_u_max_1 = u_cruise_range * t_u_d_1 + a_bar_d_1 * t_u_d_1**2
+# s_cruise = 300 - s_to_u_max_1 - s_from_u_max_1
+#
+# t_cruise_1 = s_cruise / (u_cruise_range)
+# t_total_1 = t_u_a_1 + t_u_d_1 + t_cruise_1
+# t_range_1 = np.linspace(0, t_total_1, 100)
+#
+# Re_cruise_1 = (L * u_cruise_ex) / nu_w
+# P_cruise_1 = utilities.drag_power(V_d, L, B, T, Re_cruise_1, rho_w, nu_w)
+#
+# profile_1 = pd.DataFrame()
+# profile_1["Time"] = t_range_1
+# profile_1["Energy"] = None
+#
+# for pos, time in enumerate(profile_1["Time"]):
+#     if time <= t_u_a_1:
+#         profile_1.loc[pos, "Power"] = P_m
+#     elif time <= (t_total_1 - t_u_d_1):
+#         profile_1.loc[pos, "Power"] = P_cruise_1
+#     else:
+#         profile_1.loc[pos, "Power"] = P_m
+#
 plt.show()
