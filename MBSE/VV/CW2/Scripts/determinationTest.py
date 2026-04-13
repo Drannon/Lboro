@@ -132,55 +132,78 @@ k_range = np.linspace(0, 1, 10)
 E_bat_range = np.linspace(0.5, 1.5, 50)
 Temp_range = np.linspace(-10, 30, 50)
 
-t_u_a_1, a_bar_a_1 = utilities.acceleration_time(
-    u_cruise_range[0],
-    u_cruise_range,
-    100,
-    P_m,
-    V_d,
-    L,
-    B,
-    T,
-    (V_d * rho_w),
-    rho_w,
-    nu_w,
-)
-t_u_d_1, a_bar_d_1 = utilities.acceleration_time(
-    u_cruise_range,
-    u_cruise_range[0],
-    100,
-    P_m,
-    V_d,
-    L,
-    B,
-    T,
-    (V_d * rho_w),
-    rho_w,
-    nu_w,
-    mode=2,
-)
-print(t_u_a_1, a_bar_a_1)
-# s_to_u_max_1 = u_cruise_range[0] * t_u_a_1 + a_bar_a_1 * t_u_a_1**2
-# s_from_u_max_1 = u_cruise_range * t_u_d_1 + a_bar_d_1 * t_u_d_1**2
-# s_cruise = 300 - s_to_u_max_1 - s_from_u_max_1
-#
-# t_cruise_1 = s_cruise / (u_cruise_range)
-# t_total_1 = t_u_a_1 + t_u_d_1 + t_cruise_1
-# t_range_1 = np.linspace(0, t_total_1, 100)
-#
-# Re_cruise_1 = (L * u_cruise_ex) / nu_w
-# P_cruise_1 = utilities.drag_power(V_d, L, B, T, Re_cruise_1, rho_w, nu_w)
-#
-# profile_1 = pd.DataFrame()
-# profile_1["Time"] = t_range_1
-# profile_1["Energy"] = None
-#
-# for pos, time in enumerate(profile_1["Time"]):
-#     if time <= t_u_a_1:
-#         profile_1.loc[pos, "Power"] = P_m
-#     elif time <= (t_total_1 - t_u_d_1):
-#         profile_1.loc[pos, "Power"] = P_cruise_1
-#     else:
-#         profile_1.loc[pos, "Power"] = P_m
-#
+t_u_a_1s = []
+a_bar_a_1s = []
+t_u_d_1s = []
+a_bar_d_1s = []
+
+for i, u in enumerate(u_cruise_range):
+    t_u_a_1, a_bar_a_1 = utilities.acceleration_time(
+        u_cruise_range[0],
+        u,
+        100,
+        P_m,
+        V_d,
+        L,
+        B,
+        T,
+        (V_d * rho_w),
+        rho_w,
+        nu_w,
+    )
+    t_u_a_1s.append(t_u_a_1)
+    a_bar_a_1s.append(a_bar_a_1)
+
+    t_u_d_1, a_bar_d_1 = utilities.acceleration_time(
+        u,
+        u_cruise_range[0],
+        100,
+        P_m,
+        V_d,
+        L,
+        B,
+        T,
+        (V_d * rho_w),
+        rho_w,
+        nu_w,
+        mode=2,
+    )
+    t_u_d_1s.append(t_u_d_1)
+    a_bar_d_1s.append(a_bar_d_1)
+
+t_u_a_1s = np.array(t_u_a_1s)
+a_bar_a_1s = np.array(a_bar_a_1s)
+t_u_d_1s = np.array(t_u_d_1s)
+a_bar_d_1s = np.array(a_bar_d_1s)
+
+s_to_u_max_1 = u_cruise_range[0] * t_u_a_1s + a_bar_a_1s * t_u_a_1s**2
+s_from_u_max_1 = u_cruise_range * t_u_d_1s + a_bar_d_1s * t_u_d_1s**2
+s_cruise = 300 - s_to_u_max_1 - s_from_u_max_1
+
+t_cruise_1 = s_cruise / (u_cruise_range)
+t_total_1 = t_u_a_1s + t_u_d_1s + t_cruise_1
+#t_range_1 = np.linspace(0, t_total_1, 50)
+
+Re_cruise_1 = (L * u_cruise_range) / nu_w
+P_cruise_1 = utilities.drag_power(V_d, L, B, T, Re_cruise_1, rho_w, nu_w)
+
+
+profiles_1 = np.zeros((len(u_cruise_range), 2, len(P_cruise_1)))
+for i, u in enumerate(u_cruise_range):
+    t_range = np.linspace(1, t_total_1[i], len(u_cruise_range))
+    profiles_1[i, 0, :] = t_range
+
+    for pos, time in enumerate(t_range):
+        if time <= t_u_a_1:
+            profiles_1[i, 1, pos] = P_m
+        elif time <= (time - t_u_d_1):
+            profiles_1[i, 1, pos] = P_cruise_1[i]
+        else:
+            profiles_1[i, 1, pos] = P_m
+
+for i in range(50):
+    E_run = simpson(profiles_1[i, 1, :], profiles_1[i, 0, :])
+    print(E_run)
+    # this is working so far :)
+
 plt.show()
