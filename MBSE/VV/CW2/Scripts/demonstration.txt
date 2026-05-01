@@ -1,0 +1,21 @@
+====ROUV Demonstration Test====
+Re = 246933331.2, Fr = 0.2544976408726206
+---------------------
+Power surplus = -361820.3020257009 Watts.
+Requirement ID 1.1.1.3 Pass: False
+--------------------------------------
+Time to cruise: 3.7114817190784404 Seconds.
+Requirement ID 1.1.1.1 Pass: True
+--------------------------------------
+Time to stop: 8.548777107548563 Seconds.
+Requirement ID 1.1.1.2 Pass: True
+--------------------------------------
+Endurance: 1.9021476233627512 hours.
+Requirement ID 2.1.1 Pass: True
+--------------------------------------
+1.4899381844187902
+Extreme Endurance: 1.4899381844187902 Hours.
+Requirement ID 2.1.1.1 Pass: True
+--------------------------------------
+Charging Time: 1.2
+Requirement ID 2.2.1 Pass: False

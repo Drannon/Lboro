@@ -4,10 +4,101 @@
 
 \subsection{Background}
 
+The Woolwich Ferry is a free ferry service operated by Transport for London which connects Woolwich, on the southern bank of the river Thames, and North Woolwich, on the northern bank of the Thames\cite{tfl1}.
+It carries passengers and road vehicles across the Thames at intervals of 15 minutes, taking 5 minutes to make the journey\cite{tfl2}.
+In 2018, the service took delivery of two new diesel-electric ferries.
+These vessels have been beset with issues, and the Mayor of London has issued an apology for their condition\cite{LBC2026}.
+As a result, there is the possibility of replacement vessels being required in the near future.
+
+Following previous work\cite{Morton2026}, this opportunity could be targeted by a remotely operated unmanned vehicle (ROUV) with autonomous capability to reduce crew strain in tedious tasks such as mooring and unmooring.
+Beyond that, moving to a battery electric propulsion system would allow for the service to have significantly reduced carbon emissions and for operating costs to remain stable despite significant fluctuations in petroleum-based fuel prices.
+
+To do this, a ferry must be designed and this design must then undergo a verification and validation (V \& V) programme.
+This means that a number of models will need to be created to understand the effect of different design variables on the performance of the vessel and its compliance against its requirements.
+
+When designing a vessel, a key consideration is that of the power needed to maintain a given speed through water.
+Power is defined as the work done over a given time, which can then be shown to be a function of constant force and velocity:
+
+\[P = \frac{d E}{d t} = \frac{d}{d t} \left(\vec{F} \cdot s \right)\\
+\Rightarrow P = F\frac{d s}{d t}\]
+
+\begin{equation}
+    \Rightarrow P = Fu
+\end{equation}
+
+Where $P$ is power, $E$ is energy (or work done), $t$ is time, $\vec{F}$ is the resultant force on the vessel, $s$ is the distance and $u$ is the velocity of the vessel.
+When considering the forces on the vessel:
+
+\[
+    \vec{F} = \vec{F_{p}} - \vec{F_{d}}\\
+\]
+Where $\vec{F_{p}}$ is the propulsive force, and $\vec{F_{d}}$ is the drag force.
+Newton's well-known second law states that:
+\[
+    \vec{F}=m\vec{a}\\
+    \Rightarrow \vec{a} = \frac{\vec{F}}{m}
+\]
+Where $m$ is the non-zero mass of an object and $\vec{a}$ its acceleration.
+For a constant speed:
+
+\[
+    \vec{a} \equiv 0 \Rightarrow \vec{F} = 0\\
+    \Rightarrow \vec{F_{p}} - \vec{F_{d}} = 0
+\]
+\begin{equation}
+    \Rightarrow \vec{F_{p}} = \vec{F_{d}}   
+\end{equation}
+
+
+Knowing that the the required force for a given speed is equal to the drag force, that drag force must be calculated.
+The force of drag can be found\cite{MANEnergySolutions2023} as:
+\begin{equation}
+    F_{d} = \frac{1}{2} \rho u^{2} A_{s} C_{D}\\
+    \Rightarrow C_{D} = \frac{F_{d}}{\frac{1}{2} \rho u^{2} A_{s}}
+\end{equation}
+
+Where $\rho$ is the density of the fluid (in this case, water), $A_{s}$ is the wetted surface area, and $C_{D}$ the non-dimensionalised drag coefficient.
+$C_{D}$ is composed of three constituent parts, but at Froud numbers $\left(Fr = \frac{uL}{g}\text{, L is the length of the vessel, g is acceleration due to gravity}\right)$ less than 0.25:
+\[C_{D} = C_{V}\]
+Where $C_{V}$ is the coefficient of viscous resistance.
+This is a reasonable assumption for the ROUV, and serves to simplify the models greatly.
+$C_{V}$ can be further decomposed\cite{UnitedStatesNavalAcademy2021}\cite{ITTC2021} as $C_{V} = C_{F} + K C_{F}$, where $C_{F}$ is the coefficient of friction and $K$ is the 'hull form factor.'
+Finally, $C_{F}$ and $K$ can be calculated as follows:
+\begin{equation}
+    C_{F} = \frac{0.075}{\left(\left(\log_{10}{Re}\right)-2\right)^2}
+\end{equation}
+\begin{equation}
+    K \approx 19\left(\frac{\nabla}{LBT} \cdot \frac{B}{L}\right)^{2}
+\end{equation}
+
+Where $\nabla$ is the volume of displacement. $B$ the breadth of the hull, $T$ the draught, and $Re=\frac{Lu}{\nu}$ the non-dimensional Reynolds number of the flow.
+
+With $A_S \approx 1.025 \left(\frac{\nabla}{T}+1.7LT\right)$\cite{MANEnergySolutions2023}, the drag force and thus power can be found.
+
 \subsection{Problem Statement}
+As mentioned above, there is an opportunity for a ferry with novel propulsion and autonomous capability to be entered into service as the Woolwich Ferry.
+Doing so would require a physical architecture, a requirements set (both functional and non-functional), and a V \& V test plan to ensure compliance and that the ROUV would meet stakeholder expectations.
+The current class of ferry is unreliable and expensive, and service is frequently affected.
+Despite the diesel-hybrid propulsion, fluctuations in the price of oil may have an effect on the operating costs of the ferry, and as oil reserves run dry these ferries are not well suited for a long service life.
+Any solution will need to be carefully validated against stakeholder requirements, and verification of the system requirements will help avoid another class of ships that are unreliable and costly.
 
 \subsection{System Narrative}
+The ROUV design shall have a battery electric powertrain, and be largely similar in performance to the ships that preceded the current generation\cite{royalgreenwich}.
+This ROUV shall have a requirements set of both functional and non-functional requirements to inform the design of a physical architecture.
+The system shall be validated against the stakeholder needs in a manner that is traceable throughout.
+A focus will be given to performance, to ensure continuous running of the service, and to reliability.
 
 \subsection{Aims and Objectives}
+This report aims to provide an initial plan for the verification of the system, with validation of requirements and appropriate models informing testing and further design.
+
+To do this, the report has the following objects:
+
+\begin{enumerate}
+    \item To generate an initial requirements set and physical architecture for verification and validation and subsequent design.
+    \item To ascertain stakeholder needs and validate the requirements subset against them, considering both customers, operators, and passengers.
+    \item To produce test procedures for a subset of important requirements and relate them to both requirements but also physical architecture.
+    \item To plan out the verification methods and tests that will verify the requirements, along with performing initial analysis on those requirements to see where design variables can be altered.
+    \item To provide an indication as to the failure modes of the system, their importance, and ways of mitigating them.
+\end{enumerate}
 
 \end{document}

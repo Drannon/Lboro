@@ -239,6 +239,10 @@ def acceleration_time(
             raise (AttributeError("Max Speed not possible"))
 
     a_fs = (delta_Ps) / (m * u_range)
+
+    if mode == 2:
+        a_fs *= -a_fs
+
     a_bar = sum(a_fs) / len(a_fs)
 
     t_u_target = simpson(y=(1 / a_fs), x=u_range)

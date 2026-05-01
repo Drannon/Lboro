@@ -2,16 +2,268 @@
 \graphicspath{{\subfix{../UTIL/FIGS}}}
 \begin{document}
 
-\subsection{Requirements Validation}
+\subsection{Requirements Validation}\label{2.1}
+To begin the verification and validation process, the requirements defined alongside the architecture were validated.
+Specifically, they were validated against the stakeholder needs.
+A set of high level needs were defined, and were related to the requirements where fit.
+The mapping of the needs to the requirements can be seen in figure \ref{fig:SHNeeds}.
+As seen, all of the stakeholder needs are satisfied by at least one requirement.
+Additionally, all requirements are satisfying a stakeholder need, or contain a requirement that does this (the hierarchy of the requirements is not visible in this view).
+There is however a notable exception in that the "Remote Control" stakeholder need is entirely unsatisfied.
+This is because the ship was designed primarily as a "dumb" vessel for simplicity, which could then have remote control capability retrofitted to it.
+Despite this, to enable remote control a much higher bandwidth communications link must be provided than that mandated by Requirement ID 7.1.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/req_valid_m.png}
+        \caption[width=.7\linewidth]{Requirement Validation - Stakeholder Needs}
+        \label{fig:SHNeeds}
+\end{figure}
+
+Additionally, the requirements were validated against existing data.
+For example, the maximum permissible draught of 1.2 metres (Requirement ID 4.1) was validated against charts provided by the Port of London Authority\cite{PLAWoolichCharts}.
+It shows that the minimum depth along the ferry's route is at worst 2.1 metres, meaning that 1.2 metres is sufficiently shallow to avoid grounding even at low tide.
+This was further corroborated by inspection of draught lines on the sides of the previous and current generations of the Woolwich ferry showing a draught of between 1.2 and 1.4 metres\cite{Forge2024}.
+This inspection also verified the dimension envelope requirement (Requirement ID 4.2), where Google Maps was used to estimate the dimensions of the current generation of ferry and was used to inform the dimension envelope\cite{Google2026}.
+A final example is the value of Top Speed Through Water (Requirement ID 1.1.1.3), which is the maximum permissible speed in the region that the ferry operates (between Wandsworth Bridge and Margaretness Point) without special dispensation as set out in \cite{PortOfLondonAuthority2012}.
+
+Validating the requirements against stakeholder needs in this way provides traceability all through the model, relating the requirements, test cases and contexts, and if further developed the design back to the stakeholder.
+This facilitates the defence of any changes and design decisions that arise as a result of design or the V \& V process.
+However, these stakeholder needs are predictive and therefore unlikely to be comprehensive, and iterative engagement with the stakeholders to understand their worldviews and needs would benefit them greatly and lead to a more justified requirements model.
+
 
 \subsection{Test Case Definitions}
 
-\subsection{Verification Compliance Matrix and Testing Plan}
+Following the validation, a number of test cases were developed.
+At this initial level, the requirements deemed most important had their test cases defined.
+As this is a method of public transport, those requirements which relate directly to scheduling of the ferry have been selected.
+These are the forward and astern accelerations (Requirement IDs 1.1.1.1, 1.1.1.2 and children), the top speed through water (Requirement ID 1.1.1.3), the endurance (Requirement ID 2.1.1 and 2.1.1.1), and the charging speed (Requirement ID 2.2.1).
 
-\subsection{Demonstration Testing}
+To do this, three test contexts were defined: one for speed and acceleration, one for endurance, and one for charging speed (see figure \ref{fig:exampleTC}).
+Ideally, these would be stereotyped as \texttt{<<systemContext>>}, which is a non-normative extension of \texttt{<<block>>}.
+This was not implemented in Enterprise Architect 15.1, and defining this stereotype is without the scope of this work.
+As such, \texttt{<<block>>} was chosen to stereotype the test contexts.
+These contexts represent the environment that the test case is a part of, and to manage complexity it has been used to capture the operations, constraints, parts, and values that are relevant to the test cases.
 
-\subsection{Determination Testing}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/tcview1.png}
+        \caption[width=.7\linewidth]{Example Test Context - Speed and Acceleration}
+        \label{fig:exampleTC}
+\end{figure}
 
-\subsection{Failure and Anomaly Analysis}
+The test cases are each activities that read test contexts and other parameters, and then return the verdict.
+The speedAndAccelTest is based off BS ISO 13643-4:2017\cite{ISO13643dash4}, which defines how to test a ship's ability to accelerate among other manoeuvres.
+This has been extended to determine top speed by re-applying full throttle to accelerate to maximum speed through water.
+The standard mandates that the speed be held for 2 minutes (modelled by a timer event element) and only passes if the variation is less than 2\% over that time.
+This prevents either an error in the measuring equipment or a surge from swell approaching from the stern of the vessel from falsely resulting in a pass.
 
+Aligning the above test with the standard lends credence to it and gives confidence in the results.
+Unfortunately, no representative standard was found that would accurately determine the endurance or the charging speed of the vessel.
+This is likely because battery-powered ships may still a niche offering, and because the standards that do exist focus on the lifetime of the battery instead of the single-run range, which is without the scope of this work.
+As a result, a simulation test has been developed to determine the endurance.
+This was not possible for the above, as hydrodynamic forces are dominant in governing the acceleration and speed (see section\ref{2.4}).
+In this case however, to manage cost and to allow testing before integration and production of an entire vessel, a single drive motor is run with a representative resistive load placed in series with it and the battery.
+This test takes a defined speed profile, which defines the power delivered to the motor for a corresponding speed through water (found analytically).
+This profile time, along with the charge remaining and the known nominal capacity, are fed into an operation that calculates the maximum endurance, which in turn is compared to the acceptable value and determines the output.
+Choosing this approach allows for a wide variety of representative loads and profiles to be input, enabling simply comparison of design variables when searching for optimum values.
+
+Finally, the charging test simply reads the battery from the system context and charges in, monitoring the current state of charge until it exceeds 80\%.
+This is then recorded and compared to the acceptable charging time.
+This test also implements a pre-condition, ensuring the battery's state of charge is 20\% and removing the need to describe this in the procedure.
+
+A common feature of these tests is the use of four verdict kinds.
+The pass and fail kinds are mandatory, but the inclusion of both inconclusive and error allow for the test to monitor itself and ensures that the result is representative and useful.
+Additionally, all tests record their initial conditions read from the test context for this reason, or for further analysis to see if these ambient conditions can effect the outcomes.
+
+These test cases provide good coverage over the requirements most important for scheduling of the ferry and for the number of vessels needed to maintain constant service.
+If the system was to be developed further, use of the International Towing Tank Conference's (ITTC) test procedures\cite{ITTC2021} on scale models of the vessel should be used to define further test cases that can allow verification of the manoeuvring requirements before sea trial.
+
+\subsection{Verification Compliance Matrix}
+
+With test procedures defined, a Verification Compliance Matrix (VCM) was drafted.
+This sets out the testing plan, and was used to inform which requirements could be tested in this work (\ref{2.4})
+So that traceability throughout the model from method to requirement is visible, blocks representing different types of testing were defined and related to the requirements using the \texttt{<<satisfy>>} relationship.
+Doing so also allows for the model elements to automatically construct the VCM, which then shows coverage of requirements and reflects any changes made to the model.
+The VCM can be seen in figure \ref{fig:VCM}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/vcm.png}
+        \caption[width=.7\linewidth]{Verification Compliance Matrix}
+        \label{fig:VCM}
+\end{figure}
+
+From the VCM we can see that literature review is applicable to all of the requirements.
+This makes sense, as existing literature informs the models that the other verification methods rely on.
+As a result, it is sensible to perform literature review of the requirements and their domains before commencing any of the other methods.
+It is also a relatively cost-effective method of verification, requiring no specialist equipment and low risk.
+Additionally, reviewing designs is appropriate for requirements that specify design variables, as if they are not properly reflected in the design there is no point proceeding to more intensive methods of verification.
+
+No literature is fully representative of the ROUV, however, so confidence gained through review is low.
+Similarly, the design simply stating that it is compliant is not sufficient.
+Thus, it is necessary to generate models of the system and use their outputs as verification.
+To maintain low risk at this stage, analysis is the next method that should be attempted.
+As above, the literature review provides models for use in both hand calculations and software verification, which is the focus of sections \ref{2.4} and \ref{2.5}.
+As the VCM shows, however, analysis is not applicable to all of the requirements.
+Analysis does not often verify functional requirements, and in some cases defining models is not feasible, such as in verifying communication characteristics.
+Moreover, even though analysis provides more confidence than reviews, the models may not be representative of reality in all cases.
+
+To gain more confidence, models and test rigs can be used to see the effects of certain environmental conditions on performance in reality.
+The model makes the distinction between model/towing tank testing, and test rig testing.
+This is because towing tank specifically tests the dynamics of the ROUV, whilst the test rig tests elements that can operate with simple models of other subsystems.
+The cost of these methods is significant compared to any of the preceding methods, requiring specialist facilities and expertise to run the majority of these tests.
+There is also an increase in risk, with components potentially failing and needing replacement.
+
+The greatest level of confidence is drawn from sea trials, which tests every subsystem post-integration in the expected operating environment.
+As can be seen from the VCM, every requirement is tested in sea trials, as there is a risk that the interaction between subsystems aboard the vessel may lead to emergent behaviour that none of the previous methods will have identified.
+The cost and risk here is highest, with the need to build the vessel, have it certified, and operated along with the potential loss of the platform.
+It is a mandatory part of the V \& V process, however, as it is the final chance for non-compliancies to be identified.
+The cost and risk can also be offset by separating the tests into alongside tests, which are cheaper and safer, and at-sea tests.
+
+Finally, the sea demonstration shows key functionality and performance to the customer.
+A selection of requirements are thus verified with this method, as exhaustive testing would be time-consuming and likely unwanted from the stakeholder's point of view.
+This is the highest-risk method, as failure would result in embarrassment in front of stakeholders and would put into question the results produced by the rest of the process.
+As such, doing it after exhaustive sea-trials is vital.
+
+\subsection{Demonstration Testing}\label{2.4}
+
+Demonstration testing in this work has consisted of software analysis following literature review.
+This testing was to map an initial set of design variables to compliancies.
+Testing and analysis was undertaken using Python 3.14, using the \texttt{numpy}, \texttt{scipy}, \texttt{pandas}, and \texttt{matplotlib} modules.
+A \texttt{utilities.py} module was written, containing helper functions that were used by both the \texttt{demonstrationTest.py} script and the \texttt{determinationTest.py} script (see section \ref{2.5})
+The script runs through testing top speed, acceleration, deceleration, endurance, and charging time, when varying ship hull geometry, cruising speed, battery sizes, and ambient temperatures.
+It's results are printed to \texttt{STDOUT} which can then be recorded in a plaintext file using bash shell redirection.
+The results of the testing can be seen in figure \ref{fig:demoRes}.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/demo-results.png}
+        \caption[width=.7\linewidth]{Results of demonstration tests}
+        \label{fig:demoRes}
+\end{figure}
+
+The initial set of design variables are 'best guesses' based on the non-functional requirements (section \ref{2.1}).
+A variable that is not derived from there is \texttt{k}, defined as the Hull Profile Control Point.
+The model is capable of testing different hull profiles, which result in different volumes of displacement and wetted area which in turn affect the power needed to overcome drag.
+Each hull is defined as a symmetrical, flat bottomed hull for stability and increased displacement compared to prismatic hulls of the same draught.
+The sides of the hull, however, are defined by a cubic bézier curve, whose second control point is free to move up and down the y axis between 0 (the keel) and T (the waterline).
+The cubic bézier curve\cite{Floater2018} is defined as:
+
+\begin{equation}
+    x = (1-t)^{3}x_{1} + 3t(1-t)^{2}x_{2} + 3t^{2}(1-t)x_{3} + t^{3}x_{4}\text{,    } \forall 0 \leq t \leq 1
+\end{equation}
+
+\begin{equation}
+    y = (1-t)^{3}y_{1} + 3t(1-t)^{2}y_{2} + 3t^{2}(1-t)y_{3} + t^{3}y_{4}\text{,    } \forall 0 \leq t \leq 1
+\end{equation}
+
+Where $\left(x_{i}, y_{i}\right)$ are the coordinates of the control points, $(x, y)$ are the coordinates of the point on the curve at $t$.
+These arrays of points are then combined into a spline, which forms the hull profile.
+Here, k corresponds to $y_{2}$, which has the effect seen in figure \ref{fig:hullProfDemo}.
+The parameterisation of the ship's hull in this way allows for flexibility in it's design, and if further analysis determines that a different hull type (e.g. prismatic) is more appropriate, the control points can be adjusted to reflect this change throughout the test.
+From this profile, the area under the line is subtracted from the area $L\cdot B \cdot T$ before being multiplied by $L$ to get the volume of displacement\cite{MANEnergySolutions2023} before being passed to a function that determines the power of the drag on the vessel.
+This is not entirely accurate, as the shape of the bow has been neglected for simplicity.
+Further work should model the bow and re-validate these requirements.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/hull_profile_demos.png}
+        \caption[width=.7\linewidth]{Representative hull profiles}
+        \label{fig:hullProfDemo}
+\end{figure}
+After this, the acceleration requirements are verified.
+Each of the forward and astern accelerations are similar, with different initial and final velocities.
+This is calculated with a helper function that finds the power required for a sample of velocities between the initial and final, and then finds the resultant acceleration for each of these powers.
+It then finds the time required as (found through dimensional analysis):
+\[
+    t = \int{\frac{1}{a(u)}du}
+\]
+The model assumes that the motor power is at its maximum constantly, which is reasonable for verification.
+In service, worse performance may be seen if the coxswain does not provide full motor power.
+The model is also capable of determining if a velocity is not reachable, and will raise an exception if this is the case.
+
+Next the endurance requirement is tested.
+Using the above two functions, a simple power profile is defined where the vessel uses full power to accelerate, then maintains its cruising speed, before using full power to decelerate.
+Numerically integrating along this profile gives the energy used in a single run.
+Finding the number of runs from a nominal battery capacity allows for the total endurance of the vessel to be found.
+This is repeated for a lower ambient temperature.
+To model this, a battery efficiency model was made by fitting a curve to data found in \cite{Seo2021}.
+
+Finally, the charging time simply uses the defined charging power and required capacity to find the time.
+
+The power profile is not ideal, as changes in power are instantaneous, which is not realistic.
+Additionally, the battery efficiency model is reliant on 10 samples.
+For a more accurate model, physical testing with a representative battery would be required.
+
+When looking at the results, it is clear that the vessel is capable of accelerating and decelerating rapidly, and the vessel also complies with the endurance requirements.
+The ROUV is unable to maintain a maximum speed of 12 knots, however, requiring an extra 361 kW, and with the charging power defined the charging time is too long.
+
+\subsection{Determination Testing}\label{2.5}
+To explore the design space further, determination testing was undertaken.
+In this, a set of results was obtained from ranges of design variables.
+First, the max speed requirement was investigated.
+Ranges of top speeds and of vessel profiles were defined, and the power required then plotted as a surface (figure \ref{fig:speedSurf})
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/u-k-P-iso.png}
+        \caption[width=.7\linewidth]{Response surface of Power against cruise speed and hull profile}
+        \label{fig:speedSurf}
+\end{figure}
+The surf shows that the power required is strongly correlated with the cruising speed selected, but only weakly with the hull profile.
+From this, development of the design would see a hull chosen for largest displacement to increase cargo capacity.
+To comply with the top speed requirement, the requirement would need to be relaxed such that a top speed of less than 8.5 knots is required.
+
+Additionally, sensitivities of the different design variables on endurance were identified.
+For each of the variables, ranges were defined and the plots of resultant endurance were generated (figures \ref{fig:hpSense}, \ref{fig:ucSense}, \ref{fig:tempSense}, \ref{fig:tempBatcap}).
+From these plots we can draw some insights:
+First is that the hull profile has a much smaller impact on the range than the other variables, which is consistent with the trend seen in figure \ref{fig:speedSurf}.
+The trend between speed and endurance is also similar to that in figure \ref{fig:speedSurf}
+Ambient temperature has more of an impact than hull profile does, but even at the extreme (-10 degrees), the requirement would still be met.
+Finally, the effect of battery capacity on both battery mass and endurance has been shown.
+Increasing battery capacity has a significant positive impact on the range of the ROUV, but the added mass needs to be considered.
+The graph shows that the mass trend has a larger gradient than the endurance, so any gains in endurance would be eroded by this increasing mass.
+Additionally, as the mass increases, there is a risk that the amount of cargo that the ferry can carry will be reduced.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/hp-sense.png}
+        \caption[width=.7\linewidth]{Hull profile sensitivity}
+        \label{fig:hpSense}
+\end{figure}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/uc-sense.png}
+        \caption[width=.7\linewidth]{Cruising speed sensitivity}
+        \label{fig:ucSense}
+\end{figure}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/temp-sense.png}
+        \caption[width=.7\linewidth]{Temperature sensitivity}
+        \label{fig:tempSense}
+\end{figure}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.7\linewidth]{UTIL/FIGS/temp-batcap.png}
+        \caption[width=.7\linewidth]{Battery Capacity, Endurance, and Mass sensitivity}
+        \label{fig:tempBatcap}
+\end{figure}
+
+\subsection{Failure Analysis}
+At this stage, it is important to consider the failures that could occur with the current architecture.
+To do this, a failure modes and events analysis (FMEA) matrix has been generated.
+In this, each subsystem has had potential failure modes identified.
+Each one has been given a score for severity, likelihood, and preventability.
+These were multiplied together to produce a Risk Priority Number, and were ranked.
+Severities were ranked out of 10 instead of 5 so that the RPN is weighted towards the more severe failure modes.
+The FMEA matrix can be seen in figure \ref{fig:fmea}.
+As the ROUV develops, revisiting the FMEA matrix and identifying failure modes at a subsystem level will provide mitigations that can be incorporated into the design iteratively.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\linewidth]{UTIL/FIGS/fmea.png}
+        \caption[width=.7\linewidth]{FMEA matrix}
+        \label{fig:fmea}
+\end{figure}
 \end{document}
