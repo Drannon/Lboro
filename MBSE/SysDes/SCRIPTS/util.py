@@ -20,3 +20,8 @@ def rstool(X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike) -> np.ndar
 
     model = model.fit(X, y)
     return model.predict([X_test])
+
+
+def ms2kt(V_ms: float) -> float:
+    """Convert a speed in metres per second to knots."""
+    return (900 * V_ms) / 463
