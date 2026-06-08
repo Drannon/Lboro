@@ -38,7 +38,30 @@ This vessel also must keep safety at the forefront of its design, so as to prote
 Specifically, the safety of mooring and unmooring the ferries must be prioritised.
 Not only is the danger clear from the above incident but there is specific guidance prepared by Port Skills and Safety on mooring [cite], section 7 of which details specifically the hazards.
 
+Beyond improving upon the current series, the vessel must also do its job.
+In this case, that is ferrying vehicles and passengers between the two ferry terminals in Woolwich.
+Any solution must carry no fewer passengers nor vehicles than the current series does, and must be capable of keeping to the schedule users expect.
+The vessel must comply (or permit the vessel master to comply) with all pursuant legislation, and the vessel must be ``safe.``
+In this, the vessel must be manoeuvrable (as to avoid a collision if required), stable, and have sufficient depth under keel at all times such that grounding is unlikely whilst considereng effects such as banking or squatting [cite].
+Moreover the vessel must provide excellent control when mooring and unmooring.
 
 \subsection{System Narrative}
+There are two major decisions that have been made to meet the above needs.
+Firstly, the vessel shall feature a fully electric drivetrain so that its emissions in and around the river are zero.
+This shall be achieved through two 500kw motors driving variable-pitch propellors, powered by a battery of 1 megawatt-hours, as decided in a previous work [cite].
+Secondly, it shall be remotely controlled, operating as a ROUV as defined by the Maritime and Coastguard Agency's Workboat Code Edition 3 Annex 2 [cite], to isolate the crew from the hazards of the ferry as much as possible.
+This necessitates that the vessel is fitted with advanced sensing equipment, so that the vessel master maintains good situational awareness even when removed from the ferry.
+Additionally, it necessitates a stable, high-bandwidth communications link between the ROUV and the operator to transfer data and controls.
+
+Beyond this, it shall feature a hull defined by a cubic Bezier Spline, as detailed in [cite].
+It shall have a suitable top speed and its cruise speed, range, and acceleration shall be adequate for its intended journey and schedule.
+It shall retain the same deck area for vehicles as the current series, and shall have no greater a beam than the current series to ensure compatibility with the recently upgraded terminals [cite].
+
+To achieve the requisite control when docking, the ROUV needs to be capable of both about turns (i.e.\ turning on the spot) and of transverse movement.
+A popular method of providing this capability is the azimuth drive, used frequently on tugboats [cite].
+The decision to use conventional propellors however precludes this option.
+Instead, bow and stern thrusters shall be installed on the platform.
+These use electric motors to drive propellors mounted in the hull, perpendicular to the ship's baseline, and can be operated independently to drive the bow and the stern to port or starboard.
+An excerpt of the functional requirements regarding this capability can be seen in figure FIGURE.
 
 \subsection{Aims and Objectives}
