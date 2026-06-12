@@ -32,14 +32,7 @@ def kt2ms(V_kt: float) -> float:
     """Convert a speed in metres per second to knots."""
     return (463 * V_kt) / 900
 
-def deg2rad(theta_deg: float) -> float:
-    """convert an angle in degrees to raidans"""
-    return theta_deg * (180 / np.pi)
 
-def deg2rad(theta_deg: float) -> float:
-    """convert an angle in degrees to raidans"""
-    return theta_deg * (np.pi / 180)
-    
 def bezier_point_calc(
     t: float,
     p1: tuple[float, float],
