@@ -1,10 +1,10 @@
 """Design Enablers."""
 
 import numpy as np
-from util import rho_w, ms2kt
+from util import ms2kt
 
 
-def computeTurningCircle(delta_R: float, A_R: float, U: float) -> float:
+def computeTurningCircle(delta_R: float, c_R: float, b_R: float, U: float) -> float:
     """
     ComputeTC.py.
 
@@ -23,6 +23,7 @@ def computeTurningCircle(delta_R: float, A_R: float, U: float) -> float:
         turning_circle: float - the sustained turning radius (NOT tactical radius) of the given vessel
 
     """
+    A_R = b_R * c_R  # m - profile (NACA 00xx series) increase assumed negligible
     l_0 = 67  # m
     T_0 = 5.7  # m
     A_R_ldm_denom_0 = 23.3  # n.d.
@@ -30,8 +31,7 @@ def computeTurningCircle(delta_R: float, A_R: float, U: float) -> float:
     K_0 = 0.075  # coefficient
 
     turning_radius = (U * A_R0) / (delta_R * A_R * K_0)
-    turning_circle = 2 * turning_radius
-    return turning_circle
+    return turning_radius
 
 
 def computeAboutTurn60Time(S: float, C_D: float, LOA: float, P_t: float) -> float:

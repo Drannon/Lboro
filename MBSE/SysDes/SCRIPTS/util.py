@@ -2,10 +2,14 @@
 
 import numpy as np
 from numpy import typing as npt
-from scipy import simpson
+from scipy.integrate import simpson
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
+
+# Physical constants
+rho_w = 1000  # kg/m3
+rho_steel = 7850  # kg/m3
 
 
 def rstool(X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike) -> np.ndarray:
@@ -35,12 +39,12 @@ def kt2ms(V_kt: float) -> float:
 
 def deg2rad(theta_deg: float) -> float:
     """Convert an angle in degrees to raidans."""
-    return theta_deg * (180 / np.pi)
+    return theta_deg * (np.pi / 180)
 
 
 def rad2deg(theta_deg: float) -> float:
     """Convert an angle in radians to degrees."""
-    return theta_deg * (np.pi / 180)
+    return theta_deg * (180 / np.pi)
 
 
 def bezier_point_calc(
