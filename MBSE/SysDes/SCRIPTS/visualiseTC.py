@@ -1,5 +1,6 @@
 """Visualise the effect of the Design Variables on the Design Objective()."""
 
+import numpy as np
 import pandas as pd
 import pydoe as doe
 import designEnablers as de
@@ -98,5 +99,11 @@ design_space_dict = {
 design_space = pd.DataFrame(data=design_space_dict)
 
 # Plotting
-fig = pd.plotting.scatter_matrix(design_space)
+# pd.plotting.scatter_matrix(design_space)
+
+namecol = np.linspace(1, 500, 500)
+
+design_space["Iteration"] = namecol
+pd.plotting.parallel_coordinates(design_space, "Iteration")
+
 plt.show()
