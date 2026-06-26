@@ -33,7 +33,7 @@ rudder_deflection_rad_range = [util.deg2rad(i) for i in rudder_deflection_range]
 
 # DoE
 # Number of samples
-n_sample = 10
+n_sample = 500
 
 # Generate sampels using Latin Hypercube Sampling
 lhs_samples = doe.lhs(7, n_sample)
@@ -99,7 +99,7 @@ design_space_dict = {
 design_space = pd.DataFrame(data=design_space_dict)
 
 # Plotting
-# pd.plotting.scatter_matrix(design_space)
+pd.plotting.scatter_matrix(design_space)
 
 namecol = np.linspace(1, n_sample, n_sample)
 
@@ -109,8 +109,8 @@ for col in design_space.columns:
 
 ds_normalised["Iteration"] = namecol
 design_space["Iteration"] = namecol
-# pd.plotting.parallel_coordinates(ds_normalised, "Iteration")
-pd.plotting.parallel_coordinates(design_space, "Iteration")
+# pd.plotting.parallel_coordinates(ds_normalised, "Iteration", ax=axes[0, 1])
+# pd.plotting.parallel_coordinates(design_space, "Iteration")
 print(design_space)
 
 plt.show()
