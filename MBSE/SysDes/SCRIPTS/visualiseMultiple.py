@@ -63,6 +63,8 @@ hull_thickness_samples = hull_thickness_range[0] + lhs_samples[:, 6] * (
 
 # Acceptance
 r_TC_max_samples = LPP_samples * 4
+t_AT_max = 20  # s
+v_T_min = util.kt2ms(2)  # m/s
 
 # Calculate the hull profiles for the samples of hull control points
 sampled_hull_X = []
@@ -83,11 +85,19 @@ sample_wetted_areas = util.wettedArea(
     sample_v_of_Ds, draught, LPP_samples, rudder_chord_samples, rudder_span_samples
 )
 
-# Calculate the turning circles for the DV samples
+# Calculate the DOs for the DV samples
 
 sample_turning_circles = de.computeTurningCircle(
     rudder_deflection_samples, rudder_chord_samples, rudder_span_samples, turn_speed
 )
+
+sample_about_turns = de.computeAboutTurn60Time(
+    S=sample_wetted_areas, C_D=0.03, LOA=LPP_samples, P_t=thruster_power_samples
+)
+sample_traverse_speeds = de.computeTraverseSpeed(
+    P_t=thruster_power_samples, rho_w=1000, S=sample_wetted_areas, C_D=0.03
+)
+
 
 # Create dataframe
 design_space_dict = {
@@ -99,11 +109,19 @@ design_space_dict = {
     "a": hull_control_point_samples,
     "t": hull_thickness_samples,
     "r_TC": sample_turning_circles,
+    "t_AT": sample_about_turns,
+    "v_T": sample_traverse_speeds,
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
 
-pass_fail = np.where(design_space["r_TC"] < r_TC_max_samples, "b", "r")
+pass_fail = np.where(
+    design_space["r_TC"] < r_TC_max_samples
+    and design_space["t_AT"] < t_AT_max
+    and design_space["v_T"] > v_T_min,
+    "b",
+    "r",
+)
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)

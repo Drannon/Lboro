@@ -62,7 +62,7 @@ hull_thickness_samples = hull_thickness_range[0] + lhs_samples[:, 6] * (
 )
 
 # Acceptance
-r_AT_max = 60  # s
+t_AT_max = 60  # s
 
 # Calculate the hull profiles for the samples of hull control points
 sampled_hull_X = []
@@ -98,14 +98,14 @@ design_space_dict = {
     "P_t": thruster_power_samples,
     "a": hull_control_point_samples,
     "t": hull_thickness_samples,
-    "r_AT": sample_about_turns,
+    "t_AT": sample_about_turns,
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
 feats = design_space.iloc[:, :-1]
 obs = design_space.iloc[:, -1:]
 
-pass_fail = np.where(design_space["r_AT"] < r_AT_max, "b", "r")
+pass_fail = np.where(design_space["t_AT"] < t_AT_max, "b", "r")
 
 # rstool
 predict = util.rstool(feats, obs)

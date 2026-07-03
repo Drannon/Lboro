@@ -62,7 +62,7 @@ hull_thickness_samples = hull_thickness_range[0] + lhs_samples[:, 6] * (
 )
 
 # Acceptance
-v_T_max = util.kt2ms(2)  # ?
+v_T_min = util.kt2ms(2)  # ?
 
 # Calculate the hull profiles for the samples of hull control points
 sampled_hull_X = []
@@ -83,7 +83,7 @@ sample_wetted_areas = util.wettedArea(
     sample_v_of_Ds, draught, LPP_samples, rudder_chord_samples, rudder_span_samples
 )
 
-# Calculate the turning circles for the DV samples
+# Calculate the traverse speeds for the DV samples
 
 sample_about_turns = de.computeAboutTurn60Time(
     S=sample_wetted_areas, C_D=0.03, LOA=LPP_samples, P_t=thruster_power_samples
@@ -101,7 +101,7 @@ design_space_dict = {
     "P_t": thruster_power_samples,
     "a": hull_control_point_samples,
     "t": hull_thickness_samples,
-    "V_t": sample_traverse_speeds
+    "V_t": sample_traverse_speeds,
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
