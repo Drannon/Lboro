@@ -105,11 +105,14 @@ design_space_dict = {
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
+feats = design_space.iloc[:, :-1]
+obs = design_space.iloc[:, -1:]
 
 pass_fail = np.where(design_space["V_t"] > v_T_max, "b", "r")
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
+predict = util.rstool(feats, obs)
 
 namecol = np.linspace(1, n_sample, n_sample)
 
