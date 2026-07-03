@@ -6,25 +6,41 @@ from scipy.integrate import simpson
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
+from sklearn.inspection import PartialDependenceDisplay
+from matplotlib import pyplot as plt
 
 # Physical constants
 rho_w = 1000  # kg/m3
 rho_steel = 7850  # kg/m3
 
 
-def rstool(X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike) -> np.ndarray:
+def rstool(X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike = 0) -> None:
     """
     Predict response surface contours.
 
     This function uses ordinary least squares regression to find the effect of input independent variables on a dependent output variable.
     It creates a polynomial design matrix from the input training features, and fits a linear regression to that matrix. This creates a quatratic fit.
     """
+    rsfig, rsaxs = plt.subplots(
+        1, np.shape(X)[1], figsize=(12, 3), sharey=True, gridspec_kw={"wspace": 0}
+    )
+
     model = make_pipeline(
         PolynomialFeatures(degree=2, include_bias=False), LinearRegression()
     )
 
     model = model.fit(X, y)
-    return model.predict([X_test])
+    rsplot = PartialDependenceDisplay.from_estimator(
+        model, X, features=[i for i in range(np.shape(X)[1])], ax=rsaxs
+    )
+
+    for ax in rsplot.axes_.ravel():
+        if ax is not None:
+            ax.grid(True)
+
+    for ax in rsaxs[1:]:
+        ax.tick_params(labelleft=False)
+        ax.set_ylabel("")
 
 
 def ms2kt(V_ms: float) -> float:

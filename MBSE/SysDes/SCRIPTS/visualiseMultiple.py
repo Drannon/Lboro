@@ -102,16 +102,8 @@ design_space_dict = {
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
-feats = design_space.iloc[:, :-1]
-obs = design_space.iloc[:, -1:]
-
 
 pass_fail = np.where(design_space["r_TC"] < r_TC_max_samples, "b", "r")
-
-# RSTool
-predict = util.rstool(feats, obs)
-
-# print(util.rstool(, sample_turning_circles, ))
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
@@ -126,6 +118,6 @@ ds_normalised["Iteration"] = namecol
 design_space["Iteration"] = namecol
 # pd.plotting.parallel_coordinates(ds_normalised, "Iteration", ax=axes[0, 1])
 # pd.plotting.parallel_coordinates(design_space, "Iteration")
-
+print(design_space)
 
 plt.show()

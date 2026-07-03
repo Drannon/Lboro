@@ -22,7 +22,7 @@ LPP_range = [60, 80]  # m
 rudder_chord_range = [1.5 * draught, 3 * draught]  # m
 rudder_span_range = [0.8 * draught, draught]  # m
 rudder_deflection_range = [20, 35]  # degrees
-thruster_power_range = [5, 50]  # kW
+thruster_power_range = [5, 500]  # kW
 hull_control_point_range = [0, 1]  # % of draught
 hull_thickness_range = [5, 10]  # mm
 
@@ -62,7 +62,7 @@ hull_thickness_samples = hull_thickness_range[0] + lhs_samples[:, 6] * (
 )
 
 # Acceptance
-r_TC_max_samples = LPP_samples * 4
+v_T_max = util.kt2ms(2)  # ?
 
 # Calculate the hull profiles for the samples of hull control points
 sampled_hull_X = []
@@ -85,8 +85,11 @@ sample_wetted_areas = util.wettedArea(
 
 # Calculate the turning circles for the DV samples
 
-sample_turning_circles = de.computeTurningCircle(
-    rudder_deflection_samples, rudder_chord_samples, rudder_span_samples, turn_speed
+sample_about_turns = de.computeAboutTurn60Time(
+    S=sample_wetted_areas, C_D=0.03, LOA=LPP_samples, P_t=thruster_power_samples
+)
+sample_traverse_speeds = de.computeTraverseSpeed(
+    P_t=thruster_power_samples, rho_w=1000, S=sample_wetted_areas, C_D=0.03
 )
 
 # Create dataframe
@@ -98,20 +101,12 @@ design_space_dict = {
     "P_t": thruster_power_samples,
     "a": hull_control_point_samples,
     "t": hull_thickness_samples,
-    "r_TC": sample_turning_circles,
+    "V_t": sample_traverse_speeds
 }
 
 design_space = pd.DataFrame(data=design_space_dict)
-feats = design_space.iloc[:, :-1]
-obs = design_space.iloc[:, -1:]
 
-
-pass_fail = np.where(design_space["r_TC"] < r_TC_max_samples, "b", "r")
-
-# RSTool
-predict = util.rstool(feats, obs)
-
-# print(util.rstool(, sample_turning_circles, ))
+pass_fail = np.where(design_space["V_t"] > v_T_max, "b", "r")
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
@@ -126,6 +121,6 @@ ds_normalised["Iteration"] = namecol
 design_space["Iteration"] = namecol
 # pd.plotting.parallel_coordinates(ds_normalised, "Iteration", ax=axes[0, 1])
 # pd.plotting.parallel_coordinates(design_space, "Iteration")
-
+print(design_space)
 
 plt.show()

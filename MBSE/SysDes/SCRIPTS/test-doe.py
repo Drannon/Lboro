@@ -1,6 +1,7 @@
 import numpy as np
 from pydoe import lhs
-from rstool import rstool
+from util import rstool
+import matplotlib.pyplot as plt
 
 
 def test_func(xs):
@@ -9,6 +10,9 @@ def test_func(xs):
 
 
 sample = lhs(3, 100)
+print(np.shape(sample)[1])
 observations = test_func(np.transpose(sample))
 
 print(rstool(sample, observations, [0.4, 0.3, 0.5]))
+
+plt.show()

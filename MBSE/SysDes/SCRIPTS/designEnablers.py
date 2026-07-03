@@ -53,6 +53,7 @@ def computeAboutTurn60Time(S: float, C_D: float, LOA: float, P_t: float) -> floa
         turning_circle: float - the sustained turning radius (NOT tactical radius) of the given vessel
 
     """
+    rho_w = 1000
     t_60 = (np.pi / 3) * (((rho_w * S * C_D * (LOA**4)) / (128 * P_t)) ** (1 / 3))
     return t_60
 
