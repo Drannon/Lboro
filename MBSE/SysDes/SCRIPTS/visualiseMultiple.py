@@ -63,8 +63,8 @@ hull_thickness_samples = hull_thickness_range[0] + lhs_samples[:, 6] * (
 
 # Acceptance
 r_TC_max_samples = LPP_samples * 4
-t_AT_max = 20  # s
-v_T_min = util.kt2ms(2)  # m/s
+t_AT_max = 800  # s
+v_T_min = util.kt2ms(0.8)  # m/s
 
 # Calculate the hull profiles for the samples of hull control points
 sampled_hull_X = []
@@ -116,12 +116,14 @@ design_space_dict = {
 design_space = pd.DataFrame(data=design_space_dict)
 
 pass_fail = np.where(
-    design_space["r_TC"] < r_TC_max_samples
-    and design_space["t_AT"] < t_AT_max
-    and design_space["v_T"] > v_T_min,
+    (design_space["r_TC"] < r_TC_max_samples)
+    & (design_space["t_AT"] < t_AT_max)
+    & (design_space["v_T"] > v_T_min),
     "b",
     "r",
 )
+
+print(t_AT_max, v_T_min)
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
