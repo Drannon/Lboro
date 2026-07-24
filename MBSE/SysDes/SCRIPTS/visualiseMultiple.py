@@ -115,6 +115,9 @@ design_space_dict = {
 
 design_space = pd.DataFrame(data=design_space_dict)
 
+feats = design_space.iloc[:, :-3]
+obs = design_space.iloc[:, -3:]
+
 pass_fail = np.where(
     (design_space["r_TC"] < r_TC_max_samples)
     & (design_space["t_AT"] < t_AT_max)
@@ -124,6 +127,9 @@ pass_fail = np.where(
 )
 
 print(t_AT_max, v_T_min)
+
+# rstool
+predict = util.rstool(feats, obs, n_obs=3)
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
