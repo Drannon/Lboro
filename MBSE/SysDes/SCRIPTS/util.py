@@ -228,3 +228,12 @@ def wettedArea(v_of_D: float, T: float, LPP: float, c_R: float, b_R: float) -> f
     """Find the wetted area of a vessel, including rudder."""
     S = (1.025 * ((v_of_D / T) + (1.7 * LPP * T))) + (c_R * b_R)
     return S
+
+
+# DESIGN CONSTANTS
+draught = 1.2  # m
+beam = 25  # m
+turn_speed = 0.7 * kt2ms(8)  # m/s, % of cruising speed
+price_steel = 25  # £/kg, approximate for Grade S355G5
+deck_thickness = 10  # mm
+C_D = 0.03

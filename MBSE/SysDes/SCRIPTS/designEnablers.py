@@ -1,10 +1,11 @@
 """Design Enablers."""
 
 import numpy as np
-from util import ms2kt
+from util import draught, beam, turn_speed, price_steel, deck_thickness
+import util
 
 
-def computeTurningCircle(delta_R: float, c_R: float, b_R: float, U: float) -> float:
+def computeTurningCircle(args: list) -> float:
     """
     ComputeTC.py.
 
@@ -23,6 +24,9 @@ def computeTurningCircle(delta_R: float, c_R: float, b_R: float, U: float) -> fl
         turning_circle: float - the sustained turning radius (NOT tactical radius) of the given vessel
 
     """
+    LPP, b_R, c_R, delta_R, P_t, a, t = args
+    U = util.turn_speed
+
     A_R = b_R * c_R  # m - profile (NACA 00xx series) increase assumed negligible
     l_0 = 67  # m
     T_0 = 5.7  # m
@@ -34,7 +38,7 @@ def computeTurningCircle(delta_R: float, c_R: float, b_R: float, U: float) -> fl
     return turning_radius
 
 
-def computeAboutTurn60Time(S: float, C_D: float, LOA: float, P_t: float) -> float:
+def computeAboutTurn60Time(args: list) -> float:
     """
     ComputeAT.py.
 
@@ -53,12 +57,32 @@ def computeAboutTurn60Time(S: float, C_D: float, LOA: float, P_t: float) -> floa
         turning_circle: float - the sustained turning radius (NOT tactical radius) of the given vessel
 
     """
-    rho_w = 1000
+
+    LPP, b_R, c_R, delta_R, P_t, a, t = args
+
+    rho_w = util.rho_w
+    C_D = util.C_D
+    LOA = LPP + b_R
+
+    # Calculate the hull profiles for the samples of hull control points
+
+    hull_X, hull_Y = util.hull_profile_gen(np.array(a), beam, draught, 1000)
+
+    # Calculate volume of displacement for all combinations of samples
+    v_of_D = util.volumeOfDisplacement(
+        T=draught, B=beam, LPP=LPP, hullXs=hull_X, hullYs=hull_Y
+    )
+
+    # Calculate wetted areas for all combinations of samples
+    S = util.wettedArea(v_of_D, draught, LPP, c_R, b_R)
+
     t_60 = (np.pi / 3) * (((rho_w * S * C_D * (LOA**4)) / (128 * P_t)) ** (1 / 3))
     return t_60
 
 
-def computeTraverseSpeed(P_t: float, rho_w: float, S: float, C_D: float) -> float:
+def computeTraverseSpeed(
+    args: list,
+) -> float:
     """
     ComputeTS.py.
 
@@ -77,8 +101,24 @@ def computeTraverseSpeed(P_t: float, rho_w: float, S: float, C_D: float) -> floa
         turning_circle: float - the sustained turning radius (NOT tactical radius) of the given vessel
 
     """
-    V_ts_ms = ((2 * P_t) / (rho_w * S * C_D)) ** (1 / 3)
-    V_ts = ms2kt(V_ts_ms)
+    LPP, b_R, c_R, delta_R, P_t, a, t = args
+
+    C_D = util.C_D
+
+    # Calculate the hull profiles for the samples of hull control points
+
+    hull_X, hull_Y = util.hull_profile_gen(a, beam, draught, 1000)
+
+    # Calculate volume of displacement for all combinations of samples
+    v_of_D = util.volumeOfDisplacement(
+        T=draught, B=beam, LPP=LPP, hullXs=hull_X, hullYs=hull_Y
+    )
+
+    # Calculate wetted areas for all combinations of samples
+    S = util.wettedArea(v_of_D, draught, LPP, c_R, b_R)
+
+    V_ts_ms = ((2 * P_t) / (util.rho_w * S * C_D)) ** (1 / 3)
+    V_ts = util.ms2kt(V_ts_ms)
     return V_ts
 
 
