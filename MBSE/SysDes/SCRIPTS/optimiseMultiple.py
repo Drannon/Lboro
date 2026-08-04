@@ -2,6 +2,9 @@ import numpy as np
 from pymoo.core.problem import ElementwiseProblem
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from pymoo.optimize import minimize
+from pymoo.operators.sampling.lhs import LHS
+from pymoo.operators.crossover.sbx import SBX
+from pymoo.operators.mutation.pm import PM
 from matplotlib import use as mpbuse
 import matplotlib.pyplot as plt
 import designEnablers as de
@@ -55,12 +58,18 @@ class MultipleOptimisation(ElementwiseProblem):
         ]  # use negative to "maximise" with minimise
 
 
-algorithm = NSGA2(pop_size=100)
+algorithm = NSGA2(
+    pop_size=200,
+    sampling=LHS(),
+    crossover=SBX(prob=0.9, eta=20),
+    mutation=PM(prob=(1/7), eta=20),
+    eliminate_duplicates=True,
+)
 
 problem = MultipleOptimisation()
 
 result = minimize(
-    problem, algorithm, termination=("n_gen", 200), seed=1, verbose=True
+    problem, algorithm, termination=("n_gen", 1000), seed=1, verbose=True
 )  # return optimised value to positive
 
 print(result.X)
@@ -71,7 +80,7 @@ ats = [front_point[1] for front_point in result.F]
 tss = [-front_point[2] for front_point in result.F]
 # Create figure and 3D axes
 fig = plt.figure(figsize=(8, 6))
-ax = fig.add_subplot(111, projection='3d')
+ax = fig.add_subplot(111, projection="3d")
 
 # Scatter plot
 ax.scatter(tcs, ats, tss)

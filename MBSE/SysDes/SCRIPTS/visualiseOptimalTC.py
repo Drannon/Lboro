@@ -1,0 +1,57 @@
+import numpy as np
+from pymoo.core.problem import ElementwiseProblem
+from pymoo.algorithms.soo.nonconvex.ga import GA
+from pymoo.optimize import minimize
+import designEnablers as de
+import util
+
+# DESIGN VARIABLES
+LPP_range = [60, 80]  # m
+rudder_chord_range = [1.5 * util.draught, 3 * util.draught]  # m
+rudder_span_range = [0.8 * util.draught, util.draught]  # m
+rudder_deflection_range = [20, 35]  # degrees
+thruster_power_range = [5, 50]  # kW
+hull_control_point_range = [0, 1]  # % of draught
+hull_thickness_range = [5, 10]  # mm
+
+# Range manipulation
+dv_bounds = [
+    LPP_range,
+    rudder_span_range,
+    rudder_chord_range,
+    rudder_deflection_range,
+    thruster_power_range,
+    hull_control_point_range,
+    hull_thickness_range,
+]
+
+dv_uppers = np.array([dvb[1] for dvb in dv_bounds])
+dv_lowers = np.array([dvb[0] for dvb in dv_bounds])
+
+
+class TurningCircleOptimisation(ElementwiseProblem):
+
+    def __init__(self):
+        super().__init__(
+            n_var=7,
+            n_obj=1,
+            n_ieq_constr=0,
+            xl=dv_lowers,
+            xu=dv_uppers,
+        )
+
+    def _evaluate(self, x, out, *args, **kwargs):
+        turning_circle = de.computeTurningCircle(x)
+        out["F"] = turning_circle
+
+
+algorithm = GA(pop_size=100)
+
+problem = TurningCircleOptimisation()
+
+result = minimize(problem, algorithm, termination=("n_gen", 200), seed=1, verbose=True)
+
+optimalFeatures = result.X
+optimalObjective = result.F
+
+print(np.shape())  # find out shape to create pandas df to scatter plot
