@@ -65,7 +65,7 @@ design_variables = [
 ]
 
 # Acceptance
-v_T_min = util.kt2ms(2)  # ?
+v_T_min = 0.5  # ?
 
 # Calculate the traverse speeds for the DV samples
 
