@@ -1,9 +1,18 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import use as mpluse
 from pymoo.core.problem import ElementwiseProblem
 from pymoo.algorithms.soo.nonconvex.ga import GA
 from pymoo.optimize import minimize
 import designEnablers as de
 import util
+
+mpluse("GTK4AGG")
+
+# NUMBER OF GA RUNS
+
+n_runs = 20
 
 # DESIGN VARIABLES
 LPP_range = [60, 80]  # m
@@ -25,6 +34,8 @@ dv_bounds = [
     hull_thickness_range,
 ]
 
+dv_names = ["LPP", "b_R", "c_R", "delta_R", "P_t", "a", "t", "AT"]
+
 dv_uppers = np.array([dvb[1] for dvb in dv_bounds])
 dv_lowers = np.array([dvb[0] for dvb in dv_bounds])
 
@@ -41,15 +52,24 @@ class AboutTurnOptimisation(ElementwiseProblem):
         )
 
     def _evaluate(self, x, out, *args, **kwargs):
-        about_turn = de.computeAboutTurn60Time(x)
-        out["F"] = about_turn
+        turn_time = de.computeAboutTurn60Time(x)
+        out["F"] = turn_time
 
 
 algorithm = GA(pop_size=100)
 
 problem = AboutTurnOptimisation()
 
-result = minimize(problem, algorithm, termination=("n_gen", 200), seed=1, verbose=True)
+data = np.zeros((n_runs, len(dv_names)))
 
-print(result.X)
-print(result.F)
+for i in range(n_runs):
+    ga_output = minimize(problem, algorithm, termination=("n_gen", 200), verbose=True)
+    result = np.append(ga_output.X, ga_output.F[0])
+    data[i] = result
+
+optimalResults = pd.DataFrame(data, columns=dv_names)
+
+# Plotting
+pd.plotting.scatter_matrix(optimalResults)
+
+plt.show()

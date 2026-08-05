@@ -1,9 +1,18 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import use as mpluse
 from pymoo.core.problem import ElementwiseProblem
 from pymoo.algorithms.soo.nonconvex.ga import GA
 from pymoo.optimize import minimize
 import designEnablers as de
 import util
+
+mpluse("GTK4AGG")
+
+# NUMBER OF GA RUNS
+
+n_runs = 20
 
 # DESIGN VARIABLES
 LPP_range = [60, 80]  # m
@@ -24,6 +33,8 @@ dv_bounds = [
     hull_control_point_range,
     hull_thickness_range,
 ]
+
+dv_names = ["LPP", "b_R", "c_R", "delta_R", "P_t", "a", "t", "TC"]
 
 dv_uppers = np.array([dvb[1] for dvb in dv_bounds])
 dv_lowers = np.array([dvb[0] for dvb in dv_bounds])
@@ -49,9 +60,16 @@ algorithm = GA(pop_size=100)
 
 problem = TurningCircleOptimisation()
 
-result = minimize(problem, algorithm, termination=("n_gen", 200), seed=1, verbose=True)
+data = np.zeros((n_runs, len(dv_names)))
 
-optimalFeatures = result.X
-optimalObjective = result.F
+for i in range(n_runs):
+    ga_output = minimize(problem, algorithm, termination=("n_gen", 200), verbose=True)
+    result = np.append(ga_output.X, ga_output.F[0])
+    data[i] = result
 
-print(np.shape())  # find out shape to create pandas df to scatter plot
+optimalResults = pd.DataFrame(data, columns=dv_names)
+
+# Plotting
+pd.plotting.scatter_matrix(optimalResults)
+
+plt.show()
