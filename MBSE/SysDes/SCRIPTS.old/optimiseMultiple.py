@@ -5,12 +5,12 @@ from pymoo.optimize import minimize
 from pymoo.operators.sampling.lhs import LHS
 from pymoo.operators.crossover.sbx import SBX
 from pymoo.operators.mutation.pm import PM
-from matplotlib import use as mpbuse
+from matplotlib import use as mpluse
 import matplotlib.pyplot as plt
 import designEnablers as de
 import util
 
-mpbuse("gtk4agg")
+mpluse("gtk4agg")
 
 # DESIGN VARIABLES
 LPP_range = [60, 80]  # m
@@ -62,7 +62,7 @@ algorithm = NSGA2(
     pop_size=200,
     sampling=LHS(),
     crossover=SBX(prob=0.9, eta=20),
-    mutation=PM(prob=(1/7), eta=20),
+    mutation=PM(prob=(1 / 7), eta=20),
     eliminate_duplicates=True,
 )
 
@@ -75,15 +75,24 @@ result = minimize(
 print(result.X)
 print(result.F)
 
-tcs = [front_point[0] for front_point in result.F]
-ats = [front_point[1] for front_point in result.F]
-tss = [-front_point[2] for front_point in result.F]
+opt_LPPs = [front_point[0] for front_point in result.X]
+opt_b_Rs = [front_point[1] for front_point in result.X]
+opt_c_Rs = [front_point[2] for front_point in result.X]
+opt_delta_Rs = [front_point[3] for front_point in result.X]
+opt_P_ts = [front_point[4] for front_point in result.X]
+opt_as = [front_point[5] for front_point in result.X]
+opt_ts = [front_point[6] for front_point in result.X]
+
+opt_tcs = [front_point[0] for front_point in result.F]
+opt_ats = [front_point[1] for front_point in result.F]
+opt_tss = [-front_point[2] for front_point in result.F]
+
 # Create figure and 3D axes
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection="3d")
 
 # Scatter plot
-ax.scatter(tcs, ats, tss)
+ax.scatter(opt_tcs, opt_ats, opt_tss)
 
 # Labels
 ax.set_xlabel("Turning Circle (m)")

@@ -1,9 +1,18 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import use as mpluse
 from pymoo.core.problem import ElementwiseProblem
 from pymoo.algorithms.soo.nonconvex.ga import GA
 from pymoo.optimize import minimize
 import designEnablers as de
 import util
+
+mpluse("GTK4AGG")
+
+# NUMBER OF GA RUNS
+
+n_runs = 20
 
 # DESIGN VARIABLES
 LPP_range = [60, 80]  # m
@@ -25,6 +34,8 @@ dv_bounds = [
     hull_thickness_range,
 ]
 
+dv_names = ["LPP", "b_R", "c_R", "delta_R", "P_t", "a", "t", "TS"]
+
 dv_uppers = np.array([dvb[1] for dvb in dv_bounds])
 dv_lowers = np.array([dvb[0] for dvb in dv_bounds])
 
@@ -34,22 +45,44 @@ class TraverseSpeedOptimisation(ElementwiseProblem):
     def __init__(self):
         super().__init__(
             n_var=7,
-            n_obj=1,
+            n_obj=3,
             n_ieq_constr=0,
             xl=dv_lowers,
             xu=dv_uppers,
         )
 
     def _evaluate(self, x, out, *args, **kwargs):
+        turning_circle = de.computeTurningCircle(x)
+        about_turn = de.computeAboutTurn60Time(x)
         traverse_speed = de.computeTraverseSpeed(x)
-        out["F"] = -traverse_speed  # use negative to "maximise" with minimise
+        out["F"] = [
+            turning_circle,
+            about_turn,
+            -traverse_speed,
+        ]  # use negative to "maximise" with minimise
 
 
-algorithm = GA(pop_size=100)
 
+algorithm = NSGA2(
+    pop_size=200,
+    sampling=LHS(),
+    crossover=SBX(prob=0.9, eta=20),
+    mutation=PM(prob=(1/7), eta=20),
+    eliminate_duplicates=True,
+)
 problem = TraverseSpeedOptimisation()
 
-result = minimize(problem, algorithm, termination=("n_gen", 200), seed=1, verbose=True)  # return optimised value to positive
+data = np.zeros((n_runs, len(dv_names)))
 
-print(result.X)
-print(-result.F)
+for i in range(n_runs):
+    ga_output = minimize(problem, algorithm, termination=("n_gen", 100), verbose=True)
+    result = np.append(ga_output.X, -ga_output.F[0])
+    data[i] = result
+
+optimalResults = pd.DataFrame(data, columns=dv_names)
+optimalResults = optimalResults.map(round, ndigits=3)
+
+# Plotting
+pd.plotting.scatter_matrix(optimalResults)
+
+plt.show()

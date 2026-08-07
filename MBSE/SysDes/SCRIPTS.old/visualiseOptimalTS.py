@@ -34,13 +34,13 @@ dv_bounds = [
     hull_thickness_range,
 ]
 
-dv_names = ["LPP", "b_R", "c_R", "delta_R", "P_t", "a", "t", "AT"]
+dv_names = ["LPP", "b_R", "c_R", "delta_R", "P_t", "a", "t", "TS"]
 
 dv_uppers = np.array([dvb[1] for dvb in dv_bounds])
 dv_lowers = np.array([dvb[0] for dvb in dv_bounds])
 
 
-class AboutTurnOptimisation(ElementwiseProblem):
+class TraverseSpeedOptimisation(ElementwiseProblem):
 
     def __init__(self):
         super().__init__(
@@ -52,22 +52,23 @@ class AboutTurnOptimisation(ElementwiseProblem):
         )
 
     def _evaluate(self, x, out, *args, **kwargs):
-        turn_time = de.computeAboutTurn60Time(x)
-        out["F"] = turn_time
+        traverse_speed = de.computeTraverseSpeed(x)
+        out["F"] = -traverse_speed
 
 
 algorithm = GA(pop_size=100)
 
-problem = AboutTurnOptimisation()
+problem = TraverseSpeedOptimisation()
 
 data = np.zeros((n_runs, len(dv_names)))
 
 for i in range(n_runs):
-    ga_output = minimize(problem, algorithm, termination=("n_gen", 200), verbose=True)
-    result = np.append(ga_output.X, ga_output.F[0])
+    ga_output = minimize(problem, algorithm, termination=("n_gen", 100), verbose=True)
+    result = np.append(ga_output.X, -ga_output.F[0])
     data[i] = result
 
 optimalResults = pd.DataFrame(data, columns=dv_names)
+optimalResults = optimalResults.map(round, ndigits=3)
 
 # Plotting
 pd.plotting.scatter_matrix(optimalResults)
