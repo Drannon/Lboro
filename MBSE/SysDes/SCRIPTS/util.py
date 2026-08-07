@@ -11,6 +11,7 @@ from matplotlib import pyplot as plt
 
 # Physical constants
 rho_a = 1.225  # kg/m3
+g = 9.81
 
 def rstool(
     X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike = 0, n_obs=1

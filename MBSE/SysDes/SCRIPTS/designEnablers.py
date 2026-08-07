@@ -47,7 +47,7 @@ def computeRateOfClimb(args):
     W = W_non_struct / 0.6
     S = S_w + A_inlet
     CD = CD0 + ((CL**2) / (np.pi * np.e * AR))
-    D = 0.5 * util.rho_a * V**2 * S * CD
+    D = 0.5 * util.rho_a * (V**2) * S * CD
 
-    ROC = (T - D) * (V / W)
+    ROC = ((T - D) * V) / W
     return ROC
