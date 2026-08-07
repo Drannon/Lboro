@@ -2,10 +2,7 @@
 
 import numpy as np
 import pandas as pd
-import pydoe as doe
-import designEnablers as de
-import util
-import matplotlib
+import pydoe as doe import designEnablers as de import util import matplotlib
 import matplotlib.pyplot as plt
 
 matplotlib.use("gtk4agg")
@@ -65,8 +62,8 @@ cruise_speed_samples = cruise_speed_range[0] + lhs_samples[:, 9] * (
 
 design_variables = [
     wing_area_samples,
-    lift_coeff_samples,
     form_drag_coeff_samples,
+    lift_coeff_samples,
     fuel_mass_samples,
     payload_mass_samples,
     inlet_area_samples,
@@ -89,8 +86,8 @@ for i in range(n_sample):
 # Create dataframe
 design_space_dict = {
     "S_w": wing_area_samples,
-    "CL": lift_coeff_samples,
     "CD0": form_drag_coeff_samples,
+    "CL": lift_coeff_samples,
     "m_f": fuel_mass_samples,
     "m_p": payload_mass_samples,
     "A_inlet": inlet_area_samples,
