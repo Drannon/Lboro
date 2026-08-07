@@ -2,7 +2,10 @@
 
 import numpy as np
 import pandas as pd
-import pydoe as doe import designEnablers as de import util import matplotlib
+import pydoe as doe
+import designEnablers as de
+import util
+import matplotlib
 import matplotlib.pyplot as plt
 
 matplotlib.use("gtk4agg")
@@ -14,7 +17,7 @@ lift_coeff_range = [0.1, 0.8]  # m
 fuel_mass_range = [2000, 5000]  # degrees
 payload_mass_range = [3000, 7000]  # kW
 inlet_area_range = [0.3, 0.6]  # % of draught
-fuel_air_ratio_range = [1/50, 1/150]  # mm
+fuel_air_ratio_range = [1 / 50, 1 / 150]  # mm
 aspect_ratio_range = [2, 4]
 thrust_range = [15000, 50000]
 cruise_speed_range = [277, 555]
@@ -98,12 +101,10 @@ design_space_dict = {
     "R": sample_ranges,
 }
 
-for item in design_space_dict:
-    print(len(design_space_dict[item]))
-
 design_space = pd.DataFrame(data=design_space_dict)
 feats = design_space.iloc[:, :-1]
 obs = design_space.iloc[:, -1:]
+print(obs)
 
 
 pass_fail = np.where(design_space["R"] > R_min, "b", "r")
