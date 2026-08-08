@@ -13,6 +13,7 @@ from matplotlib import pyplot as plt
 rho_a = 1.225  # kg/m3
 g = 9.81
 
+
 def rstool(
     X: npt.ArrayLike, y: npt.ArrayLike, X_test: npt.ArrayLike = 0, n_obs=1
 ) -> None:
@@ -96,27 +97,20 @@ def rad2deg(theta_deg: float) -> float:
     """Convert an angle in radians to degrees."""
     return theta_deg * (180 / np.pi)
 
-"""DVS
-AR
-Sweep
-S
-t
-BPR
-T
-m_f
-t_ram
-"""
 
-"""DOS
-max range
-radar cross section
-Sustained turn rate
-Minimise mass
-"""
-# DESIGN CONSTANTS
-draught = 1.2  # m
-beam = 25  # m
-turn_speed = 0.7 * kt2ms(8)  # m/s, % of cruising speed
-price_steel = 25  # £/kg, approximate for Grade S355G5
-deck_thickness = 10  # mm
-C_D = 0.03
+def calculateMassFraction(args):
+    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args  # all normalised against mins
+    structural_dvs = np.array([S_w, CL_max, m_p, AR, T])
+    weights = np.array([0, 0, 0, 0, 0])
+    fraction_mods = structural_dvs * weights
+    p_str_0 = 0.3  # base structural mass fraction
+    p_str = p_str_0 + np.sum(fraction_mods)
+    return p_str
+
+
+def calculateFuelMassMod(args):
+    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args  # all normalised against mins
+    TSFC_mod = 0
+    CD0_mod = -0
+    m_f = m_f_0 + (TSFC_mod * TSFC) + (CD0_mod * CD0)
+    return m_f

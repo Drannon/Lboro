@@ -12,15 +12,15 @@ matplotlib.use("gtk4agg")
 
 # DESIGN VARIABLES
 wing_area_range = [25, 50]  # m
-form_drag_coeff_range = [0.01, 0.04]  # m
-lift_coeff_range = [0.1, 0.8]  # m
+form_drag_coeff_range = [0.01, 0.05]  # m
+max_lift_coeff_range = [0.1, 0.9]  # m
 fuel_mass_range = [2000, 5000]  # degrees
 payload_mass_range = [3000, 7000]  # kW
-inlet_area_range = [0.3, 0.6]  # % of draught
+inlet_area_range = [0.6, 1.2]  # % of draught
 fuel_air_ratio_range = [1 / 50, 1 / 150]  # mm
-aspect_ratio_range = [2, 4]
-thrust_range = [15000, 50000]
-cruise_speed_range = [277, 555]
+aspect_ratio_range = [2, 6]
+thrust_range = [30000, 100000]
+cruise_speed_range = [200, 340]
 
 # Conversions
 
@@ -38,8 +38,8 @@ wing_area_samples = wing_area_range[0] + lhs_samples[:, 0] * (
 form_drag_coeff_samples = form_drag_coeff_range[0] + lhs_samples[:, 1] * (
     form_drag_coeff_range[1] - form_drag_coeff_range[0]
 )
-lift_coeff_samples = lift_coeff_range[0] + lhs_samples[:, 2] * (
-    lift_coeff_range[1] - lift_coeff_range[0]
+max_lift_coeff_samples = max_lift_coeff_range[0] + lhs_samples[:, 2] * (
+    max_lift_coeff_range[1] - max_lift_coeff_range[0]
 )
 fuel_mass_samples = fuel_mass_range[0] + lhs_samples[:, 3] * (
     fuel_mass_range[1] - fuel_mass_range[0]
@@ -66,7 +66,7 @@ cruise_speed_samples = cruise_speed_range[0] + lhs_samples[:, 9] * (
 design_variables = [
     wing_area_samples,
     form_drag_coeff_samples,
-    lift_coeff_samples,
+    max_lift_coeff_samples,
     fuel_mass_samples,
     payload_mass_samples,
     inlet_area_samples,
@@ -77,7 +77,7 @@ design_variables = [
 ]
 
 # Acceptance
-ROC_min = 175
+ROC_min = 100
 
 # Calculate the turning circles for the DV samples
 sample_ROCs = []
@@ -90,7 +90,7 @@ for i in range(n_sample):
 design_space_dict = {
     "S_w": wing_area_samples,
     "CD0": form_drag_coeff_samples,
-    "CL": lift_coeff_samples,
+    "CL_max": max_lift_coeff_samples,
     "m_f": fuel_mass_samples,
     "m_p": payload_mass_samples,
     "A_inlet": inlet_area_samples,
@@ -101,8 +101,6 @@ design_space_dict = {
     "ROC": sample_ROCs,
 }
 
-for item in design_space_dict:
-    print(len(design_space_dict[item]))
 
 design_space = pd.DataFrame(data=design_space_dict)
 feats = design_space.iloc[:, :-1]
