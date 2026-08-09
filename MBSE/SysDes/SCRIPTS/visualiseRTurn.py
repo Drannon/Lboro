@@ -87,7 +87,7 @@ design_space_dict = {
     "m_f_0[kg]": base_fuel_mass_samples,
     "m_p[kg]": payload_mass_samples,
     "AR": aspect_ratio_samples,
-    "T/N": thrust_samples,
+    "T[N]": thrust_samples,
     "TSFC[kg/Ns]": TSFC_samples,
     "V[m/s]": cruise_speed_samples,
     "rTurn[m]": sample_turn_radii,
