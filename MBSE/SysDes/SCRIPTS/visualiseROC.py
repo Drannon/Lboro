@@ -81,16 +81,16 @@ for i in range(n_sample):
 
 # Create dataframe
 design_space_dict = {
-    "S_w": wing_area_samples,
+    "S_w[m2]": wing_area_samples,
     "CD0": form_drag_coeff_samples,
     "CL_max": max_lift_coeff_samples,
-    "m_f": base_fuel_mass_samples,
-    "m_p": payload_mass_samples,
+    "m_f_0[kg]": base_fuel_mass_samples,
+    "m_p[kg]": payload_mass_samples,
     "AR": aspect_ratio_samples,
-    "T": thrust_samples,
-    "V": cruise_speed_samples,
-    "TSFC": TSFC_samples,
-    "ROC": sample_ROCs,
+    "T[N]": thrust_samples,
+    "TSFC[kg/Ns]": TSFC_samples,
+    "V[m/s]": cruise_speed_samples,
+    "ROC[m/s]": sample_ROCs,
 }
 
 
@@ -99,12 +99,10 @@ feats = design_space.iloc[:, :-1]
 obs = design_space.iloc[:, -1:]
 
 
-pass_fail = np.where(design_space["ROC"] > ROC_min, "b", "r")
+pass_fail = np.where(design_space["ROC[m/s]"] > ROC_min, "b", "r")
 
 # RSTool
 predict = util.rstool(feats, obs)
-
-# print(util.rstool(, sample_turning_circles, ))
 
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
