@@ -48,6 +48,11 @@ def computeTurnRadius(args):
 
     L_max = 0.5 * util.rho_a * (V**2) * S_w * CL_max
     n_max = L_max / W
+
+    if n_max < 1:
+        return (
+            np.nan
+        )  # n_max < 1 implies less lift is produced than the aircraft weight
     r_turn = (V**2) / (util.g * np.sqrt((n_max**2) - 1))
     return r_turn
 

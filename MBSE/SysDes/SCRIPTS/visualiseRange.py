@@ -104,8 +104,6 @@ pass_fail = np.where(design_space["R[km]"] > R_min, "b", "r")
 # RSTool
 predict = util.rstool(feats, obs)
 
-# print(util.rstool(, sample_turning_circles, ))
-
 # Plotting
 pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
 
