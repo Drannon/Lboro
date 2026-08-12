@@ -25,7 +25,7 @@ cruise_speed_range = [136, 272]  # m/s
 
 # DoE
 # Number of samples
-n_sample = 500
+n_sample = 1000
 
 # Generate sampels using Latin Hypercube Sampling
 lhs_samples = doe.lhs(9, n_sample)
@@ -105,7 +105,7 @@ pass_fail = np.where(design_space["R[km]"] > R_min, "b", "r")
 predict = util.rstool(feats, obs)
 
 # Plotting
-pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
+ax = pd.plotting.scatter_matrix(design_space, c=pass_fail, alpha=1)
 
 namecol = np.linspace(1, n_sample, n_sample)
 

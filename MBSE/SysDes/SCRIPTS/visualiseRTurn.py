@@ -25,7 +25,7 @@ cruise_speed_range = [136, 272]  # m/s
 
 # DoE
 # Number of samples
-n_sample = 500
+n_sample = 1000
 
 # Generate sampels using Latin Hypercube Sampling
 lhs_samples = doe.lhs(9, n_sample)
