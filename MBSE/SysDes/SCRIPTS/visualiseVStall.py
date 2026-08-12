@@ -11,15 +11,15 @@ import matplotlib.pyplot as plt
 matplotlib.use("gtk4agg")
 
 # DESIGN VARIABLES
-wing_area_range = [25, 50]  # m2
+wing_area_range = [20, 60]  # m2
 form_drag_coeff_range = [0.01, 0.05]  # dimensionless
-max_lift_coeff_range = [0.1, 0.9]  # dimensionless
-base_fuel_mass_range = [2000, 5000]  # kg
-payload_mass_range = [3000, 7000]  # kg
-aspect_ratio_range = [2, 6]  # dimensionless
-thrust_range = [30000, 100000]  # N
-TSFC_range = [2.3e-5, 4.9e-5]  # kg/Ns
-cruise_speed_range = [200, 340]  # m/s
+max_lift_coeff_range = [1, 2]  # dimensionless
+fuel_mass_range = [3500, 6500]  # kg
+payload_mass_range = [1000, 4000]  # kg
+aspect_ratio_range = [2.5, 5]  # dimensionless
+thrust_range = [100000, 200000]  # N
+TSFC_range = [2e-5, 5e-5]  # kg/Ns
+cruise_speed_range = [136, 272]  # m/s
 
 # Conversions
 
@@ -40,8 +40,8 @@ form_drag_coeff_samples = form_drag_coeff_range[0] + lhs_samples[:, 1] * (
 max_lift_coeff_samples = max_lift_coeff_range[0] + lhs_samples[:, 2] * (
     max_lift_coeff_range[1] - max_lift_coeff_range[0]
 )
-base_fuel_mass_samples = base_fuel_mass_range[0] + lhs_samples[:, 3] * (
-    base_fuel_mass_range[1] - base_fuel_mass_range[0]
+fuel_mass_samples = fuel_mass_range[0] + lhs_samples[:, 3] * (
+    fuel_mass_range[1] - fuel_mass_range[0]
 )
 payload_mass_samples = payload_mass_range[0] + lhs_samples[:, 4] * (
     payload_mass_range[1] - payload_mass_range[0]
@@ -61,7 +61,7 @@ design_variables = [
     wing_area_samples,
     form_drag_coeff_samples,
     max_lift_coeff_samples,
-    base_fuel_mass_samples,
+    fuel_mass_samples,
     payload_mass_samples,
     aspect_ratio_samples,
     thrust_samples,
@@ -70,7 +70,7 @@ design_variables = [
 ]
 
 # Acceptance
-V_stall_max = util.kt2ms(200)  # F-5
+V_stall_max = util.kt2ms(80)  # F-5
 
 # Calculate the turning circles for the DV samples
 sample_stall_speeds = []
@@ -84,7 +84,7 @@ design_space_dict = {
     "S_w[m2]": wing_area_samples,
     "CD0": form_drag_coeff_samples,
     "CL_max": max_lift_coeff_samples,
-    "m_f_0[kg]": base_fuel_mass_samples,
+    "m_f[kg]": fuel_mass_samples,
     "m_p[kg]": payload_mass_samples,
     "AR": aspect_ratio_samples,
     "T[N]": thrust_samples,

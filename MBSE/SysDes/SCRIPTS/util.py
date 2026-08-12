@@ -97,20 +97,3 @@ def rad2deg(theta_deg: float) -> float:
     """Convert an angle in radians to degrees."""
     return theta_deg * (180 / np.pi)
 
-
-def calculateMassFraction(args):
-    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args  # all normalised against mins
-    structural_dvs = np.array([S_w, CL_max, m_p, AR, T])
-    weights = np.array([0, 0, 0, 0, 0])
-    fraction_mods = structural_dvs * weights
-    p_str_0 = 0.3  # base structural mass fraction
-    p_str = p_str_0 + np.sum(fraction_mods)
-    return p_str
-
-
-def calculateFuelMassMod(args):
-    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args  # all normalised against mins
-    TSFC_mod = 0
-    CD0_mod = -0
-    m_f = m_f_0 + (TSFC_mod * TSFC) + (CD0_mod * CD0)
-    return m_f

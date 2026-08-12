@@ -13,22 +13,22 @@ import util
 mpluse("gtk4agg")
 
 # DESIGN VARIABLES
-wing_area_range = [25, 50]  # m2
+wing_area_range = [20, 60]  # m2
 form_drag_coeff_range = [0.01, 0.05]  # dimensionless
-max_lift_coeff_range = [0.1, 0.9]  # dimensionless
-base_fuel_mass_range = [2000, 5000]  # kg
-payload_mass_range = [3000, 7000]  # kg
-aspect_ratio_range = [2, 6]  # dimensionless
-thrust_range = [30000, 100000]  # N
-TSFC_range = [2.3e-5, 4.9e-5]  # kg/Ns
-cruise_speed_range = [200, 340]  # m/s
+max_lift_coeff_range = [1, 2]  # dimensionless
+fuel_mass_range = [3500, 6500]  # kg
+payload_mass_range = [1000, 4000]  # kg
+aspect_ratio_range = [2.5, 5]  # dimensionless
+thrust_range = [100000, 200000]  # N
+TSFC_range = [2e-5, 5e-5]  # kg/Ns
+cruise_speed_range = [136, 272]  # m/s
 
 # Range manipulation
 dv_bounds = [
     wing_area_range,
     form_drag_coeff_range,
     max_lift_coeff_range,
-    base_fuel_mass_range,
+    fuel_mass_range,
     payload_mass_range,
     aspect_ratio_range,
     thrust_range,

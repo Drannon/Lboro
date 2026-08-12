@@ -7,12 +7,11 @@ import util
 
 
 def computeRange(args):
-    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args
+    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args
 
-    m_f = util.calculateFuelMassMod(args)  # Account for TSFC & CD0 impact
     m_non_struct = m_f + m_p
     W_non_struct = m_non_struct * util.g
-    p_struct = util.calculateMassFraction(args)  # Account for structural increase
+    p_struct = 0.3192  # averaged from 5 aircraft
     W = W_non_struct / (1 - p_struct)
 
     CL = (2 * W) / (util.rho_a * (V**2) * S_w)  # Calculate CL at given W and V
@@ -25,12 +24,11 @@ def computeRange(args):
 
 
 def computeVstall(args):
-    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args
+    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args
 
-    m_f = util.calculateFuelMassMod(args)
     m_non_struct = m_f + m_p
     W_non_struct = m_non_struct * util.g
-    p_struct = util.calculateMassFraction(args)
+    p_struct = 0.3192  # averaged from 5 aircraft
     W = W_non_struct / (1 - p_struct)
 
     Vstall = np.sqrt((2 * W) / (util.rho_a * S_w * CL_max))
@@ -38,12 +36,11 @@ def computeVstall(args):
 
 
 def computeTurnRadius(args):
-    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args
+    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args
 
-    m_f = util.calculateFuelMassMod(args)
     m_non_struct = m_f + m_p
     W_non_struct = m_non_struct * util.g
-    p_struct = util.calculateMassFraction(args)
+    p_struct = 0.3192  # averaged from 5 aircraft
     W = W_non_struct / (1 - p_struct)
 
     L_max = 0.5 * util.rho_a * (V**2) * S_w * CL_max
@@ -58,12 +55,11 @@ def computeTurnRadius(args):
 
 
 def computeRateOfClimb(args):
-    S_w, CD0, CL_max, m_f_0, m_p, AR, T, TSFC, V = args
+    S_w, CD0, CL_max, m_f, m_p, AR, T, TSFC, V = args
 
-    m_f = util.calculateFuelMassMod(args)
     m_non_struct = m_f + m_p
     W_non_struct = m_non_struct * util.g
-    p_struct = util.calculateMassFraction(args)
+    p_struct = 0.3192  # averaged from 5 aircraft
     W = W_non_struct / (1 - p_struct)
 
     CL = (2 * W) / (util.rho_a * (V**2) * S_w)
