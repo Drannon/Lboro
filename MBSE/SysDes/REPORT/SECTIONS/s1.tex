@@ -3,11 +3,49 @@
 \begin{document}
 
 \subsection{Background}
+In recent years, it has become clear that autonomy in warfare is becoming the norm.
+Recent conflicts have seen unmanned vehicles engage in conflicts in unprecedented numbers, with significant consequences.
+On land, autonomous vehicles traverse battlefields to rescue wounded without putting medics at risk.
+At sea, autonomous vessels clear mines whilst keeping sailors away from the minefield.
+In the air, autonomous vehicles engage in a wide range of tasks from surveilance to area denial.
+The unmanned combat air vehicle (UCAV) is a concept that has been widely researched and considered for use by militaries~\cite{UCAVRdE}.
+UCAV is a broad term that could encompass a variety of roles, from single-use autonomous missiles to strategic bombers.
+Recently, the unmanned fighter has received attention, however, with BAe Systems unveiling their new 
+Collaborative Combat Aircraft~\cite{BAeSystems2026}, which is designed to provide ``electronic warfare and precision strike capabilities against airborne and ground targets.''
+This aircraft is intended to operate alongside Royal Air Force assets in frontline operations.
+This precludes it from use at sea.
+
+Naval aviation is an important facet of a nation's armed forces, with the United States centering their naval power around aircraft carriers~\cite{UnitedStatesNavy2006}.
+There is precedent for UCAVs in a carrier's arsenal, for example the X-47B~\cite{NorthropGrumman2015}.
+Northrop Grumman however withdrew its bid for the project.
 
 \subsection{Problem Statement}
+As such, there is a significant oppurtunity for a carrier-based UCAV that can fill multiple roles.
+Standing off the aircrew from hazardous situations would reduce the risk to them, and would protect them from some of the harms of military flying (e.g.\ extreme g forces).
+This UCAV would need to provide QRA (Quick Response Alert), electronic warfare (EW), close air support (CAS), and surveilance roles to meet the demands of a modern navy.
+Moreover, the UCAV would have to excel in the combat air patrol (CAP) role, where it not only can protect an area of airspace supporting other operations, but can be used to keep a constant patrol of the assett from which it is launched (such as an aircraft carrier).
+With BAe systems developing a UCAV to contract, targeting foreign markets is desirable.
+Of these, France and the United States would be good contenders, thanks to their advanced naval assets and lack of alternative~\cite{NorthropGrumman2015}.
+
 
 \subsection{System Narrative}
+The UCAV must be a conventional aircraft with one or two modern low-bypass turbofan engines, to remain comporable to other aircraft in the fleet.
+It must be of similar size and weight as contemporary aircraft, and must be capable of operating from both an airstrip or an aircraft carrier.
+With the target being overseas navies, adapting to their carriers is necessary.
+As such, being able to operate both from an airfield but also from a CATOBAR (Catapult Assisted Take Off But Arrested Recovery) system is essential.
+It must be possible of engaging in CAP, staying on station for extended periods of time and engaging hostile targets both within and beyond visual range.
+Additionally, it must be able to intercept hostile targets quickly at a variety of ranges and altitudes.
+When engaged in frontline activities, it must be capable of supporting ground forces with the direction of a ground controller, performing electronic warfare, and surveiling the combat space for other forces.
+
 
 \subsection{Aims and Objectives}
 
+This paper aims to provide a set of design variables that produce a UCAV that meet the above narrative, and fill the niche in international naval air power described.
 
+It intends to do this by:
+
+\begin{enumerate}
+    \item Modelling a suitable architecture using Model Based Systems Engineering
+    \item Performing a multi-variable optimisation analysis on a selection of key design variables.
+    \item Having traceability from customer need to solution, to support negotiation between the design team and the customer.
+\end{enumerate}

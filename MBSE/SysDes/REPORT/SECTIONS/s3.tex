@@ -3,7 +3,70 @@
 \begin{document}
 
 \subsection{Design Specification}
+Following the trade-off and optimisation analysis, the final system has the following values for implementation:
+
+\begin{table}[h]
+
+    \centering
+    \begin{tabular}{lc}
+        \hline
+        \textbf{Design Variable} & \textbf{Value} \\
+        \hline
+        $S \left[m^{2}\right]$     & 46       \\
+        $C_{D0}$   & 0.01     \\
+        $C_{Lmax}$ & 1.95     \\
+        $m_{f} \left[kg\right]$   & 5280     \\
+        $m_{p}  \left[kg\right]$  & 1000     \\
+        $AR$    & 5        \\
+        $T  \left[N\right]$   & 200,000   \\
+        $TSFC  \left[\frac{kg}{Ns}\right]$& $3.00\times10^{-5}$ \\
+        $V   \left[ms^{-1}\right]$  & 137      \\
+        \hline
+    \end{tabular}
+    \caption{Aircraft parameters}
+    \label{tab:final_spec}
+\end{table}
+
+Which produces:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lc}
+        \hline
+        \textbf{Design Objective} & \textbf{Value} \\
+        \hline
+        $R \left[km\right]$       & 5288 \\
+        $V_{Stall} \left[ms^{-1}\right]$ & 41   \\
+        $r_{Turn}\left[m\right]$        & 169  \\
+        $ROC \left[ms^{-1}\right]$   & 293  \\
+        \hline
+    \end{tabular}
+    \caption{Aircraft performance parameters}
+    \label{tab:final_DOs}
+\end{table}
 
 \subsection{Achievement of Aims and Objectives}
+This paper achieves its objectives by:
+
+\begin{enumerate}
+    \item Providing a feasible architecture in SysML along with requirement modelling and parametric diagrams.
+    \item Reducing wide bounds on DVs to a set of optimal values for a given DO
+    \item Being traceable with relationships throughout the model
+\end{enumerate}
+
+As such, this paper achieves its objective, and provides a set of design variables that produce a UCAV that meets the problem statement and narrative.
 
 \subsection{Highlights and Recommendations}
+
+Of particular note in this work is the development of a capabilities model, which can be traced through entirely to the final specification.
+This makes the decisions made throughout easier to defend in a design review.
+Additionally, this work arms a design engineer or team in negotiations with the customer.
+As it is occuring early in the project lifecycle, it is still at a point where issues and sticking points can become new requirements instead of non-compliances, potentially having contractual and financial impliations.
+
+First among the recommendations is the need to fully understand the system from multiple perspectives.
+At this time, the design optimisation has been performed with a significant aerodynamic bias, which would be mitigated with interdisciplinary experts collaborating on modelling, requirements ranking, and optimisation.
+A second recommendation is that this work is furthered and iterated on throughout the project.
+Having more fidelity in the model has obvious benefits for design work, but also performing this consistently when changes occur to requirements and design variable bounds prevents outdated and incorrect assumptions being held from early results affecting the desing as it progresses.
+
+\subsection{Bibliography}
+It is recommended that the reader consults Aircraft Design: a conceptual approach by Daniel P. Raymer, and also that they consult the other volumes of Jan Roskam's Aircraft Design series.

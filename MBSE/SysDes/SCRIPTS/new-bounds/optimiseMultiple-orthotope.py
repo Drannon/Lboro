@@ -143,7 +143,7 @@ opt_ROCs = -F_valid[:, 3]
 
 pareto_designs = pd.DataFrame(
     {
-        "Wing Area (m²)": opt_S_ws,
+        "Wing Area (m^2)": opt_S_ws,
         "CD0": opt_CD0s,
         "CLmax": opt_CL_maxs,
         "Fuel Mass (kg)": opt_m_f_0s,
