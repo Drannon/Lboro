@@ -1,0 +1,21 @@
+,Intercept Aircraft,Loiter,Attack Ground Targets,Track Targets,Prioritise Targets,Conduct Beyond Visual Range Combat,Conduct Visual Range Combat,Employ Active EW Countermeasures,Communicate with Operator,Communicate over Datalink,Refuel when Landed,Refuel in Air,Facilitate Maintenance,Land at Airfield,Land on Aircraft Carrier,Land Autonomously,Take Off from Airfield,Take Off from Aircraft Carrier,Take Off Autonomously,Manoeuvre Autonomously
+Intercept Aircraft,1,1/3,3,1/3,3,3,1/3,3,3,3,5,3,5,5,7,5,5,7,5,3
+Loiter,3,1,5,3,5,5,3,5,5,5,7,5,7,7,9,7,7,9,7,5
+Attack Ground Targets,1/3,1/5,1,1/5,1/3,1/3,1/5,1,1,1/3,3,1/3,3,3,5,3,3,5,3,1/3
+Track Targets,3,1/3,5,1,3,3,1/3,3,3,3,5,3,5,5,7,5,5,7,5,3
+Prioritise Targets,1/3,1/5,3,1/3,1,1,1/5,3,3,3,5,3,5,5,7,5,5,7,5,3
+Conduct Beyond Visual Range Combat,1/3,1/5,3,1/3,1,1,1/3,3,3,3,5,3,5,5,7,5,5,7,5,3
+Conduct Visual Range Combat,3,1/3,5,3,5,3,1,5,5,5,7,5,7,7,9,7,7,9,7,5
+Employ Active EW Countermeasures,1/3,1/5,1,1/3,1/3,1/3,1/5,1,3,3,5,3,5,5,7,5,5,7,5,3
+Communicate with Operator,1/3,1/5,1,1/3,1/3,1/3,1/5,1/3,1,3,5,3,5,5,7,5,5,7,5,3
+Communicate over Datalink,1/3,1/5,3,1/3,1/3,1/3,1/5,1/3,1/3,1,5,3,5,5,7,5,5,7,5,3
+Refuel when Landed,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1,1/3,3,3,5,3,3,5,3,1/3
+Refuel in Air,1/3,1/5,3,1/3,1/3,1/3,1/5,1/3,1/3,1/3,3,1,3,5,7,5,5,7,5,3
+Facilitate Maintenance,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1/3,1/3,1,3,5,3,3,5,3,1/3
+Land at Airfield,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1/3,1/5,1/3,1,3,3,3,5,3,1/3
+Land on Aircraft Carrier,1/7,1/9,1/5,1/7,1/7,1/7,1/9,1/7,1/7,1/7,1/5,1/7,1/5,1/3,1,1/3,1/3,3,1/3,1/5
+Land Autonomously,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1/3,1/5,1/3,1/3,3,1,3,5,3,1/3
+Take Off from Airfield,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1/3,1/5,1/3,1/3,3,1/3,1,5,3,1/3
+Take Off from Aircraft Carrier,1/7,1/9,1/5,1/7,1/7,1/7,1/9,1/7,1/7,1/7,1/5,1/7,1/5,1/5,1/3,1/5,1/5,1,1/3,1/5
+Take Off Autonomously,1/5,1/7,1/3,1/5,1/5,1/5,1/7,1/5,1/5,1/5,1/3,1/5,1/3,1/3,3,1/3,1/3,3,1,1/3
+Manoeuvre Autonomously,1/3,1/5,3,1/3,1/3,1/3,1/5,1/3,1/3,1/3,3,1/3,3,3,5,3,3,5,3,1

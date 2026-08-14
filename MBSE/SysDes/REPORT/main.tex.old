@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+\usepackage{./UTIL/cw2}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,LO]{F537796}
+
+\title{25WS66 Coursework 2}
+\author{Matthew Morton - F537796}
+
+\begin{document}
+
+\begin{center}
+    \textbf{25WS66 Coursework 2: }
+
+    \textbf{F537796}
+\end{center}
+
+\linespread{1.15}
+
+\section*{Abstract}
+
+\hrulefill
+
+\tableofcontents
+
+\hrulefill
+
+\clearpage
+
+\section{Introduction}
+
+\subfile{SECTIONS/s1}
+
+\clearpage
+
+\section{Technical Results}
+
+\subfile{SECTIONS/s2}
+
+\clearpage
+
+\section{Conclusion}
+
+\subfile{SECTIONS/s3}
+
+\clearpage
+
+\printbibliography[heading=bibintoc, title=References]{}
+
+\end{document}

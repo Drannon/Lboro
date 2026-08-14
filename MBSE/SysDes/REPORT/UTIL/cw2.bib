@@ -1,168 +1,367 @@
-@misc{PLAWoolichCharts,
-   author = {{Port Of London Authority}},
-   city = {London},
-   issue = {1},
-   institution = {{Port of London Authority}},
-   month = {12},
-   title = {River Thames WOOLWICH REACH (LOWER)},
-   url = {"https://assets.pla.co.uk/hydrographic-services/main-survey-charts/324MSC.pdf"},
-   year = {2022}
+@techreport{Finch1977,
+    author = {Donald Finch},
+    city = {Monterey},
+    institution = {Naval Postgraduate School},
+    month = {3},
+    note = {A-6A CD0},
+    pages = {87},
+    title = {A personalized system of instruction for aircraft performance},
+    url = {http://hdl.handle.net/10945/18236 http://www.nps.edu/library},
+    year = {1977},
+}
+@techreport{Kelly1978,
+    author = {John Kelly and Edward Chu},
+    city = {Washington, D.C.},
+    institution = {U.S. Environmental Protection Agency},
+    month = {4},
+    note = {A-6A TSFC},
+    pages = {119},
+    title = {Jet Engine Test Cells - Emissions And Control Measures: Phase 2},
+    url = {https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100YUV2.TXT},
+    year = {1978},
+}
+@techreport{A6A-AR,
+    author = {Henry A Lee and Frederick M Healy},
+    city = {Washington, D.C.},
+    institution = {NASA},
+    month = {7},
+    note = {A-6A aspect ratio},
+    pages = {12},
+    title = {Spin-Tunnel Investigation of a 1/28-Scale Model of a Subsonic
+             Attack Airplane},
+    url = {
+           https://ntrs.nasa.gov/api/citations/19940040848/downloads/19940040848.pdf?attachment=true
+           },
+    year = {1964},
+}
+@techreport{StandardAtmos,
+    author = {British Standards Institute and ISO},
+    city = {London},
+    institution = {British Standards Institute},
+    title = {BS ISO 2533:1975 Standard Atmosphere},
+    year = {1975},
+}
+@phdthesis{oswald,
+    author = {Mihaela Nita and Dieter Scholz},
+    city = {Hamburg},
+    school = {Hamburg University of Applied Sciences},
+    keywords = {Aerodynamics,Aerodynamik,Aeronautics,Airplanes,BWA,Box Wing,
+                Configurations,Drag (Aerodynamics),Flugzeug,Flugzeugaerodynamik,
+                Flugzeugbau,Flugzeugrumpf,Geometry,Luftfahrt,Luftfahrzeug,
+                Luftwiderstand,Mach number,Machzahl,Mathematical optimization,
+                Oswald,Oswald factor,Tragflügel,aircraft,configuration,
+                conventional,design,dihedral,drag,efficiency,factor,fuselage,
+                induced,non-planar,optimization,parameter,preliminary,span,sweep,
+                taper,unconventional,wing,winglet},
+    note = {Oswald is 0.8 from here},
+    title = {Estimating the Oswald Factor from Basic Aircraft Geometrical
+             Parameters},
+    url = {
+           https://www.fzt.haw-hamburg.de/pers/Scholz/OPerA/OPerA_PRE_DLRK_12-09-10_MethodOnly.pdf
+           },
+    year = {2012},
+}
+@techreport{F15-F18-CD0,
+    author = {Edwin J Saltzman},
+    city = {Edwards, Ca.},
+    institution = {NASA},
+    note = {CD0 for F15, F18},
+    pages = {14},
+    title = {In-Flight Lift-Drag Characteristics for a Forward-Swept Wing
+             Aircraft (and Comparisons With Contemporary Aircraft)},
+    url = {
+           https://ntrs.nasa.gov/api/citations/19950012150/downloads/19950012150.pdf?attachment=true
+           },
+    year = {1994},
+}
+@phdthesis{F4-CD0,
+    author = {Padmanabhan K A Menon and H J Kelley and E M Cliff},
+    city = {Blacksburg, Va},
+    school = {Virginia Polytechnic Institute and State University},
+    month = {9},
+    note = {CD0 F4E},
+    pages = {105},
+    title = {Optimal Symmetric Flight with an Intermediate Vehicle Model},
+    url = {https://ntrs.nasa.gov/citations/19840008099},
+    year = {1983},
+}
+@article{minTurnAndLift,
+    abstract = {This paper presents the design, manufacturing, and flight
+                testing of an electric-powered experimental flying wing unmanned
+                aerial vehicle (UAV). The design process starts with defining the
+                performance requirements including the stall speed, maximal speed
+                , cruise altitude, absolute ceiling, and turn radius and speed.
+                The wing loading and associated power loading are obtained based
+                on the defined performance requirements. The wing area, UAV mass,
+                and power requirements are determined from the endurance and
+                payload requirements. The power requirement determines the motor
+                size. Aerodynamics and stability designs are obtained based on
+                the selected airfoil and obtained wing area. After completing the
+                design, the UAV is manufactured using composite materials. The
+                UAV is equipped with an AXi 4130/20 kv305 brushless motor and a
+                Pixhawk flight control board. Its total weight is 8.6 kg. Flight
+                tests were conducted to evaluate the UAV's performance and
+                dynamic characteristics and to demonstrate the success of the
+                design.},
+    author = {Pei Hsiang Chung and Der Ming Ma and Jaw Kuen Shiau},
+    doi = {10.3390/app9153043},
+    issn = {20763417},
+    issue = {15},
+    journal = {Applied Sciences (Switzerland)},
+    keywords = {Flight testing,Flying wing,Unmanned aerial vehicle (UAV) design},
+    month = {7},
+    note = {Minimum turn radius},
+    pages = {4-6},
+    publisher = {MDPI AG},
+    title = {Design, manufacturing, and flight testing of an experimental flying
+             wing UAV},
+    volume = {9},
+    url = {https://www.mdpi.com/2076-3417/9/15/3043},
+    year = {2019},
+}
+@article{RangeEqn,
+    author = {Mustafa Cavcar},
+    doi = {10.2514/1.17696},
+    issue = {5},
+    journal = {Journal of Aircraft},
+    note = {Breguet},
+    pages = {1542-1544},
+    title = {Bréguet Range Equation?},
+    volume = {43},
+    url = {https://doi.org/10.2514/1.17696},
+    year = {2006},
+}
+@article{VStall,
+    abstract = {This research proposes a novel approach to enhance the dynamic
+                control and stability assessment of the Cessna 172 aircraft for
+                new pilot trainees by incorporating a
+                proportional–integral–derivative (PID) controller. The PID
+                controller is designed to improve the aircraft’s responsiveness
+                to control inputs, reduce overshoot and settling time, and
+                enhance overall stability. The study involves developing a
+                mathematical model of the Cessna 172’s longitudinal dynamics,
+                designing a PID controller, and conducting simulations to
+                evaluate the performance of the PID-controlled aircraft. The
+                evaluation focuses on key metrics such as stability,
+                responsiveness, overshoot, and settling time. The results of the
+                study demonstrate that the PID controller effectively enhances
+                the dynamic control and stability of the Cessna 172, providing
+                new pilot trainees with a safer and more efficient learning
+                experience. The PID controller’s ability to mitigate the effects
+                of pilot errors and disturbances contributes to improved flight
+                performance and reduced risk of accidents. Future research
+                directions include exploring the use of adaptive PID controllers,
+                integrating PID controllers with other advanced flight control
+                systems, and conducting flight tests to validate the performance
+                of the PID-controlled Cessna 172 in real-world conditions.},
+    author = {Idriss Dagal and Bilal Erol and Ambe Harrison and Wulfran Fendzi
+              Mbasso and Al Wesabi Ibrahim},
+    doi = {10.1007/s42405-025-00899-6},
+    issn = {20932480},
+    issue = {5},
+    journal = {International Journal of Aeronautical and Space Sciences},
+    keywords = {Aircraft stability,Cessna flight dynamics,Dynamic control,PID
+                controller,Pilot training},
+    month = {10},
+    note = {VStall here},
+    pages = {2087-2104},
+    publisher = {Korean Society for Aeronautical and Space Sciences},
+    title = {Enhancing Dynamic Control and Stability Assessment of Cessna 172
+             Aircraft with a PID Controller for New Pilot Trainees},
+    volume = {26},
+    url = {https://doi.org/10.1007/s42405-025-00899-6},
+    year = {2025},
+}
+@article{ROC,
+    abstract = {The energy method, which deals with the total energy of the
+                aircraft (sum of potential energy and kinetic energy), is
+                frequently used in the climb analysis of high performance
+                aircraft. Within the scope of this study, by using this energy
+                approach; a new method is presented to obtain specific excess
+                power contours (Ps), which show the performance limits of the
+                aircraft, present the altitude and speed combinations at which
+                they can fly at different specific excess powers, and help
+                determine the trajectory corresponding to the minimum time to
+                climb without the need for any mathematical operation. In the
+                method presented for the B737-800 aircraft; aircraft performance
+                model consisting of aerodynamic model, thrust, and fuel flow rate
+                models was created and Ps contours implementing the energy
+                maneuverability method were obtained by using this model. The
+                data used in the study are real thrust and flight data record
+                (FDR) data. For the models, the cuckoo search algorithm (CSA)
+                method, which is relatively new but has proven itself in many
+                challenging optimization problems, is used. Particle swarm
+                optimization (PSO), a different metaheuristic method, was used to
+                validate CSA models. In all of the optimization processes made
+                using the Matlab program, very accurate results were accomplished
+                with both metaheuristic methods.},
+    author = {Ridvan Oruc and Tolga Baklacioglu},
+    doi = {10.1016/j.energy.2022.125069},
+    issn = {03605442},
+    journal = {Energy},
+    keywords = {Aircraft performance model,Cuckoo search algorithm,Energy,
+                Particle swarm optimization,Specific excess power},
+    month = {8},
+    note = {This is for the ROC equation},
+    publisher = {Elsevier Ltd},
+    title = {Modeling of aircraft performance parameters with metaheuristic
+             methods to achieve specific excess power contours using energy
+             maneuverability method},
+    volume = {259},
+    url = {https://doi.org/10.1016/j.energy.2022.125069},
+    year = {2022},
+}
+@inproceedings{AV8BTurnRate,
+    author = {Andrew S Hahn and Samuel B Wilson},
+    city = {Long Beach, Ca},
+    doi = {10.4271/851843},
+    institution = {NASA/Ames Research Center},
+    booktitle = {Aerospace Technology Conference and Exposition},
+    month = {10},
+    publisher = {SAE Mobility},
+    title = {Effects of Jet Flap on AVa-8 "Harrier" Performance},
+    url = {https://doi.org/10.4271/851843},
+    year = {1985},
+}
+@inproceedings{F402TSFC,
+    author = {S B Wilson Iii and J M Wurts},
+    city = {Long Beach, Ca},
+    doi = {10.4271/851881},
+    institution = {Aerospace Technology Conference and Exposition},
+    booktitle = {Aerospace Technology Conference and Exposition},
+    month = {10},
+    note = {F402 TSFC},
+    publisher = {SAE Mobility},
+    title = {Harrier III-AVa8 with a Modern Engine},
+    url = {https://doi.org/10.4271/851881},
+    year = {1985},
+}
+@inproceedings{F18CLm,
+    author = {Andrew Skow and William Porada},
+    city = {Edwards, Ca},
+    booktitle = {NASA Fourth High-Angle-Of-Attack Conference},
+    month = {7},
+    publisher = {NASA},
+    title = {COMBAT AGILITY MANAGEMENT SYSTEM (CAMS)},
+    url = {https://ntrs.nasa.gov/citations/19950007836},
+    year = {1994},
+}
+@techreport{AV8BCLmax,
+    author = {B David Mcnally},
+    institution = {NASA Ames Research Center},
+    journal = {NASA Technical Memorandum},
+    month = {10},
+    title = {Full-Envelope Aerodynamic Modeling of the Harrier Aircraft},
+    volume = {88376},
+    url = {https://ntrs.nasa.gov/citations/19880003981},
+    year = {1986},
+}
+@techreport{F15CLmS,
+    author = {Michael R Dickey},
+    city = {Edwards Air Force Base, Ca},
+    institution = {Air Force Flight Test Center},
+    month = {6},
+    pages = {83},
+    title = {An Investigation of the Squadron Air Combat Training System (HAVE
+             ACME)},
+    url = {https://archive.org/details/DTIC_ADA310490/page/82/mode/2up
+           https://apps.dtic.mil/sti/html/tr/ADA310490/index.html},
+    year = {1996},
+}
+@techreport{F15Thrust,
+    author = {Frank Camm},
+    institution = {United States Air Force},
+    month = {7},
+    pages = {2},
+    title = {The Development of the F100-PW-220 and F110-GE-100 Engines: A Case
+             Study of Risk Assessment and Risk Management},
+    url = {https://www.rand.org/content/dam/rand/pubs/notes/2007/N3618.pdf},
+    year = {1994},
+}
+@techreport{F18SAR,
+    author = {Marcello R Napolitano and Joelle M Spagnuolo},
+    city = {Morgantown},
+    institution = {West Virginia University},
+    month = {12},
+    pages = {43},
+    title = {Determination of the Stability and Control Derivatives of the NASA
+             F/A-18 HARV Using Flight Data},
+    url = {https://ntrs.nasa.gov/citations/19940020331},
+    year = {1993},
+}
+@techreport{UCAVRdE,
+    author = {Defense Science Board},
+    city = {Washington, D. C.},
+    institution = {Office of the Under Secretary of Defense For Acquisition,
+                   Technology, and Logistics},
+    month = {2},
+    note = {Notes about need for UCAV},
+    title = {Defence Science Board Study on Unmanned Aerial Vehicles and
+             Uninhabited Combat Aerial Vehicles},
+    url = {https://apps.dtic.mil/sti/tr/pdf/ADA423585.pdf
+           https://archive.org/details/DTIC_ADA423585},
+    year = {2004},
+}
+@techreport{J72T,
+    author = {W H Foley and A E Sheridan and C W Smith},
+    city = {Moffett Field, Ca.},
+    institution = {NASA Ames Research Center},
+    month = {7},
+    note = {Figure 5-1: J79 thrust value for J79 (F-4E). Nothing on Pegasus
+            though.},
+    title = {Study of Aerodynamic Technology for Single-Cruise-Engine V/STOL
+             Fighter/Attack Aircraft},
+    url = {https://ntrs.nasa.gov/citations/19840020668},
+    year = {1982},
 }
 
-@article{Forge2024,
-   author = {Katie Forge and Ben Gingell},
-   journal = {Secret London},
-   month = {5},
-   title = {This Free London Ferry Is Now Running Every 15 Minutes},
-   url = {https://secretldn.com/woolwich-ferry-extending-hours/},
-   year = {2024},
-   note = {[Photograph by Ben Gingell via. Shutterstock]}
+@book{Roskam1989,
+    author = {Jan Roskam},
+    note = {P172 for masses and mass fractions},
+    pages = {170-173},
+    publisher = {Roskam Aviation and Engineering Corporation},
+    title = {Airplane Design Part V: Component Weight Estimation},
+    year = {1989},
 }
 
-@misc{Google2026,
-   author = {{Google}},
-   title = {Google Maps},
-   url = {www.google.co.uk/maps},
-   year = {2026}
+@book{Lee2006,
+    abstract = {Presents an integrated approach to the design and manufacturing
+                of products made of advanced composites. This book is designed to
+                teach students and practicing engineers how to streamline and
+                improve the design process for parts and machines made out of
+                composite materials by focusing on the behaviour of composites
+                and their relationships. Contents; Part I: Basics; Part II:
+                Applications; Glossary; Index.},
+    author = {Dai Gil. Lee and Nam P.. Suh},
+    city = {New York},
+    isbn = {0195178777},
+    publisher = {Oxford University Press},
+    title = {Axiomatic design and fabrication of composite structures :
+             applications in robots, machine tools and automobiles},
+    year = {2006},
 }
 
-@techReport{PortOfLondonAuthority2012,
-   author = {{Port Of London Authority}},
-   city = {London},
-   institution = {{Port of London Authority}},
-   title = {Port Of London Thames Byelaws 2012},
-   url = {https://pla.co.uk/sites/default/files/2024-02/Port%20of%20London%20Thames%20Byelaws.pdf},
-   year = {2012}
+@techreport{F4EAero,
+    author = {J Pelikan and W A Rousseau},
+    city = {Saint Louis, Mi},
+    institution = {McDonnel Aircraft Company},
+    month = {11},
+    title = {Comparison Of The Basic F-4E And The Slatted F-4E Stall/Near
+             Stall/Spin Characteristics},
+    url = {
+           https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD923562.xhtml
+           },
+    year = {1974},
 }
 
-@techReport{ISO13643dash4,
-   author = {{International Standards Organization}},
-   city = {London},
-   institution = {{British Standards Institute}},
-   month = {2},
-   title = {BS ISO 13643-4:2017 Ships and marine technology - Manoeuvring of ships - Part 4: Stopping, acceleration, traversing},
-   year = {2017}
-}
-
-@techReport{ITTC2021,
-   author = {{ITTC}},
-   city = {Zurich},
-   institution = {ITTC Association},
-   month = {6},
-   title = {ITTC Quality System Manual, Recommended Procedures and Guidelines, Procedure, Resistance Test},
-   year = {2021}
-}
-
-@techReport{Floater2018,
-   author = {Michael S Floater},
-   institution = {{Universitetet i Oslo}},
-   month = {10},
-   title = {Lecture 8: Bézier curves},
-   url = {https://www.uio.no/studier/emner/matnat/math/MAT3110/h25/undervisningsmateriale/bezier1.pdf},
-   year = {2018},
-   note = {[Lecture Notes]}
-}
-@techReport{MANEnergySolutions2023,
-   author = {{MAN Energy Solutions}},
-   institution = {{MAN Energy Soltuions}},
-   month = {4},
-   title = {Basic principles of ship propulsion},
-   url = {https://www.man-es.com/docs/default-source/document-sync/basic-principles-of-ship-propulsion-eng.pdf?_gl=1*1l8x54m*_gcl_au*MTgzMTEzMTY5MC4xNzc1NTY1MDYx*_ga*NjcyNTUxMTY5LjE3NzU1NjUwMzY.*_ga_4BSNPX1QT1*czE3NzU1NjUwMzYkbzEkZzEkdDE3NzU1NjUxNTQkajUzJGwwJGgxMjc1NzA4NDcz*_fplc*TGhoR1k0SVRuRzdScm1vZ1JiSll1JTJGSkJwb0sxQVdWaHJxdUFLUTAydEh3a1dEelVtdzNORGFNVTNkelZ2QURJc2MzcEs2emxEaXRDb3NycHgwYmY2ODhLZzRkRUF0M2NSUUwza3l2Qm1NUUtsc2hwWFlTeUUyd3RrN3NFYWclM0QlM0Q.},
-   year = {2023}
-}
-
-@techReport{UnitedStatesNavalAcademy2021,
-   author = {{United States Naval Academy}},
-   institution = {{United States Naval Academy}},
-   title = {COURSE OBJECTIVES CHAPTER 7 7. RESISTANCE AND POWERING OF SHIPS},
-   year = {2021}
-}
-@article{Seo2021,
-   author = {Minhwan Seo and Youngbin Song and Jake Kim and Sung Wook Paek and Gi Heon Kim and Sang Woo Kim},
-   doi = {10.1016/j.energy.2021.120301},
-   issn = {03605442},
-   journal = {Energy},
-   keywords = {Battery management system,Lithium-ion battery,State of charge,Temperature-compensated model,Time-varying and time-invariant temperatures},
-   month = {7},
-   publisher = {Elsevier Ltd},
-   title = {Innovative lumped-battery model for state of charge estimation of lithium-ion batteries under various ambient temperatures},
-   volume = {226},
-   year = {2021}
-}
-
-@misc{royalgreenwich,
-   author = {{Royal Borough of Greenwich}},
-   title = {History of the Woolwich Ferry | Paddle steamers and motor ships of the Woolwich Ferry | Royal Borough of Greenwich},
-   year = {2026},
-   url = {https://www.royalgreenwich.gov.uk/arts-culture-and-events/local-history-and-heritage/history-woolwich-ferry/paddle-steamers-and-motor-ships-woolwich-ferry-0}
-}
-
-@misc{tfl1,
-   author = {{Transport for London}},
-   title = {Woolwich Ferry - Transport for London},
-   year = {2026},
-   url = {https://tfl.gov.uk/modes/river/woolwich-ferry}
-}
-
-@misc{tfl2,
-   author = {{Transport for London}},
-   title = {Woolwich Ferry Timetable - Transport for London},
-   year = {2026},
-   url = {"https://tfl.gov.uk/river-bus/timetable/woolwich-ferry?FromId=930GWWS&fromText=Woolwich+Ferry+South+Pier&toText=Woolwich+Ferry+North+Pier&ToId=930GWWC"}
-}
-
-@techReport{COLREGS1972,
-   author = {{International Maritime Organization}},
-   city = {London},
-   institution = {International Maritime Organization},
-   month = {10},
-   title = {1972 CONVENTION ON THE INTERNATIONAL REGULATIONS FOR PREVENTING COLLISIONS AT SEA},
-   url = {www.cil.nus.edu.sg},
-   year = {1972}
-}
-
-@article{HansardHC2019,
-   author = {{Hansard HC}},
-   journal = {{Hansard HC Deb.}},
-   month = {9},
-   title = {Vessel Emissions: River Thames - Hansard - UK Parliament},
-   volume = {664},
-   url = {https://hansard.parliament.uk/Commons/2019-09-04/debates/B8856EA3-C987-414A-B8B7-EB0BC8534EFB/VesselEmissionsRiverThames?highlight=woolwich%20ferry#contribution-990B3423-90B7-4704-B757-AB40C7CA836D},
-   year = {2019}
-}
-
-@techReport{PortSkillsandSafety2019,
-   author = {Port Skills and Safety and Health & Safety Executive and Unite the Union and UK HMA},
-   city = {London},
-   institution = {Port Skills and Safety},
-   month = {3},
-   pages = {9-10},
-   title = {SIP005-GUIDANCE ON MOORING},
-   url = {www.nationalarchives.gov.uk/doc/open-government-licence/version/2/},
-   year = {2019}
-}
-
-@article{LBC2026,
-   author = {LBC},
-   journal = {LBC},
-   title = {Sadiq Khan apologises after being accused of 'wasting' £20m on new Woolwich ferries},
-   url = {https://www.lbc.co.uk/article/sadiq-khan-accused-of-wasting-20m-on-new-woolwich-DWyT8b_2/},
-   year = {2026}
-}
-
-@report{Morton2026,
-    author = {Matthew Morton},
-    title = {"25WS67 Coursework 2: Verification and Validation of a Remotely Operated Electric Car Ferry"},
-    year = {2026},
-    note = {[Unpublished]}
-}
-
-@techReport{WBC3,
-   author = {{Ship Standards}},
-   city = {Southampton},
-   institution = {Maritime and Coastguard Agency},
-   month = {1},
-   title = {Workboat Code Edition 3},
-   url = {www.gov.uk/government/organisations/maritime-and-coastguard-agency},
-   year = {2025}
+@techreport{F-4EPerf,
+    author = {Billy R Boxwell and Cecil W Powell and Russell C Hubenet},
+    city = {Edwards Air Force Base, Ca.},
+    institution = {United States Air Force},
+    month = {8},
+    title = {Limited Performance and Flying Qualities of the F-4E with the
+             Retrofit Two-Position Maneuvering Slat Kit},
+    url = {https://apps.dtic.mil/sti/html/tr/AD0904287/index.html
+           https://archive.org/details/DTIC_AD0904287},
+    year = {1972},
 }

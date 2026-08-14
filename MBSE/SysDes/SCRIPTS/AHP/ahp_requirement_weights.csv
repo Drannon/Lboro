@@ -1,0 +1,21 @@
+Rank,Requirement,Weight
+1,Loiter,0.16900149367262712
+2,Conduct Visual Range Combat,0.1455060933024466
+3,Track Targets,0.0979823454150249
+4,Intercept Aircraft,0.08523104899602615
+5,Conduct Beyond Visual Range Combat,0.0697974132019041
+6,Prioritise Targets,0.06895837414938832
+7,Employ Active EW Countermeasures,0.05743567807373477
+8,Communicate with Operator,0.05133910245395737
+9,Communicate over Datalink,0.04824050331815458
+10,Refuel in Air,0.03998829573132481
+11,Manoeuvre Autonomously,0.030388890265229097
+12,Attack Ground Targets,0.029529712681839716
+13,Refuel when Landed,0.020771282644856438
+14,Facilitate Maintenance,0.018566491135273012
+15,Land at Airfield,0.015785585471864316
+16,Land Autonomously,0.014110006480559791
+17,Take Off from Airfield,0.012612283734188675
+18,Take Off Autonomously,0.010757050219694402
+19,Land on Aircraft Carrier,0.007510585226281124
+20,Take Off from Aircraft Carrier,0.006487763825624785

@@ -1,0 +1,69 @@
+\documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../UTIL/FIGS}}}
+\begin{document}
+
+\subsection{Background}
+The development of the Remotely Operated Unmanned Vessel (ROUV) has created numerous opportunities for maritime operations to be improved.
+The obvious targets for implementation are defence applications: anti-submarine warfare, mine countermeasures, coastal patrol, amongst others.
+There is, however, opportunity in the civilian and specifically public sectors.   
+Many tedious and challenging roles are currently filled by manned vessels.
+One such role is that of the Roll-On Passenger (RO-PAX) ferry.
+These ferries offer transport across bodies of water for foot passengers and for vehicles, facilitating commerce, commute, and tourism.
+Many of these ferries operate at sea, such as the ferry running between Southsea and the Isle of Wight operated by Wightlink.
+Other such ferries are operated across smaller bodies of water, such as the Portsmouth-Gosport ferry, the Shell Bay-Sandbanks ferry (Poole), or this paper's focus: the Woolwich Free Ferry.
+
+The Woolwich Ferry has operated since the late 1880s~\cite{royalgreenwich} and in that time has been run by four series of vessel.
+The most recent generation of vessel was acquired in 2018, with three hybrid diesel electric ferries capable of carrying 150 passengers and with 210 metres of space for vehicles across four lanes.
+The vessels have a length between perpendiculars (length between the furthest points fore and aft on the vessel, excluding the rudder) of approximately 60 metres, a beam (width) of approximately 25 metres, and a draught (depth of the keel under the waterline) of approximately 1.2 metres.
+The specifications of the vessels were not easily found, so they have been estimated based on those of the previous generation or from publicly available imagery~\cite{Forge2024}~\cite{Google2026}.
+They operate in the River Thames, east of the Thames Barriers and west of Margaretness lighthouse.
+At this point, between the two terminals, the river has a minimum depth at low tide of 1.8 metres~\cite{PLAWoolichCharts}.
+The distance as the crow flies between the terminals is approximately 300 metres.
+
+The ferry is operated by London River Services, in turn owned by Transport for London (TfL).
+It is free of charge, and is scheduled to take 5 minutes to make the journey with departures from a terminal scheduled for every 15 minutes~\cite{tfl2}.
+The river Thames downstream of Teddington Locks is known as the Tidal Thames, and it is managed by the Port of London Authority (PLA).
+They enact by-laws on the Tidal Thames, some of which supersede other international legislation~\cite{PortOfLondonAuthority2012}. 
+For example, they stipulate that no vessel is to exceed a speed of 12 knots west of Margaretness.
+Additionally, they mandate that any vessels must comply with the Convention on the International Regulations for Preventing Collisions at Sea 1972 (COLREGS)~\cite{COLREGS1972}.
+
+\subsection{Problem Statement}
+The vessels acquired in 2018 were done at a cost of £9.7 million each, and have experienced significant technical challenges since their introduction to service.
+In 2019, the vessels had experienced 27 days worth of unplanned downtime.
+They were introduced as part of an initiative to reduce emissions on the Thames~\cite{HansardHC2019}, done through their hybrid powertrain and docking improvements eliminating the need to have their engines running when docked.
+Additionally, one of the vessels is named after Ben Wollacot, a deckhand who died being dragged overboard when one of the previous generations of ships was being unmoored.
+This presents a possible need for a cheap and reliable vessel to replace the current series.
+Such a vessel needs to improve on the emission reduction provided by the current series, to aid in the reduction of greenhouse gas emissions across the city.
+This vessel also must keep safety at the forefront of its design, so as to protect passengers and operators.
+Specifically, the safety of mooring and unmooring the ferries must be prioritised.
+Not only is the danger clear from the above incident but there is specific guidance prepared by Port Skills and Safety on mooring~\cite{PortSkillsandSafety2019}, section 7 of which details specifically the hazards.
+
+Beyond improving upon the current series, the vessel must also do its job.
+In this case, that is ferrying vehicles and passengers between the two ferry terminals in Woolwich.
+Any solution must carry no fewer passengers nor vehicles than the current series does, and must be capable of keeping to the schedule users expect.
+The vessel must comply (or permit the vessel master to comply) with all pursuant legislation, and the vessel must be ``safe.``
+In this, the vessel must be manoeuvrable (as to avoid a collision if required), stable, and have sufficient depth under keel at all times such that grounding is unlikely whilst considering effects such as banking or squatting [cite].
+Moreover the vessel must provide excellent control when mooring and unmooring.
+
+\subsection{System Narrative}
+There are two major decisions that have been made to meet the above needs.
+Firstly, the vessel shall feature a fully electric drivetrain so that its emissions in and around the river are zero.
+This shall be achieved through two 500kw motors driving variable-pitch propellors, powered by a battery of 1 megawatt-hours, as decided in a previous work~\cite{Morton2026}.
+Secondly, it shall be remotely controlled, operating as a ROUV as defined by the Maritime and Coastguard Agency's Workboat Code Edition 3 Annex 2~\cite{WBC3}, to isolate the crew from the hazards of the ferry as much as possible.
+This necessitates that the vessel is fitted with advanced sensing equipment, so that the vessel master maintains good situational awareness even when removed from the ferry.
+Additionally, it necessitates a stable, high-bandwidth communications link between the ROUV and the operator to transfer data and controls.
+
+Beyond this, it shall feature a hull defined by a cubic Bezier Spline, as detailed in~\cite{Morton2026}.
+It shall have a suitable top speed and its cruise speed, range, and acceleration shall be adequate for its intended journey and schedule.
+It shall retain the same deck area for vehicles as the current series, and shall have no greater a beam than the current series to ensure compatibility with the recently upgraded terminals~\cite{HansardHC2019}.
+
+To achieve the requisite control when docking, the ROUV needs to be capable of both about turns (i.e.\ turning on the spot) and of transverse movement.
+A popular method of providing this capability is the azimuth drive, used frequently on tugboats [cite].
+The decision to use conventional propellors however precludes this option.
+Instead, bow and stern thrusters shall be installed on the platform.
+These use electric motors to drive propellors mounted in the hull, perpendicular to the ship's baseline, and can be operated independently to drive the bow and the stern to port or starboard.
+An excerpt of the functional requirements regarding this capability can be seen in figure FIGURE.
+
+\subsection{Aims and Objectives}
+
+
